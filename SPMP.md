@@ -34,11 +34,39 @@ BAB III Proses Manajerial
 
 3.1 Tujuan dan prioritas manajemen
 
+3.1.1 Prioritas Jadwal 
+
+Prioritas jadwal yang dilakukan pada saat ini adalah membuat sistem yang akan dibuat, dokumen projek, jadwal kegiatan, struktur pembuatan projek dan organisasi
+
+3.1.2 Budget Prioritas 
+
+Budget untuk project ini lebih ditekankan pada kualitas hardware dan requirtment proyek.
+
+3.1.3 Kemampuan (Kualitas dan reusability)
+
+Projek yang kami buat saat ini mempunyai kelebihan dalam memanajemen pembuatan proyek, juga berbasis desktop yang membuat konsumen merasa lebih budah dalam interaksinya.
+
 3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan
 
+3.2.1 Asumsi 
+
+Adapun aplikasi yang sejenis aplikasi manajemen berbasis dekstop, projek yang kami buat membutuhkan unit komputer sebagai media penghubungnya.
+
+3.2.2 Keterkaitan dan Batasan 
+
+Dalam projek yang kami buat adapun beberapa software desktop yang mendukungnya, seperti xampp sebagai perantara mysql database. Namun ada batasannya, yaitu tidak bisa digunakan secara online.
+ 
 3.3 Manajemen resiko
 
 3.4 Mekanisme monitoring dan kontroling
+
+3.4.1 Monitoring 
+
+Proses monitoring dilakukan secara tim, adapun proses pelaksanaannya dilakukan setiap hari senin.
+
+3.4.2 Kontroling 
+
+Sedangkan proses dilaksanakan setiap hari jumat, hal ini dilakukan agar hasil kerja proyek dapat dievaluasi pada hari terakhir kerja.
 
 3.5 Perencanaan staf
 
