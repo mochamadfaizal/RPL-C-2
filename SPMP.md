@@ -2,6 +2,10 @@ SPMP (Software Project Management Plan)
 BAB I Pendahuluan
 
 1.1 Gambaran Proyek
+Proyek yang sedang kami buat adalah membangun sebuah Aplikasi Kasir QR Code Berbasis Android. Dalam planing pembangunan software, tentu banyak hal yang harus diperhatikan oleh konsumen maupun produsen(programmer) terutama dalam hal pengelolaan waktu dan nilai yang harus dikeluarkan. Adanya kesalahan perhitungan tentu akan memberikan kerugian pada kedua pihak, hal-hal seperti yang harus kita minimalisir. Untuk itu sistem ini dibangun dengan fungsi utama melakukan planing terhadap proyek yang akan dibuat atau dipesan oleh konsumen. Dengan adanya fungsi tersebut, sistem ini dapat merencanakan pembuatan sebuah software dengan baik, dan pasti. Tentunya dalam membangun sistem ini kami butuh sebuah tim yang solid agar dalam proses pembuatannya tidak mengalami banyak kendala, tim kami terdiri dari project manager, programmer, analisist, dan seorang testes. Dengan struktur tim tersebut, kami bermaksud membagi beberapa tugas sesuai kriteria kemampuan masing-masing, yang nantinya satu sama lain diharapkan dapat bekerja sama dan melengkapi satu sama lain, sehingga dapat membangun sistem yang baik sesuai yang konsumen/pasar butuhkan
+
+Teknologi yang semakin pesat, memberikan dampak paksaan bagi semua pihak untuk berlomba-lomba membangun sistem yang berbasis teknologi informasi, yang disandingkan dengan berbagai bidang, seperti pendidikan, pemasaran, travel, sosial
+media dan lain-lain. Kemudahan yang ditawarkan menciptakan individu yang haus akan teknologi. Tentu hal ini mendorong terbentuknya pasar tersendiri di dunia teknologi informasi, hal ini kami menfaatkan untuk memenuhi kebutuhan konsumen yang meliputi organisasi, lembaga pemerintahan, pasar, atau individu yang membutuhkan software penunjang kegiatan produksi. Dengan adannya software penunjang, konsumen akan dimudahkan penggunaan waktu ataupun tenaga, sehingga meningkatkan kegiatan produksi. Dengan adanya sistem inilah membuat pemesan/konsumen dapat mengelola waktu dan budget yang harus dikeluarkan untuk membangun sebuah aplikasi.
 
 1.2 Dokumen-dokumen dalam Proyek
 
