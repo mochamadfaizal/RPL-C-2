@@ -72,7 +72,7 @@ Sedangkan proses dilaksanakan setiap hari jumat, hal ini dilakukan agar hasil ke
 BAB IV Proses Teknis
 
 4.1 Metoda, tool, dan teknik
-Metoda yang kami gunakan yaitu dengan cara mengarahkan QR Code Scanner pada QR Code yang digunakan sebagai indikator untuk mendeteksi harga pada tiap jenis produk. Tools yang digunakan adalah Android Studio, Sublime, Markdown Pad 2, Mysql Connector Database untuk menghubungkan database dengan Android Studio. Teknik yang digunakan adalah pemrograman berbasis objek.
+Metoda yang kami gunakan yaitu dengan cara mengarahkan QR Code Scanner pada QR Code yang digunakan sebagai indikator untuk mendeteksi harga pada tiap jenis produk. Tools yang digunakan adalah Android Studio, Sublime, Markdown Pad 2, Mysql Connector Database untuk menghubungkan database dengan Android Studio. Teknik yang digunakan adalah pemrograman berbasis objek.objek
 
 4.2 Dokumentasi perangkat lunak
 Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEEE, karena telah menyediakan kerangka kerja yang menghubungkan seluruh spektrum siklus hidup perangkat lunak.
