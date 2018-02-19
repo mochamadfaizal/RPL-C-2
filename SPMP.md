@@ -1,5 +1,4 @@
-S
-PMP (Software Project Management Plan)
+SPMP (Software Project Management Plan)
 BAB I Pendahuluan
 
 1.1 Gambaran Proyek
@@ -45,10 +44,13 @@ BAB III Proses Manajerial
 BAB IV Proses Teknis
 
 4.1 Metoda, tool, dan teknik
+Metoda yang kami gunakan yaitu dengan cara mengarahkan QR Code Scanner pada QR Code yang digunakan sebagai indikator untuk mendeteksi harga pada tiap jenis produk. Tools yang digunakan adalah Android Studio, Sublime, Markdown Pad 2, Mysql Connector Database untuk menghubungkan database dengan Android Studio. Teknik yang digunakan adalah pemrograman berbasis objek.
 
 4.2 Dokumentasi perangkat lunak
+Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEEE, karena telah menyediakan kerangka kerja yang menghubungkan seluruh spektrum siklus hidup perangkat lunak.
 
 4.3 Fungsi-fungsi pendukung proyek
+Kami membutuhkan technical support di bagian desain project. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan technical support di bagian database sebanyak 1-2 orang.
 
 BAB V Paket Pekerjaan, Jadwal, dan Budget
 
