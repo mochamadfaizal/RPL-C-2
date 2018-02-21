@@ -45,3 +45,30 @@ c. Software : Perangkat Lunak.
 d. Hardware : Perangkat Keras
 
 1.4 References
+
+
+BAB II GAMBARAN UMUM
+
+Aplikasi POS (Point of Sell) Dengan QR Code ini merupakan sebuah aplikasi untuk 
+
+2.1 Perspektif produk
+
+2.1.1 Antarmuka sistem
+
+2.1.2 Antarmuka pengguna
+	
+Antarmuka pengguna dari Aplikasi Point of Sell dengan QR Code ini menggunakan desain interface yang merupakan bagian dari perangkat lunak.Perangkat lunak ini digunakan oleh Pembeli, Kasir, Petugas Barang, dan Pemilik toko. Pemilik toko yang juga sekaligus Admin memiliki 
+
+  
+
+2.1.3 Antarmuka perangkat keras
+
+2.1.4 Antarmuka perangkat keras
+
+2.1.5 Antarmuka komunikasi
+
+2.1.6 Batasan - batasan memori
+
+2.1.7 Operasi - operasi
+
+2.1.8 Kebutuhan - kebutuhan dalam tahapan adaptasi
