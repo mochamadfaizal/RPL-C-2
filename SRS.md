@@ -13,6 +13,7 @@
 	1.2 Lingkup
 		<br> Semua hal yang tercantum didalam dokumen ini merupakan bagian dari ruang lingkup kebutuhan pembangunan perangkat lunak yang berupa aplikasi kasir QR Code berbasis android yang digunakan untuk perhitugan keuangan pada toko-toko.
 
+
 	1.3 Definitions, Acronyms and Abbreviations
 		<br> a. SRS : Software Requirements Specifications (Spesifikasi Persyaratan Perangkat Lunak).
 		<br> b. Software Requirement Specification (SRS) adalah dokumen yang menggambarkan secara detail spesifikasi kebutuhan software dalam pembangunan proyek perangkat lunak Aplikasi Kasir QR Code Berbasis Android.
@@ -20,3 +21,13 @@
 		<br> d. Hardware : Perangkat Keras
 
 	1.4 References
+
+- IEEE Std. 830-1998, IEEE Recommended Practice for Software Requirement
+Specifications.
+
+1.5 Overview
+Dokumen SRS ini merupakan acuan untuk mengetahui spesifikasi kebutuhan
+dalam menyelesaikan proyek ini. Dokumen SRS ini berisi tentang deskripsi tentang
+kebutuhan perangkat lunak (tools pendukung, peranangan sistem yang akan
+dikembangkan), perangkat keras, dan sumber daya manusia (SDM)
+
