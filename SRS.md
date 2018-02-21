@@ -45,3 +45,13 @@ c. Software : Perangkat Lunak.
 d. Hardware : Perangkat Keras
 
 1.4 References
+
+
+- IEEE Std. 830-1998, IEEE Recommended Practice for Software Requirement
+Specifications.
+
+1.5 Overview
+Dokumen SRS ini merupakan acuan untuk mengetahui spesifikasi kebutuhan
+dalam menyelesaikan proyek ini. Dokumen SRS ini berisi tentang deskripsi tentang
+kebutuhan perangkat lunak (tools pendukung, peranangan sistem yang akan
+dikembangkan), perangkat keras, dan sumber daya manusia (SDM)
