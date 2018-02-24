@@ -42,16 +42,41 @@ Project Manager
 2.3 Batasan dan antarmuka organisasi
 
 -Project Manager
-<br>Project Manager harus bisa menjadi pengawas dari anggotanya bilamana dalam proses pengerjaan proyek terdapat anggota yang lalai akan tugasnya, project manager wajib menegur dan anggota tidak berhak membantah jika memang dia terbukti lalai. Dan apabila anggota mengalami kesulitan dalam mengerjakan tugasnya project manager dapat membantu dengan memberikan arahan kepada anggotanya.
+<br>Project Manager dimana dia menjadi pengawas dari anggota-anggotanya apabila 
+terdapat ada anggota yang lalai dari tugasnya maka project manager diharuskan menegurnya.
+
+
 <br>-Programmer
-<br>Programmer adalah orang yang bertanggung jawab atas jalannya program. Tugas programmer mencakup pembuatan code program dalam proyek.
+<br>Programmer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program.
+ 
 <br>-Designer UI/UX
-<br>Designer UI/UX adalah perancang antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
+<br>Designer UI/UX dimana dia bertanggung jawab atas semua tampilan dari aplikasi.
+
+
 <br>-Database Engineer
-<br>Database Engineer adalah orang yang bertugas membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut.
+<br>Database Engineer dimana dia bertanggung jawab atas alur data yang dipakai dalam aplikasi
+
  
 
 2.4 Lingkup Tangggung Jawab
+<br>Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam
+pembuatan proyek RPL ini.
+
+-Project Manager
+<br>Project Manager adalah seseorang yang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Manager juga harus mampu memajemen tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta serta membagi tugas juga bagian tanggung jawab dari seorang manager.
+
+-Programmer
+<br>Dalam hal ini, seorang programmer bertugas untuk mengimplementasikan dari
+sistem yang sudah dirancang didesain. Programmer dituntut dapat menuliskan code
+program dengan baik, dan efesien. Hal ini dimaksudakan untuk menghindari
+terjadinya banyak error dalam proses implementasinya.
+
+-Designer UI/UX
+<BR>Designer UI/UX bertanggung jawab atas perancangan antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
+
+-Database Engineer
+<br>Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
+
 
 BAB III Proses Manajerial
 
