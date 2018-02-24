@@ -29,7 +29,27 @@ Model proses yang akan digunakan dalam proyek ini adalah V Model. V Model ini me
 
 2.2 Struktur organisasi
 
+Project Manager
+<br>-Mochammad Faizal 
+
+<br>Anggota tim :
+<br>-Luqmanul Hakim (Programmer)
+<br>-Inneke Widianti (Design UI/UX)
+<br>-Rizaluddin Shidqi Baihaqi (Database Engineer)
+
+
+
 2.3 Batasan dan antarmuka organisasi
+
+-Project Manager
+<br>Project Manager harus bisa menjadi pengawas dari anggotanya bilamana dalam proses pengerjaan proyek terdapat anggota yang lalai akan tugasnya, project manager wajib menegur dan anggota tidak berhak membantah jika memang dia terbukti lalai. Dan apabila anggota mengalami kesulitan dalam mengerjakan tugasnya project manager dapat membantu dengan memberikan arahan kepada anggotanya.
+<br>-Programmer
+<br>Programmer adalah orang yang bertanggung jawab atas jalannya program. Tugas programmer mencakup pembuatan code program dalam proyek.
+<br>-Designer UI/UX
+<br>Designer UI/UX adalah perancang antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
+<br>-Database Engineer
+<br>Database Engineer adalah orang yang bertugas membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut.
+ 
 
 2.4 Lingkup Tangggung Jawab
 
