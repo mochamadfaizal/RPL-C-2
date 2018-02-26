@@ -1,157 +1,123 @@
-#SPMP (Software Project Management Plan)
+# SPMP (Software Project Management Plan)
 
-###BAB I Pendahuluan
+### BAB I Pendahuluan
 
 __1.1 Gambaran Proyek__
-<br>Proyek yang sedang kami buat adalah membangun sebuah Aplikasi Kasir QR Code Berbasis Android. Dalam planing pembangunan software, tentu banyak hal yang harus diperhatikan oleh konsumen maupun produsen(programmer) terutama dalam hal pengelolaan waktu dan nilai yang harus dikeluarkan. Adanya kesalahan perhitungan tentu akan memberikan kerugian pada kedua pihak, hal-hal seperti yang harus kita minimalisir. Untuk itu sistem ini dibangun dengan fungsi utama melakukan planing terhadap proyek yang akan dibuat atau dipesan oleh konsumen. Dengan adanya fungsi tersebut, sistem ini dapat merencanakan pembuatan sebuah software dengan baik, dan pasti. Tentunya dalam membangun sistem ini kami butuh sebuah tim yang solid agar dalam proses pembuatannya tidak mengalami banyak kendala, tim kami terdiri dari project manager, programmer, analisist, dan seorang testes. Dengan struktur tim tersebut, kami bermaksud membagi beberapa tugas sesuai kriteria kemampuan masing-masing, yang nantinya satu sama lain diharapkan dapat bekerja sama dan melengkapi satu sama lain, sehingga dapat membangun sistem yang baik sesuai yang konsumen/pasar butuhkan.
-<br>
-<br>Teknologi yang semakin pesat, memberikan dampak paksaan bagi semua pihak untuk berlomba-lomba membangun sistem yang berbasis teknologi informasi, yang disandingkan dengan berbagai bidang, seperti pendidikan, pemasaran, travel, sosial
+Proyek yang sedang kami buat adalah membangun sebuah Aplikasi Kasir QR Code Berbasis Android. Dalam planing pembangunan software, tentu banyak hal yang harus diperhatikan oleh konsumen maupun produsen(programmer) terutama dalam hal pengelolaan waktu dan nilai yang harus dikeluarkan. Adanya kesalahan perhitungan tentu akan memberikan kerugian pada kedua pihak, hal-hal seperti yang harus kita minimalisir. Untuk itu sistem ini dibangun dengan fungsi utama melakukan planing terhadap proyek yang akan dibuat atau dipesan oleh konsumen. Dengan adanya fungsi tersebut, sistem ini dapat merencanakan pembuatan sebuah software dengan baik, dan pasti. Tentunya dalam membangun sistem ini kami butuh sebuah tim yang solid agar dalam proses pembuatannya tidak mengalami banyak kendala, tim kami terdiri dari project manager, programmer, analisist, dan seorang testes. Dengan struktur tim tersebut, kami bermaksud membagi beberapa tugas sesuai kriteria kemampuan masing-masing, yang nantinya satu sama lain diharapkan dapat bekerja sama dan melengkapi satu sama lain, sehingga dapat membangun sistem yang baik sesuai yang konsumen/pasar butuhkan.
+
+Teknologi yang semakin pesat, memberikan dampak paksaan bagi semua pihak untuk berlomba-lomba membangun sistem yang berbasis teknologi informasi, yang disandingkan dengan berbagai bidang, seperti pendidikan, pemasaran, travel, sosial
 media dan lain-lain. Kemudahan yang ditawarkan menciptakan individu yang haus akan teknologi. Tentu hal ini mendorong terbentuknya pasar tersendiri di dunia teknologi informasi, hal ini kami menfaatkan untuk memenuhi kebutuhan konsumen yang meliputi organisasi, lembaga pemerintahan, pasar, atau individu yang membutuhkan software penunjang kegiatan produksi. Dengan adannya software penunjang, konsumen akan dimudahkan penggunaan waktu ataupun tenaga, sehingga meningkatkan kegiatan produksi. Dengan adanya sistem inilah membuat pemesan/konsumen dapat mengelola waktu dan budget yang harus dikeluarkan untuk membangun sebuah aplikasi.
 
-<br>
 __1.2 Dokumen-dokumen dalam Proyek__
-<br>
 Dokumen yang akan digunakan dalam proyek ini antara lain:
-<br>
 a. SPMP (Software Project Management Plan)
-<br>
 b. SRS (Software Requirement Specification)
 
-<br>
 __1.3 Evolusi SPMP__
-<br>Dokumen ini bersifat freeware, jadi siapa saja boleh untuk memanfaatkan dokumen ini untuk hal yang positif.
+Dokumen ini bersifat freeware, jadi siapa saja boleh untuk memanfaatkan dokumen ini untuk hal yang positif.
 
-<br>
 __1.4 Material acuan__
 
-<br>
 __1.5 Definisi dan akronim (Singkatan)__
 
-<br>
-###BAB II Organisasi Proyek
+### BAB II Organisasi Proyek
 
 __2.1 Model proses__
-<br>Model proses yang akan digunakan dalam proyek ini adalah V Model. V Model ini merupakan perluasan dari model waterfall. Disebut sebagai perluasan karena tahap-tahapnya mirip dengan yang terdapat dalam model waterfall. Jika dalam model waterfall proses dijalankan secara linear, maka dalam model V proses dilakukan bercabang.
+Model proses yang akan digunakan dalam proyek ini adalah V Model. V Model ini merupakan perluasan dari model waterfall. Disebut sebagai perluasan karena tahap-tahapnya mirip dengan yang terdapat dalam model waterfall. Jika dalam model waterfall proses dijalankan secara linear, maka dalam model V proses dilakukan bercabang.
 
-<br>
 __2.2 Struktur organisasi__
-
 - Project Manager
-<br>- Mochammad Faizal 
-<br>
+    - Mochammad Faizal 
+
 - Anggota tim :
-<br>- Luqmanul Hakim (Programmer)
-<br>- Inneke Widianti (Design UI/UX)
-<br>- Rizaluddin Shidqi Baihaqi (Database Engineer)
+    - Luqmanul Hakim (Programmer)
+    - Inneke Widianti (Design UI/UX)
+    - Rizaluddin Shidqi Baihaqi (Database Engineer)
 
-<br>
 __2.3 Batasan dan antarmuka organisasi__
-
 - Project Manager
-<br>Project Manager dimana dia menjadi pengawas dari anggota-anggotanya apabila 
+Project Manager dimana dia menjadi pengawas dari anggota-anggotanya apabila 
 terdapat ada anggota yang lalai dari tugasnya maka project manager diharuskan menegurnya.
 
 - Programmer
-<br>Programmer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program.
+Programmer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program.
 
 - Designer UI/UX
-<br>Designer UI/UX dimana dia bertanggung jawab atas semua tampilan dari aplikasi.
+Designer UI/UX dimana dia bertanggung jawab atas semua tampilan dari aplikasi.
 
 - Database Engineer
-<br>Database Engineer dimana dia bertanggung jawab atas alur data yang dipakai dalam aplikasi
+Database Engineer dimana dia bertanggung jawab atas alur data yang dipakai dalam aplikasi
 
-<br>
 __2.4 Lingkup Tangggung Jawab__
-<br>Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam
-pembuatan proyek RPL ini.
+Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam pembuatan proyek RPL ini.
 
 - Project Manager
-<br>Project Manager adalah seseorang yang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Manager juga harus mampu memajemen tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta serta membagi tugas juga bagian tanggung jawab dari seorang manager.
+Project Manager adalah seseorang yang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Manager juga harus mampu memajemen tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta serta membagi tugas juga bagian tanggung jawab dari seorang manager.
 
 - Programmer
-<br>Dalam hal ini, seorang programmer bertugas untuk mengimplementasikan dari
+Dalam hal ini, seorang programmer bertugas untuk mengimplementasikan dari
 sistem yang sudah dirancang didesain. Programmer dituntut dapat menuliskan code
 program dengan baik, dan efesien. Hal ini dimaksudakan untuk menghindari
 terjadinya banyak error dalam proses implementasinya.
 
 - Designer UI/UX
-<br>Designer UI/UX bertanggung jawab atas perancangan antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
+Designer UI/UX bertanggung jawab atas perancangan antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
 
 - Database Engineer
-<br>Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
+Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
 
-<br>
-###BAB III Proses Manajerial
+### BAB III Proses Manajerial
 
 __3.1 Tujuan dan prioritas manajemen__
 
 ____3.1.1 Prioritas Jadwal____
-<br>
 Prioritas jadwal yang dilakukan pada saat ini adalah membuat sistem yang akan dibuat, dokumen projek, jadwal kegiatan, struktur pembuatan projek dan organisasi.
 
 ____3.1.2 Budget Prioritas____ 
-<br>
 Budget untuk project ini lebih ditekankan pada kualitas hardware dan requirtment proyek.
 
 ____3.1.3 Kemampuan (Kualitas dan reusability)____
-<br>
 Projek yang kami buat saat ini mempunyai kelebihan dalam memanajemen pembuatan proyek, juga berbasis desktop yang membuat konsumen merasa lebih budah dalam interaksinya.
 
-<br>
 __3.2 Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan__
 
 ____3.2.1 Asumsi____
-<br>
 Adapun aplikasi yang sejenis aplikasi manajemen berbasis dekstop, projek yang kami buat membutuhkan unit komputer sebagai media penghubungnya.
 
 ____3.2.2 Keterkaitan dan Batasan____
-<br>
 Dalam projek yang kami buat adapun beberapa software desktop yang mendukungnya, seperti xampp sebagai perantara mysql database. Namun ada batasannya, yaitu tidak bisa digunakan secara online.
 
-<br>
 __3.3 Manajemen resiko__
 
-<br>
 __3.4 Mekanisme monitoring dan kontroling__
 
 ____3.4.1 Monitoring____
-<br>
 Proses monitoring dilakukan secara tim, adapun proses pelaksanaannya dilakukan setiap hari senin.
 
 ____3.4.2 Kontroling____
-<br>
 Sedangkan proses dilaksanakan setiap hari jumat, hal ini dilakukan agar hasil kerja proyek dapat dievaluasi pada hari terakhir kerja.
 
-<br>
 __3.5 Perencanaan staf__
 
-<br>
-###BAB IV Proses Teknis
+### BAB IV Proses Teknis
 
 __4.1 Metoda, tool, dan teknik__
-<br>Metoda yang kami gunakan yaitu dengan cara mengarahkan QR Code Scanner pada QR Code yang digunakan sebagai indikator untuk mendeteksi harga pada tiap jenis produk. Tools yang digunakan adalah Android Studio, Sublime, Markdown Pad 2, Mysql Connector Database untuk menghubungkan database dengan Android Studio. Teknik yang digunakan adalah pemrograman berbasis objek.objek
+Metoda yang kami gunakan yaitu dengan cara mengarahkan QR Code Scanner pada QR Code yang digunakan sebagai indikator untuk mendeteksi harga pada tiap jenis produk. Tools yang digunakan adalah Android Studio, Sublime, Markdown Pad 2, Mysql Connector Database untuk menghubungkan database dengan Android Studio. Teknik yang digunakan adalah pemrograman berbasis objek.objek
 
-<br>
 __4.2 Dokumentasi perangkat lunak__
-<br>Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEEE, karena telah menyediakan kerangka kerja yang menghubungkan seluruh spektrum siklus hidup perangkat lunak.
+Dokumentasi perangkat lunak yang digunakan berdasarkan standar internasional IEEE, karena telah menyediakan kerangka kerja yang menghubungkan seluruh spektrum siklus hidup perangkat lunak.
 
-<br>
 __4.3 Fungsi-fungsi pendukung proyek__
-<br>Kami membutuhkan technical support di bagian desain project. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan technical support di bagian database sebanyak 1-2 orang.
+Kami membutuhkan technical support di bagian desain project. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan technical support di bagian database sebanyak 1-2 orang.
 
-<br>
-###BAB V Paket Pekerjaan, Jadwal, dan Budget
+### BAB V Paket Pekerjaan, Jadwal, dan Budget
 
 __5.1 Paket Pekerjaan__
 
-<br>
 __5.2 Ketergantungan/keterkaitan__
 
-<br>
 __5.3 Kebutuhan-kebutuhan sumber daya__
 
-<br>
 __5.4 Alokasi budget dan sumber daya__
 
-<br>
 __5.5 Jadwal__
