@@ -216,7 +216,7 @@ __5.3 Kebutuhan-kebutuhan sumber daya__
 __5.4 Alokasi budget dan sumber daya__
 
 Berikut adalah rincian biaya yang diperlukan untuk penggarapan proyek antara lain :
-![gambar](img/harga.png)
+![gambar](http://i64.tinypic.com/1060flu.png)
 
 __5.5 Jadwal__
 <br>![jadwal](http://i65.tinypic.com/ortnb6.png)
