@@ -23,11 +23,20 @@ __1.3 Evolusi SPMP__
 
 <br>
 __1.4 Material acuan__
+<br>Materi yang menjadi acuan dalam pembuatan projek ini menggunakan standar IEEE, karena menyediakan kerangka kerja yang menggabungkan seluruh spektrum proses siklus hidup perangkat lunak. Dan juga standar IEEE untuk membentuk model yang diakui secara internasional dari kehidupan perangkat lunak umum, siklus proses yang dapat direferensikan oleh industri perangkat lunak diseluruh dunia, untuk mempromosikan pemahaman diantara pihak bisnis dengan aplikasi umum serta mengakui proses, kegiatan dan tugas.
+IEEE adalah sebuah organisasi profesi nirlaba yang terdiri dari banyak ahli dibidang teknik yang mempromosikan pengembangan standar-standar dan bertindak sebagai pihak yang mempercepat teknologi- teknologi baru dalam semua aspek dalam industry dan rekayasa (engineering), yang mencakup telekomunikasi, jaringan komputer, kelistrikan, antariksa, dan elektronika. Tujuan inti IEEE adalah mendorong inovasi teknologi dan kesempurnaan untuk kepentingan kemanusiaan.Visi IEEE adalah akan menjadi penting untuk masyarakat teknis global dan professional teknis dimana-mana dan dikenal secara universal untuk kontribusi teknologi dan teknis yang professional dalam meningkatkan kondisi perkembangan global. Standar dalam IEEE adalah mengatur fungsi, kemampuan dan interoperabilitas dari berbagai macam produk dan layanan yang mengubah cara orang hidup, bekerja dan berkomunikasi.
 
-<br>
 __1.5 Definisi dan akronim (Singkatan)__
+<br>Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
+| Singkatan        | Arti Kata           |
+| ---------------- |:-------------------:|
+| IEEE         |The International Institute of Electronic and Electrical Engineers       |
+| QR Code         | Quick Response Code            |
 
-<br>
+IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel
+
+QR Code adalah bentuk evolusi kode batang dari satu dimensi menjadi dua dimensi. 
+
 ###BAB II Organisasi Proyek
 
 __2.1 Model proses__
@@ -91,7 +100,7 @@ Prioritas jadwal yang dilakukan pada saat ini adalah membuat sistem yang akan di
 
 ____3.1.2 Budget Prioritas____ 
 <br>
-Budget untuk project ini lebih ditekankan pada kualitas hardware dan requirtment proyek.
+Budget untuk project ini lebih ditekankan pada kualitas hardware dan requirment proyek.
 
 ____3.1.3 Kemampuan (Kualitas dan reusability)____
 <br>
@@ -111,6 +120,36 @@ Dalam projek yang kami buat adapun beberapa software desktop yang mendukungnya, 
 <br>
 __3.3 Manajemen resiko__
 
+Dampak Negative
+
+| Resiko        | Teknik Memanajemen Resiko           |
+| ---------------- |:-------------------:|
+|Estimasi biaya dan waktu yang tidak realitis | The International Institute of Electronic and Electrical Engineers       |
+|| Desain untuk biaya |
+|| Merekam danmenganalisa project yang akan dibuat |
+| Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
+|| Buat metode spesifikasi yang formal |
+|| Survai pengguna |
+|| Buat prototype |
+|Terlambat membangun kebutuhan software| Mengubah prosedur kendali |
+|| Membatasi perubahan terlalu banyak |
+|| Meningkatkan pengaembangan(akibat perubahan) |
+|Kegagalan pada komponen-komponen| Inspeksi |
+|| Analisis project yang akan di buat |
+|| Keterbatasan bahan-bahan |
+|Kegagalan kinerja real time| Prosedur jaminan kualitas |
+|| Desain yang kompatitif |
+|| Membangun tim |
+|| Kesungguhan dalam tim |
+|Pengembanganya terlalu sulit secara teknis| Analisa teknis |
+|| Anlisa biaya maanfaat |
+|| Anlisa software |
+|| Simulasi software |
+|Kegalan menjalan tugas eksternal| Benchmarking |
+|| Simulas |
+|| Tuning |
+|| Analisis teknis |
+
 <br>
 __3.4 Mekanisme monitoring dan kontroling__
 
@@ -124,6 +163,18 @@ Sedangkan proses dilaksanakan setiap hari jumat, hal ini dilakukan agar hasil ke
 
 <br>
 __3.5 Perencanaan staf__
+
+|Tim Project|Job|
+| ---------------- |:-------------------:|
+|Mochamad Faizal| Project Manager |
+|| Programmer |
+|| Sistem Analisis|
+|Luqmanul Hakim| Programmer |
+|| Sistem Analisis |
+|Inneke Widianti| Sistem Analisis |
+|| Tester |
+|Rizalludin Sidqi Baihaki| Sistem Analisis |
+|| Tester |
 
 <br>
 ###BAB IV Proses Teknis
@@ -144,14 +195,45 @@ __4.3 Fungsi-fungsi pendukung proyek__
 
 __5.1 Paket Pekerjaan__
 
+| No | Nama | Jabatan | Modul | Rincian Pekerjaan |
+| ----------- | --------- | ---------- | ---------- | ---------- |
+| 1 | Mochamad Faizal | Project Manager & Programmer | - | - |
+| 2 | Luqmanul Hakim | Programmer | - | - |
+| 3 | Inneke Widianti | Design Application & Analysis | - | - |
+| 4 | Rizalludin Sidqi Baihaki | Database Engineer | - | - |
+
 <br>
 __5.2 Ketergantungan/keterkaitan__
+
+Dalam pengerjaan projek ini keterkaitan dari tugas masing-masing saling menopang agar terbentuknya ketelitian saat pengerjaan dan mendapat hasil akhir yang maksimal dan dapat digunakan dengan semestinya
+
+| From | To | Kaitan |
+| ----------- | --------- | ---------- | 
+| Manager | Anggota | Dimana manager menjadi pengawas dari anggota-anggotanya bilamana saat anggota lalai dengan tugas-tugasnya manager berhak menegur dan bagi anggota tidak berhak melawan jika ditegur, dan untuk manager sendiri tidak berhak semena-mena dengan jabatanya. |
+| Programmer | Analysis | Dikala programmer melakukan kesalahan dalam mengkoding, analisis memiliki tanggung jawab untuk mengecek kesalahan koding-koding yg dilakukan programmer. |
+| Analysis | Programmer | Betugas untuk memberi gambaran projek dan alur pengkodingan pada programmer.|
+| Design | Programmer | Bertugas mendesain tampilan aplikasi yang dapat menarik konsumen saat aplikasi dirilis. |
+| Programmer | Database Engineer | Bertugas membuat perancangan sistem database. |
+
 
 <br>
 __5.3 Kebutuhan-kebutuhan sumber daya__
 
+| Sumber Daya | Jenis Kebutuhan | Alasan |
+| ----------- | --------- | ---------- | 
+| Sumber Daya Manusia | 4 Orang anggota pekerja projek | Mengajukan jumlah tersebut dikarenakan agar keseimbangan antara pengerjaan projek, dokumen-dokumen dan pencarian masukan dari pasar, dengan demikian kita dapat mempercepat proses pekerjaan projek. |
+| Sumber Daya Software | Android Studio | Pengajuan software android studio dikarenakan pengerjaan projek menggunakan bahasa pemrograman Java dan agar pengerjaan jauh lebih efisien. |
+| | MySql Phpmyadmin | Menggunakan software ini di gunakan untuk pembuatan database untuk mengaktifkan projeknya. |
+| | JDK dan plugin-pluginnya | Digunakan untuk pembuatan sistem capturing images. |
+|| Sublime Text 3| Digunakan untuk merancang web admin |
+| Sumber Daya Hardware | Perangkat Komputer | Perangkat induk yang di gunakan dalam pengerjaan projek. |
+| | Mobile | Perangkat yang digunakan untuk uji coba aplikasi. |
+
 <br>
+
 __5.4 Alokasi budget dan sumber daya__
+Berikut adalah rincian biaya yang diperlukan untuk penggarapan proyek antara lain :
+![gambar](img/harga.png)
 
 <br>
 __5.5 Jadwal__
