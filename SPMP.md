@@ -219,4 +219,4 @@ Berikut adalah rincian biaya yang diperlukan untuk penggarapan proyek antara lai
 ![gambar](img/harga.png)
 
 __5.5 Jadwal__
-![jadwal](http://i65.tinypic.com/ortnb6.png)
+<br>![jadwal](http://i65.tinypic.com/ortnb6.png)
