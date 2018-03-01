@@ -23,9 +23,9 @@ IEEE adalah sebuah organisasi profesi nirlaba yang terdiri dari banyak ahli dibi
 __1.5 Definisi dan akronim (Singkatan)__
 <br>Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
 | Singkatan        | Arti Kata           |
-| ---------------- |:-------------------:|
-| IEEE         |The International Institute of Electronic and Electrical Engineers       |
-| QR Code         | Quick Response Code            |
+| ---------------- | ------------------- |
+| IEEE |The International Institute of Electronic and Electrical Engineers |
+| QR Code | Quick Response Code |
 
 IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses kontrol dari lapisan data-link dari standar Ethernet berkabel
 
