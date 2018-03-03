@@ -1,6 +1,6 @@
 
 
-# DOKUMEN SRS
+# Software Requirements Spesification
 
 ## 1. BAB I Pendahuluan
 Dokumen ini berisi penjelasan pemakaian dan penulisan dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) atau Software Requirement Specification (SRS). Dokumen ini selanjutnya akan menggunakan istilah SRS.
@@ -30,9 +30,48 @@ __1.5 Overview__
 
 BAB II GAMBARAN UMUM
 
-Aplikasi POS (Point of Sell) Dengan QR Code ini merupakan sebuah aplikasi untuk 
+Pada umumnya toko-toko yang tidak terlalu besar metode transaksi pembayarannya manual seperti ditulis dikertas lalu di jumlah dengan kalkulator, dengan metode seperti itu memakan waktu dan tidak efisien, karena untuk transaksi pembayaran harus cepat dan tepat patal jadinya jika penghitungan salah, toko dapat merugi, ditambah pohon-pohon yang ada di muka semakin menipis, ini terjadi karena pohon menjadi bahan baku pembuatan kertas, semakin sedikitnya pohon, bumi semakin panas dan cuaca pun tidak menentu, dan sudah jelas kerusakan alam sudah mulai terlihat akibat pohon-pohon dimuka bumi ini berkurang.
+
+Oleh karena itu kelompok kami mempunyai ide yang mungkin dapat meminimalisir penggunaan kertas secara berlebihan, yaitu dengan membuat aplikasi point of sales dengan QR-Code berbasis android. Aplikasi menggunakan sistem scan kode QR untuk setiap jenisa makanan yang dijual pada toko-toko, dari sistemnya sendirinya digunakan oleh 4 user, yaitu pembeli, kasir/karyawan, pemilik toko dan admin.
+
+Dari sistem pembeli menggunakan imei dan nomor telpon untuk mendaftar kan smartphonenya, jiak imei nya sudah didaftar kan dan di data diri diisi dengan data pembeli maka aplikasi tersebut sudah bisa digunakan. Pada sistem pembeli terdapat beberapa fungsi utama yaitu :
+<ul><li> Pembeli dapat melihat harga makanan dengan melakukan sca QR Code.</li>
+<li> Pembeli dapat melakukan Top Up agar pada saat transaksi pembayaran tidak mengeluarkan uang cash.</li>
+<li> Pembeli dapat melihat jumlah harga dari makanan yang dibeli.</li>
+<li> Rincian pembeli langsung diterima oleh kasir setelah pembeli selesai melakukan memilih makanan yang akan mereka beli.</li>
+</ul>
+
+Pada sitem karyawan memiliki fungsi utama yaitu :
+<ul>
+<li> Menerima rincian pembelian</li>
+<li> Mengisi dompet elektronik pembeli(Top Up)</li>
+<li> Mamasukan data barang </li>
+<li> Transaksi pembayaran </li>
+</ul>
+
+Pada sistem pemilik toko memiliki fungsi utama yaitu :
+<ul>
+<li> Melihat rekap data bulanan.</li>
+<li> Melihat omset bulanan. </li>
+<li> Melihat data barang. </li>
+</ul>
+
+Admin disini adalah super user yang mengelola setiap data sistem ini. Sistem admin memiliki beberpa fungi utama yaitu :
+<ul>
+<li> Menerima data pada tiap-tiap toko.</li>
+<li> Aprovement jika ada pembel yang mendaftar.</li>
+<li> Presentase jumlah produk yang banyak terjual pada tiap-tiap toko perbulan secara otomatis </li>
+</ul>
 
 2.1 Perspektif produk
+
+Aplikasi point of sales dengan QR-Code berbasis android adalah sebuah sistem transaksi pembayaran yang diaplikaskan pada android. Dimana user dari aplikasi ini pembeli, kasir/karyawan, pemilik toko sedangkan untuk pengolahan datanya dikelola oleh admin yang menggunakan sistem web.
+
+Pada sisem QR Kode mengunakan dara tiap jenia makanan yang dijual ditoko. Data tersebut di enkripsi menjadi sebuah kode QR. kode tersebut akan ditempel pada setiap baris pada jenis makanan yang ada di toko, tujuannya agar pembeli dapat dengan mudah melakukan scan untuk melihat harga pada tiap makanan atau membelinya dengan cara melakukan scan terlebih dahulu. Sebelum pembeli menggunakan aplikasi ini, pembeli diwajibkan mendaftar dengan imek hanphone masing-masing dan nomor handphone tersebut.
+
+Pada sistem pembeli, dapat melakukan scan QR pada tiap-tiap jenis makanan yang ditoko, dan membeli dengan jumlah yang di inginkan, setelah melakukan pembelian, makanan dicek dikasir untuk dicocokan dengan data yang ada pada aplikasi, jika data dana barang sudah benar, lalu penghitungan, setelah pembayaran, struk digital pun langsung dikirim pada aplikasi pembeli.
+
+Pada sistem kasir/karyawan, dapat melihat makanan apasaja yang pembeli beli,lalu dihitung.
 
 2.1.1 Antarmuka sistem
 
