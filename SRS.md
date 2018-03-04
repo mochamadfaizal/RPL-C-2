@@ -1,4 +1,4 @@
-﻿
+
 
 # Software Requirements Spesification
 
@@ -77,6 +77,8 @@ Pada sistem pembeli, dapat melakukan scan QR pada tiap-tiap jenis makanan yang d
 ____2.1.1 Antarmuka sistem____
 Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android ...
 
+![use case 1](http://i68.tinypic.com/263vbrs.jpg)
+
 ____2.1.2 Antarmuka pengguna____
 Antarmuka pengguna dari Aplikasi Point of Sell dengan QR Code ini menggunakan desain interface yang merupakan bagian dari perangkat lunak.Perangkat lunak ini digunakan oleh Pembeli, Kasir, Petugas Barang, dan Pemilik toko. Pemilik toko yang juga sekaligus Admin memiliki 
 
@@ -102,6 +104,8 @@ ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
 __2.2 Fungsi-fungsi produk__
 Fungsi dari Aplikasi ... berdasarkan pengguna sistem ini adalah sebagai  berikut :
 ...
+
+![use case 2](http://i68.tinypic.com/2cnjx9f.jpg)
 
 __2.3 Karakteristik pengguna__
 Karakterisitk pengguna dari perangkat lunak ini adalah ...
