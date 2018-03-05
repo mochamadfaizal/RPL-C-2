@@ -97,12 +97,13 @@ Pada sistem pembeli, dapat melakukan scan QR pada tiap-tiap jenis makanan yang d
 
 ____2.1.1 Antarmuka sistem____
 
-Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android ...
+Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android.
 
 ![use case 1](http://i68.tinypic.com/263vbrs.jpg)
 
 ____2.1.2 Antarmuka pengguna____
-Antarmuka pengguna dari Aplikasi Point of Sell dengan QR Code ini menggunakan desain interface yang merupakan bagian dari perangkat lunak.Perangkat lunak ini digunakan oleh Pembeli, Kasir, Petugas Barang, dan Pemilik toko. Pemilik toko yang juga sekaligus Admin memiliki 
+<img src="http://i63.tinypic.com/2mfm0oz.png/>
+<img src="http://i68.tinypic.com/2qnb794.png/>  
 
 ____2.1.3 Antarmuka perangkat keras____
 Kebutuhan minimum perangkat keras yang dapat digunakan oleh ... adalah :
