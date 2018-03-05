@@ -31,8 +31,6 @@ IEEE Std. 830-1998, IEEE Recommended Practice for Software Requirement Specifica
 __1.5 Overview__
 Dokumen SRS ini merupakan acuan untuk mengetahui spesifikasi kebutuhan dalam menyelesaikan proyek ini. Dokumen SRS ini berisi tentang deskripsi tentang kebutuhan perangkat lunak (tools pendukung, peranangan sistem yang akan dikembangkan), perangkat keras, dan sumber daya manusia (SDM)
 
-[========]
-
 ## BAB II GAMBARAN UMUM
 Pada umumnya toko-toko yang tidak terlalu besar metode transaksi pembayarannya manual seperti ditulis dikertas lalu di jumlah dengan kalkulator, dengan metode seperti itu memakan waktu dan tidak efisien, karena untuk transaksi pembayaran harus cepat dan tepat patal jadinya jika penghitungan salah, toko dapat merugi, ditambah pohon-pohon yang ada di muka semakin menipis, ini terjadi karena pohon menjadi bahan baku pembuatan kertas, semakin sedikitnya pohon, bumi semakin panas dan cuaca pun tidak menentu, dan sudah jelas kerusakan alam sudah mulai terlihat akibat pohon-pohon dimuka bumi ini berkurang.
 
@@ -75,6 +73,7 @@ Pada sisem QR Kode mengunakan dara tiap jenia makanan yang dijual ditoko. Data t
 Pada sistem pembeli, dapat melakukan scan QR pada tiap-tiap jenis makanan yang ditoko, dan membeli dengan jumlah yang di inginkan, setelah melakukan pembelian, makanan dicek dikasir untuk dicocokan dengan data yang ada pada aplikasi, jika data dana barang sudah benar, lalu penghitungan, setelah pembayaran, struk digital pun langsung dikirim pada aplikasi pembeli. Pada sistem kasir/karyawan, dapat melihat makanan apa saja yang pembeli beli,lalu dihitung.
 
 ____2.1.1 Antarmuka sistem____
+
 Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android ...
 
 ![use case 1](http://i68.tinypic.com/263vbrs.jpg)
@@ -102,6 +101,7 @@ Perangkat lunak dapat dijalankan di android ...
 ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
 
 __2.2 Fungsi-fungsi produk__
+
 Fungsi dari Aplikasi ... berdasarkan pengguna sistem ini adalah sebagai  berikut :
 ...
 
@@ -114,11 +114,9 @@ __2.4 Batasan-batasan__
 
 __2.5 Asumsi-asumsi dan ketergantungan/keterkaitan__
 
-[========]
 
 ## BAB III KEBUTUHAN LAIN YANG SPESIFIK
 Kebutuhan fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini yaitu sistem harus dapat mempermudah pengguna dalam menggunkan aplikasi ini.
 
-[========]
 
 ## BAB IV INFORMASI PENDUKUNG
