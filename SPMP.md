@@ -11,7 +11,7 @@
 <br><p align="center"><b> APLIKASI POS QR-CODE ANDROID</b><br>
 <p align="center"><b>Aplikasi Menggunakan Kode QR
 </b>
-<p align="center">Kelompok 8 <br>
+<p align="center">Kelompok 2 <br>
  Mochamad Faizal 			(1603179)<br>
  Luqmanul Hakim				(1603076)<br>
  Inneke Widianti			(1603072)<br>
