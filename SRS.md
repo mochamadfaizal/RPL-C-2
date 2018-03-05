@@ -2,7 +2,7 @@
 <body>
 <p align="center"><h1> Software Requirements Spesification </h1></p>
 
-<p align="center"><b>Version 1.0.1 </b><br>
+<p align="center"><b>Version 1.0.3 </b><br>
 <p align="center">12 Februari 2018</b><br><br>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -102,8 +102,8 @@ Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui androi
 ![use case 1](http://i68.tinypic.com/263vbrs.jpg)
 
 ____2.1.2 Antarmuka pengguna____
-<img src="http://i63.tinypic.com/2mfm0oz.png/>
-<img src="http://i68.tinypic.com/2qnb794.png/>  
+![home user](http://i63.tinypic.com/2mfm0oz.png)
+![home menu](http://i68.tinypic.com/2qnb794.png)
 
 ____2.1.3 Antarmuka perangkat keras____
 Kebutuhan minimum perangkat keras yang dapat digunakan oleh ... adalah :
