@@ -69,10 +69,10 @@ Dari sistem pembeli menggunakan imei dan nomor telpon untuk mendaftar kan smartp
 
 Pada sitem karyawan memiliki fungsi utama yaitu :
 <ul>
-<li> Menerima rincian pembelian</li>
-<li> Mengisi dompet elektronik pembeli(Top Up)</li>
-<li> Mamasukan data barang </li>
-<li> Transaksi pembayaran </li>
+<li> Menerima rincian pembelian.</li>
+<li> Mengisi dompet elektronik pembeli(Top Up).</li>
+<li> Mamasukan data barang.</li>
+<li> Transaksi pembayaran.</li>
 </ul>
 
 Pada sistem pemilik toko memiliki fungsi utama yaitu :
@@ -86,7 +86,7 @@ Admin disini adalah super user yang mengelola setiap data sistem ini. Sistem adm
 <ul>
 <li> Menerima data pada tiap-tiap toko.</li>
 <li> Aprovement jika ada pembel yang mendaftar.</li>
-<li> Presentase jumlah produk yang banyak terjual pada tiap-tiap toko perbulan secara otomatis </li>
+<li> Presentase jumlah produk yang banyak terjual pada tiap-tiap toko perbulan secara otomatis.</li>
 </ul>
 
 __2.1 Perspektif produk__
@@ -123,33 +123,33 @@ ____2.1.2 Antarmuka pengguna____
 ![data brg](http://i68.tinypic.com/wcl84j.png)
 
 ____2.1.3 Antarmuka perangkat keras____
-Kebutuhan minimum perangkat keras yang dapat digunakan oleh ... adalah :
+Kebutuhan minimum perangkat keras yang dapat digunakan oleh aplikasi ini adalah :
 - Android
 
 ____2.1.4 Antarmuka perangkat lunak____
-Perangkat lunak yang dibutuhkan untuk ... yaitu :
-adalah ...
+Perangkat lunak yang dibutuhkan untuk aplikasi ini yaitu :
+<ul>
+<li>Android Studio</li>
+<li>Sublime Teks</li>
+<li>XAMPP</li>
+<li>Balsamiq Mockup3</li>
+</ul>
 
 ____2.1.5 Antarmuka komunikasi____
 Yang dibutuhkan hanya sebuah android yang dapat terhubung ke internet.
 
 ____2.1.6 Batasan-batasan memori____
-Perangkat lunak hanya dapat dijalankan di android ...
+Perangkat lunak hanya dapat dijalankan di android.
 
 ____2.1.7 Operasi-operasi____
-Perangkat lunak dapat dijalankan di android ...
 
 ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
 
 __2.2 Fungsi-fungsi produk__
 
-Fungsi dari Aplikasi ... berdasarkan pengguna sistem ini adalah sebagai  berikut :
-...
-
 ![use case 2](http://i68.tinypic.com/2cnjx9f.jpg)
 
 __2.3 Karakteristik pengguna__
-Karakterisitk pengguna dari perangkat lunak ini adalah ...
 
 __2.4 Batasan-batasan__
 
