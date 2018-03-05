@@ -2,7 +2,7 @@
 <body>
 <p align="center"><h1> Software Requirements Spesification </h1></p>
 
-<p align="center"><b>Version 1.0.3 </b><br>
+<p align="center"><b>Version 1.0.4 </b><br>
 <p align="center">12 Februari 2018</b><br><br>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -102,8 +102,23 @@ Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui androi
 ![use case 1](http://i68.tinypic.com/263vbrs.jpg)
 
 ____2.1.2 Antarmuka pengguna____
+
+![phone](http://i66.tinypic.com/30cyg7q.png)
+![opening app](http://i65.tinypic.com/k48ms7.png)
+![sign in user](http://i64.tinypic.com/rr73uh.png)
+![sign up user](http://i64.tinypic.com/554ax0.png)
 ![home user](http://i63.tinypic.com/2u6k4js.png)
-![home menu](http://i68.tinypic.com/2qnb794.png)
+![home menu user](http://i65.tinypic.com/20itelf.png)
+![scan menu](http://i68.tinypic.com/eb6649.png)
+![scan pop up](http://i63.tinypic.com/m75qom.png)
+![scan berhasil](http://i67.tinypic.com/2aeyud1.png)
+![top up](http://i65.tinypic.com/6j28w5.png)
+![bayar dgn top up](http://i66.tinypic.com/28k6hc3.png)
+![struk](http://i64.tinypic.com/334p8ie.png)
+![login kary](http://i65.tinypic.com/szfx53.png)
+![menu kary](http://i67.tinypic.com/34j3fyc.png)
+![home menu kary](http://i64.tinypic.com/xlbk06.png)
+![data brg](http://i68.tinypic.com/wcl84j.png)
 
 ____2.1.3 Antarmuka perangkat keras____
 Kebutuhan minimum perangkat keras yang dapat digunakan oleh ... adalah :
