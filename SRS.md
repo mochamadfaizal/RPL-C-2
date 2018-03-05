@@ -18,7 +18,8 @@
  Rizaluddin Sidqi Baihaqi	(1603082)<br><br><br>
 
 <p align="center"><b>Jurusan Teknik Informatika</b><br>
-<p align="center"><b>Politeknik Negeri Indramayu</b><br><br>
+<p align="center"><b>Politeknik Negeri Indramayu</b><br>
+<p align="center"><b>2018</b><br><br>
 </p>
 </body>
 </html>
@@ -114,7 +115,8 @@ ____2.1.2 Antarmuka pengguna____
 ![scan berhasil](http://i67.tinypic.com/2aeyud1.png)
 ![top up](http://i65.tinypic.com/6j28w5.png)
 ![bayar dgn top up](http://i66.tinypic.com/28k6hc3.png)
-![struk](http://i64.tinypic.com/334p8ie.png)
+![struk](http://i68.tinypic.com/2hx7tr9.png)
+![struk det](http://i64.tinypic.com/334p8ie.png)
 ![login kary](http://i65.tinypic.com/szfx53.png)
 ![menu kary](http://i67.tinypic.com/34j3fyc.png)
 ![home menu kary](http://i64.tinypic.com/xlbk06.png)
