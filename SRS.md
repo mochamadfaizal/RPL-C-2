@@ -5,7 +5,8 @@
 <p align="center"><b>Version 1.0.4 </b><br>
 <p align="center">12 Februari 2018</b><br><br>
 <p align="center">
-<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+
+![ logo ](http://i67.tinypic.com/2exaon4.jpg)
 </p>
 
 <br><p align="center"><b> APLIKASI POS QR-CODE ANDROID</b><br>
