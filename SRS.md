@@ -1,6 +1,6 @@
 <html>
 <body>
-<p<h1>align="center"><h1> Software Requirements Spesification </h1></p>
+<p align="center"><h1> Software Requirements Spesification </h1></p>
 
 <p align="center"><b>Version 1.0.4 </b><br>
 <p align="center">12 Februari 2018</b><br><br>
@@ -25,7 +25,7 @@
 </html>
 
 ##
-
+##
 ## 1. BAB I Pendahuluan
 Dokumen ini berisi penjelasan pemakaian dan penulisan dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) atau Software Requirement Specification (SRS). Dokumen ini selanjutnya akan menggunakan istilah SRS.
 
