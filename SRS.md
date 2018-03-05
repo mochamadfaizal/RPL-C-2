@@ -102,7 +102,7 @@ Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui androi
 ![use case 1](http://i68.tinypic.com/263vbrs.jpg)
 
 ____2.1.2 Antarmuka pengguna____
-![home user](http://i64.tinypic.com/2ibi683.png)
+![home user](http://i63.tinypic.com/2u6k4js.png)
 ![home menu](http://i68.tinypic.com/2qnb794.png)
 
 ____2.1.3 Antarmuka perangkat keras____
