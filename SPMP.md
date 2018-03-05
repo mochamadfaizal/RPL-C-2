@@ -1,4 +1,27 @@
-# SPMP (Software Project Management Plan)
+<html>
+<body>
+<p align="center"><h1> Software Project Management Plan</h1></p>
+
+<p align="center"><b>Version 1.0.1 </b><br>
+<p align="center">12 Februari 2018</b>
+<p align="center">
+<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+</p>
+
+<br><p align="center"><b> APLIKASI POS QR-CODE ANDROID</b><br>
+<p align="center"><b>Aplikasi Menggunakan Kode QR
+</b>
+<p align="center">Kelompok 8 <br>
+ Mochamad Faizal 			(1603179)<br>
+ Luqmanul Hakim				(1603076)<br>
+ Inneke Widianti			(1603072)<br>
+ Rizaluddin Sidqi Baihaqi	(1603082)<br><br><br>
+
+<p align="center"><b>Jurusan Teknik Informatika</b><br>
+<p align="center"><b>Politeknik Negeri Indramayu</b><br><br>
+</p>
+</body>
+</html>
 
 ### BAB I Pendahuluan
 
@@ -22,8 +45,8 @@ IEEE adalah sebuah organisasi profesi nirlaba yang terdiri dari banyak ahli dibi
 
 __1.5 Definisi dan akronim (Singkatan)__
 <br>Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
-| Singkatan        | Arti Kata           |
-| ---------------- | ------------------- |
+| Singkatan | Arti Kata |
+| --------- | --------- |
 | IEEE |The International Institute of Electronic and Electrical Engineers |
 | QR Code | Quick Response Code |
 
@@ -152,7 +175,7 @@ __3.5 Perencanaan staf__
 || Sistem Analisis |
 |Inneke Widianti| Sistem Analisis |
 || Tester |
-|Rizalludin Sidqi Baihaki| Sistem Analisis |
+|Rizaluddin Shidqi Baihaqi| Sistem Analisis |
 || Tester |
 
 <br>
