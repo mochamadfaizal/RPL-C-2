@@ -64,24 +64,24 @@ Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai beriku
 
 <ul>
 <li>Context Diagram</li><br>
-![Context diagram](http://i66.tinypic.com/1z4d734.jpg)
+![Context](http://i66.tinypic.com/1z4d734.jpg)
 
 <br>
-<li>DFD Level 0</li>
-![DFD_LV0](http://i67.tinypic.com/169rark.jpg)
+<li>DFD Level 0</li><br>
+![LV0](http://i67.tisnypic.com/169rark.jpg)
 
 <br>
 <li>DFD Level 1 Mengelola Data Toko</li><br>
-![DFD_LEVEL1_DATA_TOKO](http://i64.tinypic.com/1xzdp4.jpg)
+![LV1TOKO](http://i64.tinypic.com/1xzdp4.jpg)
 
 <br>
 <li>DFD Level 1 Mengelola Data Karyawan</li><br>
-![DFD_LEVEL1_DATA_KARYAWAN](http://i67.tinypic.com/2i8hcaf.jpg)
+![LV1KARYAWAN](http://i67.tinypic.com/2i8hcaf.jpg)
 
 <br>
 <li>DFD Level 1 Mengelola Data Barang</li><br>
-![DFD_LEVEL1_DATA_BARANG](http://i64.tinypic.com/w2j67p.jpg)
+![LV1BARANG](http://i64.tinypic.com/w2j67p.jpg)
 
 <br>
 <li>DFD Level 1 Mengelola Data Member</li><br>
-![DFD_LEVEL1_DATA_MEMBER](http://i67.tinypic.com/uq4g2.jpg)
+![LV1MEMBER](http://i67.tinypic.com/uq4g2.jpg)
