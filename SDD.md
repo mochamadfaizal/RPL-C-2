@@ -59,3 +59,29 @@ Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai beriku
 <ul> <li>IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE
 <li>Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.</li>
 <li>Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) Super Monster Mall</li></ul>
+
+### BAB 3 Data Flow Diagram <br>
+
+<ul>
+<li>Context Diagram</li><br>
+![Context diagram](http://i66.tinypic.com/1z4d734.jpg)
+
+<br>
+<li>DFD Level 0</li>
+![DFD_LV0](http://i67.tinypic.com/169rark.jpg)
+
+<br>
+<li>DFD Level 1 Mengelola Data Toko</li><br>
+![DFD_LEVEL1_DATA_TOKO](http://i64.tinypic.com/1xzdp4.jpg)
+
+<br>
+<li>DFD Level 1 Mengelola Data Karyawan</li><br>
+![DFD_LEVEL1_DATA_KARYAWAN](http://i67.tinypic.com/2i8hcaf.jpg)
+
+<br>
+<li>DFD Level 1 Mengelola Data Barang</li><br>
+![DFD_LEVEL1_DATA_BARANG](http://i64.tinypic.com/w2j67p.jpg)
+
+<br>
+<li>DFD Level 1 Mengelola Data Member</li><br>
+![DFD_LEVEL1_DATA_MEMBER](http://i67.tinypic.com/uq4g2.jpg)
