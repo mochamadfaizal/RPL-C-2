@@ -62,26 +62,20 @@ Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai beriku
 
 ### BAB 3 Data Flow Diagram <br>
 
-<ul>
-<li>Context Diagram</li><br>
+* Context Diagram
 ![Context](http://i66.tinypic.com/1z4d734.jpg)
 
-<br>
-<li>DFD Level 0</li><br>
-![LV0](http://i67.tisnypic.com/169rark.jpg)
+* DFD Level 0
+![LV0](http://i67.tinypic.com/169rark.jpg)
 
-<br>
-<li>DFD Level 1 Mengelola Data Toko</li><br>
+* DFD Level 1 Mengelola Data Toko
 ![LV1TOKO](http://i64.tinypic.com/1xzdp4.jpg)
 
-<br>
-<li>DFD Level 1 Mengelola Data Karyawan</li><br>
+* DFD Level 1 Mengelola Data Karyawan
 ![LV1KARYAWAN](http://i67.tinypic.com/2i8hcaf.jpg)
 
-<br>
-<li>DFD Level 1 Mengelola Data Barang</li><br>
+* DFD Level 1 Mengelola Data Barang
 ![LV1BARANG](http://i64.tinypic.com/w2j67p.jpg)
 
-<br>
-<li>DFD Level 1 Mengelola Data Member</li><br>
+* DFD Level 1 Mengelola Data Member
 ![LV1MEMBER](http://i67.tinypic.com/uq4g2.jpg)
