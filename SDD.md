@@ -66,7 +66,7 @@ Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai beriku
 ![Context](http://i66.tinypic.com/1z4d734.jpg)
 
 * DFD Level 0
-![LV0](http://i67.tinypic.com/169rark.jpg)
+![LV0](http://i63.tinypic.com/23itfs1.jpg)
 
 * DFD Level 1 Mengelola Data Toko
 ![LV1TOKO](http://i64.tinypic.com/1xzdp4.jpg)
