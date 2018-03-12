@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 1.0.4 </b><br>
+<p align="center"><b>Version 1.0.5 </b><br>
 <p align="center">12 Februari 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
