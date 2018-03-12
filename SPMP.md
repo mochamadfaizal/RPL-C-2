@@ -1,11 +1,11 @@
 <html>
 <body>
-<p align="center"><h1> Software Project Management Plan</h1></p>
+<h1><p align="center">Software Project Management Plan</p></h1>
 
 <p align="center"><b>Version 1.0.1 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
-<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+<img src="http://i67.tinypic.com/2yuhmww.png"/>
 </p>
 
 <br><p align="center"><b> APLIKASI POS QR-CODE ANDROID</b><br>
@@ -23,6 +23,7 @@
 </body>
 </html>
 
+##
 ### BAB I Pendahuluan
 
 __1.1 Gambaran Proyek__
@@ -45,6 +46,7 @@ IEEE adalah sebuah organisasi profesi nirlaba yang terdiri dari banyak ahli dibi
 
 __1.5 Definisi dan akronim (Singkatan)__
 <br>Dalam penulisan dokumen pembuatan projek ini, ada beberapa kata yang mungkin akan sulit dipahami oleh orang awam berikut ini :
+
 | Singkatan | Arti Kata |
 | --------- | --------- |
 | IEEE |The International Institute of Electronic and Electrical Engineers |

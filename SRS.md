@@ -1,11 +1,11 @@
 <html>
 <body>
-<p align="center"><h1> Software Requirements Spesification </h1></p>
+<h1><p align="center">Software Requirements Spesification</p></h1>
 
 <p align="center"><b>Version 1.0.4 </b><br>
 <p align="center">12 Februari 2018</b><br><br>
 <p align="center">
-<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+<img src="http://i67.tinypic.com/2yuhmww.png"/>
 </p>
 
 <br><p align="center"><b> APLIKASI POS QR-CODE ANDROID</b><br>
@@ -25,8 +25,7 @@
 </html>
 
 ##
-##
-## 1. BAB I Pendahuluan
+### BAB I Pendahuluan
 Dokumen ini berisi penjelasan pemakaian dan penulisan dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) atau Software Requirement Specification (SRS). Dokumen ini selanjutnya akan menggunakan istilah SRS.
 
 Software Requirement Specification (SRS) menjelaskan berbagai macam kebutuhan pembuatan produk, yaitu kebutuhan spesifik yang terdiri dari kebutuhan fungsionalitas, termasukdidalamnya input, proses, dan output dari produk dan non-fungsionalitas. Kebutuhan antar muka juga digambarkan dengan jelas di dalam dokumen ini, terdiri dari kebutuhan antar pengguna, antar hardware yang menjelaskan kebutuhan yang harus ada untuk menjalankan atau mengoperasikan aplikasi sistem, kebutuhan antar software yang menjelaskan bagaimana cara pengguna berinteraksi dengan sistem, dan kebutuhan antar komunikasi.
@@ -39,23 +38,28 @@ __1.1 Tujuan__
 __1.2 Lingkup__
 <br>Semua hal yang tercantum didalam dokumen ini merupakan bagian dari ruang lingkup kebutuhan pembangunan perangkat lunak yang berupa aplikasi kasir QR Code berbasis android yang digunakan untuk perhitugan keuangan pada toko-toko.
 
-__1.3 Definitions, Acronyms and Abbreviations__
-<br>a. SRS/SKPL adalah dokumen yang menggambarkan secara detail spesifikasi kebutuhan software dalam pembangunan proyek perangkat lunak Aplikasi Kasir QR Code Berbasis Android.
-b. DFD adalah suatu diagram yang menggunakan notasi-notasi untuk menggambarkan arus dari data pada suatu sistem atau menjelaskan proses kerja suatu sistem, yang penggunaannya sangat membantu untuk memahami sistem secara logika, tersruktur dan jelas.
-c. Software : Perangkat Lunak.
-d. Hardware : Perangkat Keras
-e. SRS : Software Requirements Specification.
-f. SKPL : Spesifikasi Kebutuhan Perangkat Lunak
-g. DFD : Data Flow Diagram
-h. IEEE : The Institute of Electrical and Electronics Engineers
+__1.3 Definisi, Akronim dan Singkatan__
+<br>
+
+Definisi, Akronim dan Singkatan | Penjelasan |
+-----------------|---------------------------
+SRS/SKPL | adalah dokumen yang menggambarkan secara detail spesifikasi kebutuhan software dalam pembangunan proyek perangkat lunak Aplikasi Kasir QR Code Berbasis Android.|
+DFD | adalah suatu diagram yang menggunakan notasi-notasi untuk menggambarkan arus dari data pada suatu sistem atau menjelaskan proses kerja suatu sistem, yang penggunaannya sangat membantu untuk memahami sistem secara logika, tersruktur dan jelas.|
+Software | Perangkat Lunak.|
+Hardware | Perangkat Keras|
+SRS | Software Requirements Specification.|
+SKPL | Spesifikasi Kebutuhan Perangkat Lunak.|
+DFD | Data Flow Diagram|
+IEEE | The Institute of Electrical and Electronics Engineers|
 
 __1.4 References__
-<br>IEEE Std. 830-1998, IEEE Recommended Practice for Software Requirement Specifications.
+<br>
+- IEEE Std. 830-1998, IEEE Recommended Practice for Software Requirement Specifications.
 
 __1.5 Overview__
 <br>Dokumen SRS ini merupakan acuan untuk mengetahui spesifikasi kebutuhan dalam menyelesaikan proyek ini. Dokumen SRS ini berisi tentang deskripsi tentang kebutuhan perangkat lunak (tools pendukung, peranangan sistem yang akan dikembangkan), perangkat keras, dan sumber daya manusia (SDM)
 
-## BAB II GAMBARAN UMUM
+### BAB II GAMBARAN UMUM
 Pada umumnya toko-toko yang tidak terlalu besar metode transaksi pembayarannya manual seperti ditulis dikertas lalu di jumlah dengan kalkulator, dengan metode seperti itu memakan waktu dan tidak efisien, karena untuk transaksi pembayaran harus cepat dan tepat patal jadinya jika penghitungan salah, toko dapat merugi, ditambah pohon-pohon yang ada di muka semakin menipis, ini terjadi karena pohon menjadi bahan baku pembuatan kertas, semakin sedikitnya pohon, bumi semakin panas dan cuaca pun tidak menentu, dan sudah jelas kerusakan alam sudah mulai terlihat akibat pohon-pohon dimuka bumi ini berkurang.
 
 Oleh karena itu kelompok kami mempunyai ide yang mungkin dapat meminimalisir penggunaan kertas secara berlebihan, yaitu dengan membuat aplikasi point of sales dengan QR-Code berbasis android. Aplikasi menggunakan sistem scan kode QR untuk setiap jenisa makanan yang dijual pada toko-toko, dari sistemnya sendirinya digunakan oleh 4 user, yaitu pembeli, kasir/karyawan, pemilik toko dan admin.
@@ -147,7 +151,9 @@ ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
 
 __2.2 Fungsi-fungsi produk__
 
-![use case 2](http://i68.tinypic.com/2cnjx9f.jpg)
+![use case 2](http://i66.tinypic.com/2rg12xi.jpg)
+
+![use case 3](http://i66.tinypic.com/a138tl.jpg)
 
 __2.3 Karakteristik pengguna__
 
