@@ -3,7 +3,7 @@
 <h1>
 <p align="center"><b>Software Design Description</b></p>
 </h1>
-<p align="center"><b>Version 1.0.1 </b><br>
+<p align="center"><b>Version 1.0.2 </b><br>
 <p align="center">5 Maret 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -63,25 +63,64 @@ __1.6 Ikhtisar Dokumen__
 <br>
 
 
-### BAB 2 Deksripsi Perancangan Global <br>
+### BAB 2 Deksripsi Perancangan Global
+__2.1 Rancangan Lingkungan Implementasi__ <br>
 
+__2.2 Deskripsi Data__ <br>
 
-### BAB 3 Data Flow Diagram <br>
+____2.2.1 Definisi Domain/Type____ <br>
 
+____2.2.2 Conceptual Data Model____ <br>
+
+____2.2.3 Physical Data Model____ <br>
+
+____2.2.4 Daftar Tabel Aplikasi____ <br>
+
+__2.3 Deskripsi Modul__ <br>
+
+### BAB 3 Deskripsi Perancangan Rinci <br>
+__3.1 Diagram Konteks__ <br>
 * Context Diagram
 ![Context](http://i66.tinypic.com/1z4d734.jpg)
 
+____3.1.1 DFD Level 0____ <br>
 * DFD Level 0
 ![LV0](http://i63.tinypic.com/23itfs1.jpg)
 
+____3.1.2 DFD Level 1 Mengelola Data Toko____ <br>
 * DFD Level 1 Mengelola Data Toko
 ![LV1TOKO](http://i64.tinypic.com/1xzdp4.jpg)
 
+____3.1.3 DFD Level 1 Mengelola Data Karyawan____ <br>
 * DFD Level 1 Mengelola Data Karyawan
 ![LV1KARYAWAN](http://i67.tinypic.com/2i8hcaf.jpg)
 
+____3.1.4 DFD Level 1 Mengelola Data Barang____ <br>
 * DFD Level 1 Mengelola Data Barang
 ![LV1BARANG](http://i64.tinypic.com/w2j67p.jpg)
 
+____3.1.5 DFD Level 1 Mengelola Data Member____ <br>
 * DFD Level 1 Mengelola Data Member
 ![LV1MEMBER](http://i67.tinypic.com/uq4g2.jpg)
+
+__3.2 Deskripsi Rinci Tabel__ <br>
+
+____3.2.1 Tabel____ <br>
+
+__3.3 Deskripsi Rinci Modul__ <br>
+
+____3.3.1 Modul____ <br>
+
+______3.3.1.1 Fungsi Modul______ <br>
+
+______3.3.1.2 Spesifikasi Layar Utama______ <br>
+
+______3.3.1.3 Spesifikasi Query______ <br>
+
+______3.3.1.4 Spesifikasi Field Data Layar______ <br>
+
+______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
+
+______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
+
+__3.4 Matriks Kerunutan__ <br>
