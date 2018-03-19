@@ -3,7 +3,7 @@
 <h1>
 <p align="center"><b>Software Design Description</b></p>
 </h1>
-<p align="center"><b>Version 1.0.0 </b><br>
+<p align="center"><b>Version 1.0.1 </b><br>
 <p align="center">5 Maret 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -27,7 +27,7 @@
 ##
 
 ### BAB 1 Pendahuluan
-__1.1 Tujuan__ <br>
+__1.1 Tujuan Pembuatan Dokumen__ <br>
 Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan
 langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan
 diterapkan pada Aplikasi Pos QR-Code berbasis Android, dan juga memberi definisi kebutuhan
@@ -37,7 +37,7 @@ Dokumen perancangan ini dibuat berdasarkan spesifikasi kebutuhan Aplikasi Pos QR
 
 Fungsi utama dari Aplikasi ini adalah membantu member untuk pengecekan harga produk yang dijual dengan cara scan Qr-code yang ada pada tiap-tiap jenis produk, dan juga dapat membantu saran transaksi agar tidak antri terlalu saat di kasir.<br>
 
-__1.2 Lingkup__ <br>
+__1.2 Lingkup Masalah__ <br>
 Aplikasi Pos QR-Code adalah sebuah aplikasi berbasis android yang mempermudah dalam sarana transaksi dan pengecekan harga bagi member. Sistem di Aplikasi Pos QR-Code disebut dengan Q_Pa System. Pengguna aplikasi ini dapat melakukan pendaftaran, sign in, melihat harga dengan cara scan, memilih produk, mengisi jumlah produk yang diinginkan, dan melakukan pembayaran. Sistem ini dikelola oleh seorang admin yang bertugas memperbaharui katalog, data pelanggan, dan data tiap-tiap toko. Data-data yang dikelola admin dipertanggungjawabkan kepada Monster’s Corporation di mana seorang manajer dari Monster’s Corporation akan mengunjungi Super Monster Mall dan melakukan observasi serta meminta laporan pertanggungjawaban.<br>
 
 __1.3 Definisi, Akronim dan Singkatan__ <br>
@@ -50,15 +50,21 @@ SKPL | Spesifikasi Kebutuhan Perangkat Lunak. Sebuah dokumen yang berisi analisi
 User | Pengguna Aplikasi
 Admin | Pengelola Sistem  Aplikasi.
 
-<br>
+__1.4 Aturan Penamaan dan Penomoran__ <br>
 
-
-### BAB 2 Referensi <br>
-
+__1.5 Referensi__ <br>
 Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai berikut: <br>
 <ul> <li>IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE
 <li>Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.</li>
 <li>Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) Super Monster Mall</li></ul>
+
+__1.6 Ikhtisar Dokumen__
+
+<br>
+
+
+### BAB 2 Deksripsi Perancangan Global <br>
+
 
 ### BAB 3 Data Flow Diagram <br>
 
