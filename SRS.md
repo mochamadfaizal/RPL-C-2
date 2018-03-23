@@ -167,3 +167,4 @@ Kebutuhan fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapa
 
 
 ## BAB IV INFORMASI PENDUKUNG
+![](http://i64.tinypic.com/jz8qh2.jpg)
