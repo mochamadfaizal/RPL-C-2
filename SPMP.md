@@ -175,8 +175,8 @@ __3.5 Perencanaan staf__
 || Sistem Analisis|
 |Luqmanul Hakim| Programmer |
 || Sistem Analisis |
-|Inneke Widianti| Sistem Analisis |
-|| Tester |
+|Inneke Widianti| Desain |
+|| Sistem Analisis |
 |Rizaluddin Shidqi Baihaqi| Sistem Analisis |
 || Tester |
 
@@ -233,10 +233,6 @@ __5.3 Kebutuhan-kebutuhan sumber daya__
 | | Mobile | Perangkat yang digunakan untuk uji coba aplikasi. |
 
 <br>
-
-__5.2 Ketergantungan/keterkaitan__
-
-__5.3 Kebutuhan-kebutuhan sumber daya__
 
 __5.4 Alokasi budget dan sumber daya__
 
