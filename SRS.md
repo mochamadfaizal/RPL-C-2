@@ -104,7 +104,7 @@ ____2.1.1 Antarmuka sistem____
 
 <br>Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android.
 
-![use case 1](http://i68.tinypic.com/263vbrs.jpg)
+![use case 1](http://i63.tinypic.com/2na8rxe.jpg)
 
 ____2.1.2 Antarmuka pengguna____
 
@@ -151,9 +151,9 @@ ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
 
 __2.2 Fungsi-fungsi produk__
 
-![use case 2](http://i66.tinypic.com/2rg12xi.jpg)
+![use case 2](http://i65.tinypic.com/2m29wsw.jpg)
 
-![use case 3](http://i66.tinypic.com/a138tl.jpg)
+![use case 3](http://i65.tinypic.com/23w49wg.jpg)
 
 __2.3 Karakteristik pengguna__
 
