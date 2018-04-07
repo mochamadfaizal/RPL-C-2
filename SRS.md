@@ -104,7 +104,7 @@ ____2.1.1 Antarmuka sistem____
 
 <br>Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android.
 
-![use case 1](http://i63.tinypic.com/2na8rxe.jpg)
+![](http://i63.tinypic.com/ri9ouf.jpg)
 
 ____2.1.2 Antarmuka pengguna____
 <div>
@@ -112,7 +112,7 @@ ____2.1.2 Antarmuka pengguna____
 		<tr align="center">
 			<td><b>Icon Aplikasi</b></td>
 			<td><b>Splashscreen</b></td>
-			<td><b>Sign In</b></td>
+			<td width="300"><b>Sign In</b></td>
 		</tr>
 		<tr  valign="top" align="center">
 				<td><img src="http://i66.tinypic.com/30cyg7q.png" width="180" height="350" /><br><p align="justify">Ini adalah tampilan ikon aplikasi Q-Pay pada menu di Smartphone.</p></td>
@@ -162,7 +162,10 @@ ____2.1.2 Antarmuka pengguna____
 
 ____2.1.3 Antarmuka perangkat keras____
 <br>Kebutuhan minimum perangkat keras yang dapat digunakan oleh aplikasi ini adalah :
-- Android
+<br>- Smarthpone Android
+<br>- PC/Laptop
+
+![use case 1](http://i63.tinypic.com/2na8rxe.jpg)
 
 ____2.1.4 Antarmuka perangkat lunak____
 <br>Perangkat lunak yang dibutuhkan untuk aplikasi ini yaitu :
