@@ -107,24 +107,58 @@ ____2.1.1 Antarmuka sistem____
 ![use case 1](http://i63.tinypic.com/2na8rxe.jpg)
 
 ____2.1.2 Antarmuka pengguna____
-
-![phone](http://i66.tinypic.com/30cyg7q.png)
-![opening app](http://i65.tinypic.com/k48ms7.png)
-![sign in user](http://i64.tinypic.com/rr73uh.png)
-![sign up user](http://i64.tinypic.com/554ax0.png)
-![home user](http://i63.tinypic.com/2u6k4js.png)
-![home menu user](http://i65.tinypic.com/20itelf.png)
-![scan menu](http://i68.tinypic.com/eb6649.png)
-![scan pop up](http://i63.tinypic.com/m75qom.png)
-![scan berhasil](http://i67.tinypic.com/2aeyud1.png)
-![top up](http://i65.tinypic.com/6j28w5.png)
-![bayar dgn top up](http://i66.tinypic.com/28k6hc3.png)
-![struk](http://i68.tinypic.com/2hx7tr9.png)
-![struk det](http://i64.tinypic.com/334p8ie.png)
-![login kary](http://i65.tinypic.com/szfx53.png)
-![menu kary](http://i67.tinypic.com/34j3fyc.png)
-![home menu kary](http://i64.tinypic.com/xlbk06.png)
-![data brg](http://i68.tinypic.com/wcl84j.png)
+<div>
+	<table>
+		<tr align="center">
+			<td><b>Icon Aplikasi</b></td>
+			<td><b>Splashscreen</b></td>
+			<td><b>Sign In</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/30cyg7q.png" width="180" height="350" /><br><p align="justify">Ini adalah tampilan ikon aplikasi Q-Pay pada menu di Smartphone.</p></td>
+				<td><img src="http://i65.tinypic.com/k48ms7.png" width="180" height="350" /><br><p align="justify">Splashscreen adalah tampilan awal saat aplikasi dibuka, pada aplikasi kami tampilan awalnya beupa logo dan nama aplikasi.</p></td>
+				<td><img src="http://i64.tinypic.com/rr73uh.png" width="180" height="350" /><br><p align="justify">Pada tampilan sign in ini user akan memasukkan username dan password untuk bisa masuk ke tampilan dashboard, pada platform android terdapat  2 user yaitu member dan karyawan, kemudian setelah berhasil login akan secara otomatis diarahkan ke menu dari masing-masing user.</p></td>		
+		</tr>
+		<tr align="center">
+			<td><b>Sign Up</td>
+			<td><b>Dashboard Member</td>
+			<td><b>Navbar Menu</td>
+		</tr>
+		<tr valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/554ax0.png" width="180" height="350" /><br><p align="justify">Tampilan Sign Up ini adalah tampilan register bagi member yang belum mempunyai akun.</p></td>
+				<td><img src="http://i63.tinypic.com/2u6k4js.png" width="180" height="350" /><br><p align="justify">Pada tampilan Dashboard member ini terdapat tampilan utama yang berisi foto-foto dan promo toko.</p></td>
+				<td><img src="http://i65.tinypic.com/20itelf.png" width="180" height="350" /><br><p align="justify">Pada tampilan Navbar ini tersedia menu-menu untuk member seperti scan, daftar belanja, topup, struk, setting dan lainnya.</p></td>		
+		</tr>
+		<tr align="center">
+			<td><b>Scan</td>
+			<td><b>Hasil Scan</td>
+			<td><b>Daftar belanja</td>
+		</tr>
+		<tr valign="top" align="center">
+				<td><img src="http://i68.tinypic.com/eb6649.png" width="180" height="350" /><br><p align="justify">Pada tampilan scan ini member akan melakukan scan pada QR Code yang ditempel pada rak produk menggunakan menu scan dari aplikasi Q-pay</p></td>
+				<td><img src="http://i63.tinypic.com/m75qom.png" width="180" height="350" /><br><p align="justify">Pada tampilan hasil scan akan muncul tampilan berupa pop up dimana akan ditampilkan nama produk dan juga harga produk, kemudian member diminta untuk memasukkan jumlah produk jika ingin melanjutkan pembelian.</p></td>
+				<td><img src="http://i67.tinypic.com/2aeyud1.png" width="180" height="350" /><br><p align="justify">Pada menu daftar belanja ini akan tampil list produk yang sudah di scan beserta keterangan harga masing-masing produk dan total harga yang harus dibayar.</p></td>		
+		</tr>
+		<tr align="center">
+			<td><b>Struk</td>
+			<td><b>Detail Struk</td>
+			<td><b>Dashboard Karyawan</td>
+		</tr>
+		<tr valign="top" align="center">
+				<td><img src="http://i68.tinypic.com/2hx7tr9.png" width="180" height="350" /><br><p align="justify">Pada menu struk ini akan ditampilkan list dari struk transaksi yang pernah dilakukan member di toko tersebut beserta dengan tanggal transaksinya.</p></td>
+				<td><img src="http://i64.tinypic.com/334p8ie.png" width="180" height="350" /><br><p align="justify">Padaq tampilan detail struk ini akan ditampilkan rincian dari produk, harga, beserta total harga dari transaksi yang pernah dilakukan member.</p></td>
+				<td><img src="http://i67.tinypic.com/34j3fyc.png" width="180" height="350" /><br><p align="justify">Dashboard karyawan ini merupakan menu utama dari user karyawan dimana akan ditampilkan nama karyawan yang telah login.</p></td>		
+		</tr>
+		<tr align="center">
+            <td> <b>Navbar Karyawan</td>
+			<td> <b>Data Barang</td>
+		</tr>
+		<tr valign="top" align="center">
+            <td><img src="http://i64.tinypic.com/xlbk06.png" width="180" height="350" /><br><p align="justify">Pada tampilan navbar karyawan ini terdapat menu-menu yang bisa digunakan oleh user karyawan diantaranya menu data barang dan menu transaksi.</p></td>
+			<td><img src="http://i68.tinypic.com/wcl84j.png" width="180" height="350" /><br><p align="justify">Pada menu data barang ini karyawan dapat mengelola data barang seperti menambahkan barang, mengubah data barang, menghapus data barang dan melihat data barang.</p></td>
+		</tr>
+	</table>
+    </div>
 
 ____2.1.3 Antarmuka perangkat keras____
 <br>Kebutuhan minimum perangkat keras yang dapat digunakan oleh aplikasi ini adalah :
