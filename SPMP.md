@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Project Management Plan</p></h1>
 
-<p align="center"><b>Version 1.0.3 </b><br>
+<p align="center"><b>Version 1.0.4 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -65,10 +65,10 @@ __2.2 Struktur organisasi__
 
 | No. | Jabatan           | Nama               | Nim     |
 |-----|-------------------|--------------------|---------|
-| 1   | Project Manager & Web Developer | Mochammad Faizal   | 1603079 |
-| 2   | Android Developer | Luqmanul Hakim  | 1603076 |
-| 3   | UI/UX Designer    | Inneke Widianti | 1603072 |
-| 3   | Database Engineer | Rizaluddin Shidqi Baihaqi | 1603082 |
+| 1   | Project Manager & Web Developer | Mochammad Faizal          | 1603079 |
+| 2   | Android Developer               | Luqmanul Hakim            | 1603076 |
+| 3   | UI/UX Designer                  | Inneke Widianti           | 1603072 |
+| 4   | Database Engineer               | Rizaluddin Shidqi Baihaqi | 1603082 |
 
 __2.3 Batasan dan antarmuka organisasi__
 - Project Manager
@@ -135,7 +135,7 @@ Dampak Negative
 | ---------------- |:-------------------:|
 |Estimasi biaya dan waktu yang tidak realitis |
 || Desain untuk biaya |
-|| Merekam danmenganalisa project yang akan dibuat |
+| Merekam danmenganalisa project yang akan dibuat |
 | Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
 || Buat metode spesifikasi yang formal |
 || Survai pengguna |
@@ -179,10 +179,8 @@ __3.5 Perencanaan staf__
 |Inneke Widianti| UI/UX Desainer |
 |Rizaluddin Shidqi Baihaqi| Database Engineer |
 
-<br>
 
 ### BAB IV Proses Teknis
-
 
 __4.1 Metoda, tool, dan teknik__
 <br>Metoda yang kami gunakan yaitu dengan cara mengarahkan QR Code Scanner pada QR Code yang digunakan sebagai indikator untuk mendeteksi harga pada tiap jenis produk. Tools yang digunakan adalah Android Studio, Sublime, Markdown Pad 2, Mysql Connector Database untuk menghubungkan database dengan Android Studio. Teknik yang digunakan adalah pemrograman berbasis objek.objek
@@ -199,36 +197,55 @@ __5.1 Paket Pekerjaan__
 
 | No | Nama | Jabatan | Modul | Rincian Pekerjaan |
 | ----------- | --------- | ---------- | ---------- | ---------- |
-| 1 | Mochamad Faizal | Project Manager & Web Developer | Login Admin       | Membuat Login Web  |
-|   |                 |                                 | Data Master Admin | CRUD Data pemasok  |
-|   |                 |                                 |                   | CRUD Data karyawan |
-|   |                 |                                 |                   | CRUD Data toko     |
-|   |                 |                                 |                   | CRUD Data barang   |
-| 2 | Luqmanul Hakim  | Android Developer | Login Member    | Membuat Login Android    |
-|   |                 |                   | Register Member | Membuat Register Android |
-|   |                 |                   | Scan            | Membuat QR Scanner       |
-|   |                 |                   | Daftar Belanja  | Membuat Daftar Belanja   |
-| 3 | Inneke Widianti | UI/UX Designer    | Login           | Mendesain interface pada login               |
-| 4 | Rizaluddin Sidqi Baihaqi | Database Engineer | Data Master | Membuat koneksi dengan database         |
-|   |                          |                   | Login       | Mengkoneksikan Login dengan database    |
-|   |                          |                   | Register    | Mengkoneksikan Register dengan database |
+| 1 | Mochamad Faizal | Project Manager & Web Developer | Login           | Membuat login pada web pemilik toko                        |
+|   |                 |                                 |                 | Membuat login pada web admin                               |
+|   |                 |                                 | Register        | Membuat register pada web pemilik toko                     |
+|   |                 |                                 | Data Master     | CRUD data pemasok pada web pemilik toko                    |
+|   |                 |                                 |                 | CRUD data karyawan pada web pemilik toko                   |
+|   |                 |                                 |                 | CRUD data barang pada web pemilik toko                     |
+|   |                 |                                 |                 | CRUD data toko pada web admin                              |
+|   |                 |                                 |                 | CRUD data barang pada web admin                            |
+|   |                 |                                 |                 | CRUD data toko pada web admin                              |
+|   |                 |                                 |                 | CRUD member pada web admin                                 |
+|   |                 |                                 | Notifikasi      | Membuat fungsi verifikasi pada web admin                   |
+|   |                 |                                 |                 | Menampilkan notifikasi pada web admin                      |
+|   |                 |                                 | Laporan         | Membuat laporan pembelian pada web pemilik toko            |
+|   |                 |                                 |                 | Membuat laporan penjualan pada web pemilik toko            |
+|   |                 |                                 |                 | Membuat laporan stok pada web pemilik toko                 |
+|   |                 |                                 | Transaksi       | Menampilkan transaksi data penjualan pada web pemilik toko |
+|   |                 |                                 |                 | Menampilkan transaksi data pembelian pada web pemilik toko |
+| 2 | Luqmanul Hakim  | Android Developer               | Login           | Membuat login pada android member                          |
+|   |                 |                                 |                 | Membuat login pada android karyawan                        |
+|   |                 |                                 | Register        | Membuat register pada android member                       |
+|   |                 |                                 | Data Master     | CRUD data profile karyawan pada android karyawan           |
+|   |                 |                                 |                 | CRUD data barang pada android karyawan                     |
+|   |                 |                                 | Scan            | Membuat QR Scanner pada android member                     |
+|   |                 |                                 | Daftar Belanja  | Menampilkan daftar belanja pada android member             |
+|   |                 |                                 |                 | Menampilkan total harga pada android member                |
+|   |                 |                                 | Top Up          | Menampilkan top up pada android member                     |
+|   |                 |                                 | Member          | CRUD profile member pada android member                    |
+| 3 | Inneke Widianti | UI/UX Designer                  | Login           | Mendesain interface login pada android member              |
+|   |                 |                                 |                 | Mendesain interface login pada android karyawan            |
+|   |                 |                                 | Register        | Mendesain interface register pada android member           |
+|   |                 |                                 | Scan            | Mendesain interface QR Scanner pada android member         |
+|   |                 |                                 | Daftar Belanja  | Mendesain interface daftar belanja pada android member     |
+|   |                 |                                 |                 | Mendesain interface total harga pada android member        |
+|   |                 |                                 | Top Up          | Mendesain interface top up pada android member             |
+| 4 | Rizaluddin Sidqi Baihaqi | Database Engineer      | Data Master     | Membuat koneksi dengan database pada android & web         |
+|   |                          |                        | Login           | Mengkoneksikan Login dengan database pada android & web    |
+|   |                          |                        | Register        | Mengkoneksikan Register dengan database pada android & web |
 
-
-<br>
 __5.2 Ketergantungan/keterkaitan__
-
-Dalam pengerjaan projek ini keterkaitan dari tugas masing-masing saling menopang agar terbentuknya ketelitian saat pengerjaan dan mendapat hasil akhir yang maksimal dan dapat digunakan dengan semestinya
+<br>Dalam pengerjaan projek ini keterkaitan dari tugas masing-masing saling menopang agar terbentuknya ketelitian saat pengerjaan dan mendapat hasil akhir yang maksimal dan dapat digunakan dengan semestinya
 
 | From | To | Kaitan |
-| ----------- | --------- | ---------- | 
-| Manager | Anggota | Dimana manager menjadi pengawas dari anggota-anggotanya bilamana saat anggota lalai dengan tugas-tugasnya manager berhak menegur dan bagi anggota tidak berhak melawan jika ditegur, dan untuk manager sendiri tidak berhak semena-mena dengan jabatanya. |
-| Programmer | Analysis | Dikala programmer melakukan kesalahan dalam mengkoding, analisis memiliki tanggung jawab untuk mengecek kesalahan koding-koding yg dilakukan programmer. |
-| Analysis | Programmer | Betugas untuk memberi gambaran projek dan alur pengkodingan pada programmer.|
-| Design | Programmer | Bertugas mendesain tampilan aplikasi yang dapat menarik konsumen saat aplikasi dirilis. |
-| Programmer | Database Engineer | Bertugas membuat perancangan sistem database. |
+| ----------- | --------- | ---------- |  
+| Manager     | Anggota | Dimana manager menjadi pengawas dari anggota-anggotanya bilamana saat anggota lalai dengan tugas-tugasnya manager berhak menegur dan bagi anggota tidak berhak melawan jika ditegur, dan untuk manager sendiri tidak berhak semena-mena dengan jabatanya. |
+| Programmer  | Analysis | Dikala programmer melakukan kesalahan dalam mengkoding, analisis memiliki tanggung jawab untuk mengecek kesalahan koding-koding yg dilakukan programmer. |
+| Analysis    | Programmer | Betugas untuk memberi gambaran projek dan alur pengkodingan pada programmer.|
+| Design      | Programmer | Bertugas mendesain tampilan aplikasi yang dapat menarik konsumen saat aplikasi dirilis. |
+| Programmer  | Database Engineer | Bertugas membuat perancangan sistem database. |
 
-
-<br>
 __5.3 Kebutuhan-kebutuhan sumber daya__
 
 | Sumber Daya | Jenis Kebutuhan | Alasan |
