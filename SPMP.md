@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Project Management Plan</p></h1>
 
-<p align="center"><b>Version 1.0.2 </b><br>
+<p align="center"><b>Version 1.0.3 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -56,30 +56,33 @@ IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses
 
 QR Code adalah bentuk evolusi kode batang dari satu dimensi menjadi dua dimensi. 
 
-###BAB II Organisasi Proyek
+### BAB II Organisasi Proyek
 
 __2.1 Model proses__
 <br>Model proses yang akan digunakan dalam proyek ini adalah V Model. V Model ini merupakan perluasan dari model waterfall. Disebut sebagai perluasan karena tahap-tahapnya mirip dengan yang terdapat dalam model waterfall. Jika dalam model waterfall proses dijalankan secara linear, maka dalam model V proses dilakukan bercabang.
 
 __2.2 Struktur organisasi__
-- Project Manager
-    - Mochammad Faizal 
 
-- Anggota tim :
-    - Luqmanul Hakim (Programmer)
-    - Inneke Widianti (Design UI/UX)
-    - Rizaluddin Shidqi Baihaqi (Database Engineer)
+| No. | Jabatan           | Nama               | Nim     |
+|-----|-------------------|--------------------|---------|
+| 1   | Project Manager & Web Developer | Mochammad Faizal   | 1603079 |
+| 2   | Android Developer | Luqmanul Hakim  | 1603076 |
+| 3   | UI/UX Designer    | Inneke Widianti | 1603072 |
+| 3   | Database Engineer | Rizaluddin Shidqi Baihaqi | 1603082 |
 
 __2.3 Batasan dan antarmuka organisasi__
 - Project Manager
 Project Manager dimana dia menjadi pengawas dari anggota-anggotanya apabila 
 terdapat ada anggota yang lalai dari tugasnya maka project manager diharuskan menegurnya.
 
-- Programmer
-Programmer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program.
+- Web Developer
+Web Developer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program yang ada pada platform Web. 
+
+- Android Developer
+Android Developer dimana dia bertanggung jawab untuk membuat dan menyempurnakan program yang ada pada platform Android. 
 
 - Designer UI/UX
-Designer UI/UX dimana dia bertanggung jawab atas semua tampilan dari aplikasi.
+UI/UX Designer dimana dia bertanggung jawab atas semua tampilan dari aplikasi.
 
 - Database Engineer
 Database Engineer dimana dia bertanggung jawab atas alur data yang dipakai dalam aplikasi
@@ -88,19 +91,19 @@ __2.4 Lingkup Tangggung Jawab__
 <br>Lingkup dan tanggung jawab ini berisi tugas dari setiap elemen anggota dalam pembuatan proyek RPL ini.
 
 - Project Manager
-<br>Project Manager adalah seseorang yang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Manager juga harus mampu memajemen tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta serta membagi tugas juga bagian tanggung jawab dari seorang manager.
+Project Manager adalah seseorang yang mempunyai tanggung jawab dan tugas yang besar dalam sebuah tim, tidak hanya terfokus pada hal-hal yang teknis sifatnya. Manager juga harus mampu memajemen tim dengan baik, agar target projek dapat tercapai. Selain itu memberi pengarahan, memonitoring kinerja tim, serta serta membagi tugas juga bagian tanggung jawab dari seorang manager.
 
-- Programmer
-<br>Dalam hal ini, seorang programmer bertugas untuk mengimplementasikan dari
-sistem yang sudah dirancang didesain. Programmer dituntut dapat menuliskan code
-program dengan baik, dan efesien. Hal ini dimaksudakan untuk menghindari
-terjadinya banyak error dalam proses implementasinya.
+- Web Developer
+Dalam hal ini, seorang Web Developer bertugas untuk mengimplementasikan dari sistem yang sudah dirancang. Web Developer dituntut dapat menuliskan code program dengan baik, dan efesien pada platform Web. Hal ini dimaksudakan untuk menghindari terjadinya banyak error dalam proses implementasinya.
+
+- Android Developer
+Sama halnya dengan Web Developer, Android Developer bertugas untuk mengimplementasikan dari sistem yang sudah dirancang didesain. Programmer dituntut dapat menuliskan code program dengan baik, dan efesien pada platform Android. Hal ini dimaksudakan untuk menghindari terjadinya banyak error dalam proses implementasinya.
 
 - Designer UI/UX
-<br>Designer UI/UX bertanggung jawab atas perancangan antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
+Designer UI/UX bertanggung jawab atas perancangan antarmuka dari aplikasi atau program dalam proyek. Baik dari sisi admin maupun user lainnya.Tugas dari desaigner meliputi perancangan dan pembuatan antarmuka dari aplikasi dari setiap user.
 
 - Database Engineer
-<br>Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
+Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
 
 ### BAB III Proses Manajerial
 
@@ -130,7 +133,7 @@ Dampak Negative
 
 | Resiko        | Teknik Memanajemen Resiko           |
 | ---------------- |:-------------------:|
-|Estimasi biaya dan waktu yang tidak realitis | The International Institute of Electronic and Electrical Engineers       |
+|Estimasi biaya dan waktu yang tidak realitis |
 || Desain untuk biaya |
 || Merekam danmenganalisa project yang akan dibuat |
 | Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
@@ -171,14 +174,10 @@ __3.5 Perencanaan staf__
 |Tim Project|Job|
 | ---------------- |:-------------------:|
 |Mochamad Faizal| Project Manager |
-|| Programmer |
-|| Sistem Analisis|
-|Luqmanul Hakim| Programmer |
-|| Sistem Analisis |
-|Inneke Widianti| Desain |
-|| Sistem Analisis |
-|Rizaluddin Shidqi Baihaqi| Sistem Analisis |
-|| Tester |
+|| Web Developer |
+|Luqmanul Hakim| Android Developer |
+|Inneke Widianti| UI/UX Desainer |
+|Rizaluddin Shidqi Baihaqi| Database Engineer |
 
 <br>
 
@@ -200,10 +199,20 @@ __5.1 Paket Pekerjaan__
 
 | No | Nama | Jabatan | Modul | Rincian Pekerjaan |
 | ----------- | --------- | ---------- | ---------- | ---------- |
-| 1 | Mochamad Faizal | Project Manager & Programmer | - | - |
-| 2 | Luqmanul Hakim | Programmer | - | - |
-| 3 | Inneke Widianti | Design Application & Analysis | - | - |
-| 4 | Rizalludin Sidqi Baihaki | Database Engineer | - | - |
+| 1 | Mochamad Faizal | Project Manager & Web Developer | Login Admin       | Membuat Login Web  |
+|   |                 |                                 | Data Master Admin | CRUD Data pemasok  |
+|   |                 |                                 |                   | CRUD Data karyawan |
+|   |                 |                                 |                   | CRUD Data toko     |
+|   |                 |                                 |                   | CRUD Data barang   |
+| 2 | Luqmanul Hakim  | Android Developer | Login Member    | Membuat Login Android    |
+|   |                 |                   | Register Member | Membuat Register Android |
+|   |                 |                   | Scan            | Membuat QR Scanner       |
+|   |                 |                   | Daftar Belanja  | Membuat Daftar Belanja   |
+| 3 | Inneke Widianti | UI/UX Designer    | Login           | Mendesain interface pada login               |
+| 4 | Rizaluddin Sidqi Baihaqi | Database Engineer | Data Master | Membuat koneksi dengan database         |
+|   |                          |                   | Login       | Mengkoneksikan Login dengan database    |
+|   |                          |                   | Register    | Mengkoneksikan Register dengan database |
+
 
 <br>
 __5.2 Ketergantungan/keterkaitan__
