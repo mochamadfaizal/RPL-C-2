@@ -81,27 +81,31 @@ __2.3 Deskripsi Modul__ <br>
 ### BAB 3 Deskripsi Perancangan Rinci <br>
 __3.1 Diagram Konteks__ <br>
 * Context Diagram
-![Context](http://i66.tinypic.com/1z4d734.jpg)
+![Context](http://i68.tinypic.com/30sd175.jpg)
 
 ____3.1.1 DFD Level 0____ <br>
 * DFD Level 0
-![LV0](http://i63.tinypic.com/23itfs1.jpg)
+![LV0]( http://i66.tinypic.com/2aak55j.jpg)
 
-____3.1.2 DFD Level 1 Mengelola Data Toko____ <br>
-* DFD Level 1 Mengelola Data Toko
-![LV1TOKO](http://i64.tinypic.com/1xzdp4.jpg)
+____3.1.2 DFD Level 1 Mengelola Data Master____ <br>
+* DFD Level 1 Mengelola Data Master
+![LV1TOKO](http://i67.tinypic.com/24qnv40.jpg)
 
-____3.1.3 DFD Level 1 Mengelola Data Karyawan____ <br>
-* DFD Level 1 Mengelola Data Karyawan
-![LV1KARYAWAN](http://i67.tinypic.com/2i8hcaf.jpg)
+____3.1.3 DFD Level 2 Mengelola Data Toko____ <br>
+* DFD Level 2 Mengelola Data Toko
+![LV1TOKO](http://i64.tinypic.com/jkc93c.jpg)
 
-____3.1.4 DFD Level 1 Mengelola Data Barang____ <br>
-* DFD Level 1 Mengelola Data Barang
-![LV1BARANG](http://i64.tinypic.com/w2j67p.jpg)
+____3.1.4 DFD Level 2 Mengelola Data Karyawan____ <br>
+* DFD Level 2 Mengelola Data Karyawan
+![LV1KARYAWAN](http://i64.tinypic.com/2ni1jif.jpg)
 
-____3.1.5 DFD Level 1 Mengelola Data Member____ <br>
+____3.1.5 DFD Level 2 Mengelola Data Barang____ <br>
+* DFD Level 2 Mengelola Data Barang
+![LV1BARANG](http://i65.tinypic.com/f9fqki.jpg )
+
+____3.1.6 DFD Level 1 Mengelola Data Member____ <br>
 * DFD Level 1 Mengelola Data Member
-![LV1MEMBER](http://i67.tinypic.com/uq4g2.jpg)
+![LV1MEMBER](http://i65.tinypic.com/k0jy9l.jpg)
 
 __3.2 Deskripsi Rinci Tabel__ <br>
 
