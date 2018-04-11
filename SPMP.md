@@ -136,7 +136,7 @@ Dampak Negative
 | Resiko        | Teknik Memanajemen Resiko           |
 | ---------------- |:-------------------:|
 |Estimasi biaya dan waktu yang tidak realitis |
-|| Desain untuk biaya |
+| Desain untuk biaya |
 || Merekam danmenganalisa project yang akan dibuat |
 || Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
 || Buat metode spesifikasi yang formal |
