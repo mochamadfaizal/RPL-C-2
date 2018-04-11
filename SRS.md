@@ -229,13 +229,13 @@ Untuk dapat menggunakan aplikasi member harus mengisi form login terlebih dahulu
 1.Member mengaktifkan fungsi login
 <br>2.Sistem menampilkan halaman login yang terdiri dari email dan password
 <br>3.Member mengisi email dan password
-<br>4.Sistem malakukan validasi dari email dan password
+<br>4.Sistem melakukan validasi dari email dan password
 <br>5.Jika login gagal maka member akan diminta mengulangi proses login
 <br>6.Jika login berhasil maka member akan diarahkan ke halaman pilih toko
 
 Untuk member yang belum mempunyai akun diharuskan melakukan sign up terlebih dahulu dengan cara:
 
-1.Member mangktifkan fungsi sign up
+1.Member mangaktifkan fungsi sign up
 <br>2.Sistem menampilkan halaman register
 <br>3.Member mengisi form register sesuai dengan yang ditampilkan sistem
 <br>4.Sistem menyimpan data yang dimasukkan member
@@ -265,7 +265,7 @@ Member dapat melihat total harga dan data belanjaan yang sudah diambil dan akan 
 
 __2.2.4 Total Harga Member__
 
-![Scan Member](http://i68.tinypic.com/23vko6s.jpg)
+![](http://i68.tinypic.com/23vko6s.jpg)
 
 Member dapat melakukan transaksi atau pembayaran secara manual ataupun menggunakan top up, dengan cara :
 
@@ -278,6 +278,71 @@ Member dapat melakukan transaksi atau pembayaran secara manual ataupun menggunak
 <br>7.Jika user memilih menggunakan top up/e-cash maka sistem akan mengecek data saldo member
 <br>8.Jika saldo mencukupi untuk membayar belanjaan maka saldo akan langsung diambil sesuai harga belanjaan
 <br>9.Jika saldo tidak mencukupi maka member harus membayar secara manual 
+
+__2.2.5 Login Karyawan__
+
+![](http://i66.tinypic.com/1z3nu6r.jpg)
+
+Untuk dapat menggunakan aplikasi karyawan harus mengisi form login terlebih dahulu  dengan cara:
+
+1.Karyawan mengaktifkan fungsi login
+<br>2.Sistem menampilkan halaman login yang terdiri dari email dan password
+<br>3.Karyawan mengisi email dan password yang sudah diberikan oleh pemilik toko
+<br>4.Sistem melakukan validasi dari email dan password
+<br>5.Jika login gagal maka karyawan akan diminta mengulangi proses login
+<br>6.Jika login berhasil maka karyawan akan diarahkan ke halaman dashboard karyawan
+
+__2.2.6 Terima List Belanja Karyawan__
+
+![](http://i66.tinypic.com/103txyx.jpg)
+
+Karyawan akan dapat melihat list belanja dari member, dengan cara:
+
+1.Karyawan mengaktifkan fungsi transaksi
+<br>2.Sistem menampilkan data member yang sudah mengirimkan data belanja
+<br>3.Karyawan memilih data member yang ingin dilihat
+<br>4.Sistem menampilkan list belanjaan dari member yang telah dipilih oleh karyawan
+
+__2.2.7 Transaksi Karyawan__
+
+![](http://i64.tinypic.com/21n4acn.jpg)
+
+Karyawan akan dapat melakukan transaksi dengan member, dengan cara:
+
+1.Karyawan mengaktifkan fungsi transaksi
+<br>2.Sistem menampilkan data member yang sudah mengirimkan data belanja
+<br>3.Karyawan memilih data member yang ingin dilihat
+<br>4.Sistem menampilkan list belanjaan dari member yang telah dipilih oleh karyawan
+<br>5.Jika member memilih membayar secara manual maka kasir menginputkan uang yang dibayarkan oleh member
+<br>6.Jika member memilih pembayaran dengan top up maka karyawan langsung melakukan cetak struk dengan menekan tombol cetak struk
+
+__2.2.8 Input data barang Karyawan__
+
+![](http://i66.tinypic.com/ayaj5h.jpg)
+
+Karyawan akan dapat melakukan input barang, dengan cara:
+
+1.Karyawan mengaktifkan fungsi data barang
+<br>2.Sistem menampilkan data barang yang sudah ada
+<br>3.Karyawan menekan tombol icon tambah
+<br>4.Sistem menampilkan form input barang
+<br>5.Karyawan mengisi form sesuai dengan requirement
+<br>6.Sistem akan melakukan validasi
+<br>7.Sistem menyimpan data barang ke dalam database
+
+__2.2.9 Input data barang Karyawan__
+
+![](http://i66.tinypic.com/ayaj5h.jpg)
+
+Karyawan akan dapat melakukan input barang, dengan cara:
+
+1.Karyawan mengaktifkan fungsi data barang
+<br>2.Sistem menampilkan data barang yang sudah ada
+<br>3.Karyawan menekan tombol icon tambah
+<br>4.Sistem menampilkan form input barang
+<br>5.Karyawan mengisi form sesuai dengan requirement
+<br>6.Sistem akan melakukan validasi
+<br>7.Sistem menyimpan data barang ke dalam database
 
 
 
