@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Project Management Plan</p></h1>
 
-<p align="center"><b>Version 2.0.1 </b><br>
+<p align="center"><b>Version 2.0.2 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -207,6 +207,7 @@ __5.1 Paket Pekerjaan__
 |   |                 |                                 | Data Master     | CRUD data pemasok pada web pemilik toko                    |
 |   |                 |                                 |                 | CRUD data karyawan pada web pemilik toko                   |
 |   |                 |                                 |                 | CRUD data barang pada web pemilik toko                     |
+|   |                 |                                 |                 | CRUD data pemasok barang pada web pemilik toko             |
 |   |                 |                                 |                 | CRUD data toko pada web admin                              |
 |   |                 |                                 |                 | CRUD data barang pada web admin                            |
 |   |                 |                                 |                 | CRUD data toko pada web admin                              |
