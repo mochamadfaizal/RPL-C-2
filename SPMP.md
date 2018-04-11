@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Project Management Plan</p></h1>
 
-<p align="center"><b>Version 1.0.4 </b><br>
+<p align="center"><b>Version 2.0.0 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -135,8 +135,7 @@ Dampak Negative
 
 | Resiko        | Teknik Memanajemen Resiko           |
 | ---------------- |:-------------------:|
-|Estimasi biaya dan waktu yang tidak realitis |
-| Desain untuk biaya |
+|Estimasi biaya dan waktu yang tidak realitis |Desain untuk biaya |
 || Merekam danmenganalisa project yang akan dibuat |
 || Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
 || Buat metode spesifikasi yang formal |
