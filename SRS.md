@@ -253,6 +253,34 @@ Member harus melakukan scan untuk mengetahui harga produk dan memasukkannya ke d
 <br>5.Sistem menampilkan harga dari produk
 <br>6.Member memasukkan pilihan untuk melanjutkan
 
+__2.2.3 Total Harga Member__
+
+![Scan Member](http://i68.tinypic.com/2j4d4pt.jpg)
+
+Member dapat melihat total harga dan data belanjaan yang sudah diambil dan akan dibayar, dengan cara :
+
+1.Member masuk ke main menu
+<br>2.Sistem menampilkan pilihan menu
+<br>3.Member memilih menu daftar belanja
+
+__2.2.4 Total Harga Member__
+
+![Scan Member](http://i68.tinypic.com/23vko6s.jpg)
+
+Member dapat melakukan transaksi atau pembayaran secara manual ataupun menggunakan top up, dengan cara :
+
+1.Member masuk ke main menu
+<br>2.Sistem menampilkan pilihan menu
+<br>3.Member memilih menu daftar belanja
+<br>4.Member memberikan input oke untuk melanjutkan ke fungsi transaksi
+<br>5.Sistem menampilkan pilihan pemmbayaran
+<br>6.Jika member memilih pembayaran manual, member dapat langsung membayar ke kasir
+<br>7.Jika user memilih menggunakan top up/e-cash maka sistem akan mengecek data saldo member
+<br>8.Jika saldo mencukupi untuk membayar belanjaan maka saldo akan langsung diambil sesuai harga belanjaan
+<br>9.Jika saldo tidak mencukupi maka member harus membayar secara manual 
+
+
+
 __2.3 Spesifikasi Kebutuhan Non-Fungsional__
 
 __2.4 Karakteristik pengguna__
