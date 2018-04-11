@@ -137,8 +137,8 @@ Dampak Negative
 | ---------------- |:-------------------:|
 |Estimasi biaya dan waktu yang tidak realitis |
 || Desain untuk biaya |
-| Merekam danmenganalisa project yang akan dibuat |
-| Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
+|| Merekam danmenganalisa project yang akan dibuat |
+|| Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
 || Buat metode spesifikasi yang formal |
 || Survai pengguna |
 || Buat prototype |
