@@ -102,9 +102,9 @@ Pada sistem pembeli, dapat melakukan scan QR pada tiap-tiap jenis makanan yang d
 
 ____2.1.1 Antarmuka sistem____
 
-<br>Dalam penggunaan & pengguna berinteraksi langsung dengan aplikasi melalui android.
+![Antarmuka Sistem](http://i63.tinypic.com/ri9ouf.jpg)
 
-![](http://i63.tinypic.com/ri9ouf.jpg)
+Aplikasi POS Dengan QR Code scanner ini mempunyai 4 user yaitu Admin, Pemilik Toko, Karyawan dan Member. Dalam aplikasinya terdapat 2 fungsi utama yaitu melakukan pengolahan data dan transaksi. Admin memiliki fungsi mengelola data yang ada pada aplikasi seperti data toko, karyawan, dan juga member. Pemilik toko memiliki fungsi untuk mengelola segala data yang berhubungan dengan toko yang dimilikinya, seperti data karyawan, data barang dan data laporan transaksi. Karyawan mempunyai fungsi untuk mengelola data barang dan melakukan transaksi. Member mempunyai fungsi Transaksi dengan cara melakukan scan dan juga melakukan pembayaran baik secara cash ataupun dengan e-payment.
 
 ____2.1.2 Antarmuka pengguna____
 <div>
@@ -162,8 +162,14 @@ ____2.1.2 Antarmuka pengguna____
 
 ____2.1.3 Antarmuka perangkat keras____
 <br>Kebutuhan minimum perangkat keras yang dapat digunakan oleh aplikasi ini adalah :
+
 <br>- Smarthpone Android
+<br>Dibutuhkan sebuah smartphone dengan os Android yang dilengkapi dengan kamera untuk dapat menggunakan aplikasi Q-Pay ini untuk user member dan user karyawan.
+
 <br>- PC/Laptop
+<br>Untuk admin dan pemilik toko membutuhkan PC/Laptop untuk dapat menggunakan aplikasi Q-Pay ini.
+
+
 
 ![use case 1](http://i63.tinypic.com/2na8rxe.jpg)
 
@@ -177,26 +183,85 @@ ____2.1.4 Antarmuka perangkat lunak____
 </ul>
 
 ____2.1.5 Antarmuka komunikasi____
-<br>Yang dibutuhkan hanya sebuah android yang dapat terhubung ke internet.
+<br>Yang dibutuhkan hanya sebuah android dan pc yang dapat terhubung ke internet.
 
 ____2.1.6 Batasan-batasan memori____
 <br>Perangkat lunak hanya dapat dijalankan di android.
 
 ____2.1.7 Operasi-operasi____
 
+|Operasi|Fungsi  |
+|--|--|
+|Sign Up Member|Digunakan member untuk mendaftar ke aplikasi|
+|Sign Up Toko|Digunakan pemilik toko untuk mendaftarkan toko mereka|
+|Login|Digunakan untuk masuk akses aplikasi|
+|Tambah Karyawan|Digunakan pemilik toko untuk menambahkan karyawan|
+|Tambah Barang|Digunakan karyawan atau pemilik toko untuk menambahkan barang|
+|Scan|Digunakan untuk membaca QR Code pada barang|
+|Topup|Digunakan member untuk melakukan pembayaran dengan tabungan|
+|Cari Barang|Digunakan untuk mencari barang|
+|Cari Karyawan|Digunakan untuk mencari karyawan|
+|Cari Toko|Digunakan untuk mencari toko|
+|Pilih Toko|Digunakan untuk memilih toko tempat transaksi|
+|Struk|Digunakan untuk menampilkan list struk dari transaksi member|
+|Cetak Struk|Digunakan karyawan untuk mencetak struk ke sisi member|
+|Detail Struk|Digunakan untuk memberikan detail struk transaksi|
+|Kembali|Digunakan untuk kembali ke halaman sebelumnya|
+|Hapus|Digunakan untuk menghapus data|
+|Edit|Digunakan untuk mengedit data|
+|Simpan|Digunakan untuk menyimpan data|
+|Download Laporan|Digunakan untuk mendownload file laporan penjualan|
+
 ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
 
-__2.2 Fungsi-fungsi produk__
+__2.2 Spesifikasi Kebutuhan Fungsional__
 
 ![use case 2](http://i65.tinypic.com/2m29wsw.jpg)
 
 ![use case 3](http://i65.tinypic.com/23w49wg.jpg)
 
-__2.3 Karakteristik pengguna__
+__2.2.1 Sign Up dan Login Member__
 
-__2.4 Batasan-batasan__
+![Login Member](http://i63.tinypic.com/2m7698n.jpg)
 
-__2.5 Asumsi-asumsi dan ketergantungan/keterkaitan__
+Untuk dapat menggunakan aplikasi member harus mengisi form login terlebih dahulu  dengan cara:
+
+1.Member mengaktifkan fungsi login
+<br>2.Sistem menampilkan halaman login yang terdiri dari email dan password
+<br>3.Member mengisi email dan password
+<br>4.Sistem malakukan validasi dari email dan password
+<br>5.Jika login gagal maka member akan diminta mengulangi proses login
+<br>6.Jika login berhasil maka member akan diarahkan ke halaman pilih toko
+
+Untuk member yang belum mempunyai akun diharuskan melakukan sign up terlebih dahulu dengan cara:
+
+1.Member mangktifkan fungsi sign up
+<br>2.Sistem menampilkan halaman register
+<br>3.Member mengisi form register sesuai dengan yang ditampilkan sistem
+<br>4.Sistem menyimpan data yang dimasukkan member
+
+__2.2.2 Scan Member__
+
+![Scan Member](http://i63.tinypic.com/157ya9l.jpg)
+
+Member harus melakukan scan untuk mengetahui harga produk dan memasukkannya ke daftar belanjaan dengan cara :
+
+1.Member mengaktifkan menu scan
+<br>2.Sistem mengaktifkan kamera smartphone
+<br>3.Member mengarahkan kamera ke QR Code yang ada pada rak produk
+<br>4.Sistem membaca dan menerjemahkan QR Code
+<br>5.Sistem menampilkan harga dari produk
+<br>6.Member memasukkan pilihan untuk melanjutkan
+
+__2.3 Spesifikasi Kebutuhan Non-Fungsional__
+
+__2.4 Karakteristik pengguna__
+
+__2.5 Batasan-batasan__
+
+__2.6 Asumsi-asumsi keterkaitan__
+
+__2.7 Kebutuhan penyeimbang__
 
 
 ## BAB III KEBUTUHAN LAIN YANG SPESIFIK
