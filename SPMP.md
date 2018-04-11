@@ -61,6 +61,8 @@ QR Code adalah bentuk evolusi kode batang dari satu dimensi menjadi dua dimensi.
 __2.1 Model proses__
 <br>Model proses yang akan digunakan dalam proyek ini adalah V Model. V Model ini merupakan perluasan dari model waterfall. Disebut sebagai perluasan karena tahap-tahapnya mirip dengan yang terdapat dalam model waterfall. Jika dalam model waterfall proses dijalankan secara linear, maka dalam model V proses dilakukan bercabang.
 
+![Vmodel](http://i67.tinypic.com/2hpoltx.jpg)
+
 __2.2 Struktur organisasi__
 
 | No. | Jabatan           | Nama               | Nim     |
