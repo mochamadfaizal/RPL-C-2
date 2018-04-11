@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Project Management Plan</p></h1>
 
-<p align="center"><b>Version 1.0.4 </b><br>
+<p align="center"><b>Version 2.0.2 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -56,10 +56,13 @@ IEEE adalah standar yang mendefinisikan lapisan fisik dan sublapisan media akses
 
 QR Code adalah bentuk evolusi kode batang dari satu dimensi menjadi dua dimensi. 
 
+##
 ### BAB II Organisasi Proyek
 
 __2.1 Model proses__
 <br>Model proses yang akan digunakan dalam proyek ini adalah V Model. V Model ini merupakan perluasan dari model waterfall. Disebut sebagai perluasan karena tahap-tahapnya mirip dengan yang terdapat dalam model waterfall. Jika dalam model waterfall proses dijalankan secara linear, maka dalam model V proses dilakukan bercabang.
+
+![Vmodel](http://i67.tinypic.com/2hpoltx.jpg)
 
 __2.2 Struktur organisasi__
 
@@ -105,6 +108,7 @@ Designer UI/UX bertanggung jawab atas perancangan antarmuka dari aplikasi atau p
 - Database Engineer
 Database Engineer dituntut untuk bisa membuat rancangan database yang dibutuhkan oleh aplikasi dalam proyek. Tugas database engineer meliputi perancangan dan pembuatan database dari aplikasi dan bertanggung jawab atas jalannya data dari aplikasi tersebut agar tidak terjadinya redudansi ataupun kesalahan data.
 
+##
 ### BAB III Proses Manajerial
 
 __3.1 Tujuan dan prioritas manajemen__
@@ -133,10 +137,9 @@ Dampak Negative
 
 | Resiko        | Teknik Memanajemen Resiko           |
 | ---------------- |:-------------------:|
-|Estimasi biaya dan waktu yang tidak realitis |
-|| Desain untuk biaya |
-| Merekam danmenganalisa project yang akan dibuat |
-| Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
+|Estimasi biaya dan waktu yang tidak realitis |Desain untuk biaya |
+|| Merekam danmenganalisa project yang akan dibuat |
+|| Mengembangkan sofware yang salah | Evaluasi project yang ditingkatkan |
 || Buat metode spesifikasi yang formal |
 || Survai pengguna |
 || Buat prototype |
@@ -179,7 +182,7 @@ __3.5 Perencanaan staf__
 |Inneke Widianti| UI/UX Desainer |
 |Rizaluddin Shidqi Baihaqi| Database Engineer |
 
-
+##
 ### BAB IV Proses Teknis
 
 __4.1 Metoda, tool, dan teknik__
@@ -191,6 +194,7 @@ __4.2 Dokumentasi perangkat lunak__
 __4.3 Fungsi-fungsi pendukung proyek__
 <br>Kami membutuhkan technical support di bagian desain project. Kami membutuhkan technical support di bagian coding program sebanyak 2 orang. Kami membutuhkan technical support di bagian database sebanyak 1-2 orang.
 
+##
 ### BAB V Paket Pekerjaan, Jadwal, dan Budget
 
 __5.1 Paket Pekerjaan__
@@ -203,6 +207,7 @@ __5.1 Paket Pekerjaan__
 |   |                 |                                 | Data Master     | CRUD data pemasok pada web pemilik toko                    |
 |   |                 |                                 |                 | CRUD data karyawan pada web pemilik toko                   |
 |   |                 |                                 |                 | CRUD data barang pada web pemilik toko                     |
+|   |                 |                                 |                 | CRUD data pemasok barang pada web pemilik toko             |
 |   |                 |                                 |                 | CRUD data toko pada web admin                              |
 |   |                 |                                 |                 | CRUD data barang pada web admin                            |
 |   |                 |                                 |                 | CRUD data toko pada web admin                              |
