@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 2.0.0 </b><br>
+<p align="center"><b>Version 2.0.1 </b><br>
 <p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -19,12 +19,12 @@
 
 <p align="center"><b>Jurusan Teknik Informatika</b><br>
 <p align="center"><b>Politeknik Negeri Indramayu</b><br>
-<p align="center"><b>2018</b><br><br>
 </p>
 </body>
 </html>
 
 ##
+
 ### BAB I Pendahuluan
 Dokumen ini berisi penjelasan pemakaian dan penulisan dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) atau Software Requirement Specification (SRS). Dokumen ini selanjutnya akan menggunakan istilah SRS.
 
@@ -53,12 +53,13 @@ DFD | Data Flow Diagram|
 IEEE | The Institute of Electrical and Electronics Engineers|
 
 __1.4 References__
-<br>
 - IEEE Std. 830-1998, IEEE Recommended Practice for Software Requirement Specifications.
 
 __1.5 Overview__
-<br>Dokumen SRS ini merupakan acuan untuk mengetahui spesifikasi kebutuhan dalam menyelesaikan proyek ini. Dokumen SRS ini berisi tentang deskripsi tentang kebutuhan perangkat lunak (tools pendukung, peranangan sistem yang akan dikembangkan), perangkat keras, dan sumber daya manusia (SDM)
+<br>Dokumen SRS ini merupakan acuan untuk mengetahui spesifikasi kebutuhan dalam menyelesaikan proyek ini. Dokumen SRS ini berisi tentang deskripsi tentang kebutuhan perangkat lunak (tools pendukung, peranangan sistem yang akan dikembangkan), perangkat keras, dan sumber daya manusia (SDM).
 
+##
+ 
 ### BAB II GAMBARAN UMUM
 Pada umumnya toko-toko yang tidak terlalu besar metode transaksi pembayarannya manual seperti ditulis dikertas lalu di jumlah dengan kalkulator, dengan metode seperti itu memakan waktu dan tidak efisien, karena untuk transaksi pembayaran harus cepat dan tepat patal jadinya jika penghitungan salah, toko dapat merugi, ditambah pohon-pohon yang ada di muka semakin menipis, ini terjadi karena pohon menjadi bahan baku pembuatan kertas, semakin sedikitnya pohon, bumi semakin panas dan cuaca pun tidak menentu, dan sudah jelas kerusakan alam sudah mulai terlihat akibat pohon-pohon dimuka bumi ini berkurang.
 
@@ -108,7 +109,7 @@ Aplikasi POS Dengan QR Code scanner ini mempunyai 4 user yaitu Admin, Pemilik To
 
 ____2.1.2 Antarmuka pengguna____
 
--Mock up android
+- Mock up android
 
 <div>
 	<table>
@@ -163,7 +164,7 @@ ____2.1.2 Antarmuka pengguna____
 	</table>
     </div>
 
--Mock up web
+- Mock up web
 	<table>
 		<tr align="center">
 			<td><b>Dashboard Pemilik Toko</b></td>
@@ -283,20 +284,18 @@ __2.2.1 Sign Up dan Login Member__
 ![Login Member](http://i63.tinypic.com/2m7698n.jpg)
 
 Untuk dapat menggunakan aplikasi member harus mengisi form login terlebih dahulu  dengan cara:
-
-1.Member mengaktifkan fungsi login
-<br>2.Sistem menampilkan halaman login yang terdiri dari email dan password
-<br>3.Member mengisi email dan password
-<br>4.Sistem melakukan validasi dari email dan password
-<br>5.Jika login gagal maka member akan diminta mengulangi proses login
-<br>6.Jika login berhasil maka member akan diarahkan ke halaman pilih toko
+<br>1. Member mengaktifkan fungsi login
+<br>2. Sistem menampilkan halaman login yang terdiri dari email dan password
+<br>3. Member mengisi email dan password
+<br>4. Sistem melakukan validasi dari email dan password
+<br>5. Jika login gagal maka member akan diminta mengulangi proses login
+<br>6. Jika login berhasil maka member akan diarahkan ke halaman pilih toko
 
 Untuk member yang belum mempunyai akun diharuskan melakukan sign up terlebih dahulu dengan cara:
-
-1.Member mangaktifkan fungsi sign up
-<br>2.Sistem menampilkan halaman register
-<br>3.Member mengisi form register sesuai dengan yang ditampilkan sistem
-<br>4.Sistem menyimpan data yang dimasukkan member
+<br>1.Member mangaktifkan fungsi sign up
+<br>2. Sistem menampilkan halaman register
+<br>3. Member mengisi form register sesuai dengan yang ditampilkan sistem
+<br>4. Sistem menyimpan data yang dimasukkan member
 
 __2.2.2 Scan Member__
 
@@ -304,12 +303,12 @@ __2.2.2 Scan Member__
 
 Member harus melakukan scan untuk mengetahui harga produk dan memasukkannya ke daftar belanjaan dengan cara :
 
-1.Member mengaktifkan menu scan
-<br>2.Sistem mengaktifkan kamera smartphone
-<br>3.Member mengarahkan kamera ke QR Code yang ada pada rak produk
-<br>4.Sistem membaca dan menerjemahkan QR Code
-<br>5.Sistem menampilkan harga dari produk
-<br>6.Member memasukkan pilihan untuk melanjutkan
+<br>1. Member mengaktifkan menu scan
+<br>2. Sistem mengaktifkan kamera smartphone
+<br>3. Member mengarahkan kamera ke QR Code yang ada pada rak produk
+<br>4. Sistem membaca dan menerjemahkan QR Code
+<br>5. Sistem menampilkan harga dari produk
+<br>6. Member memasukkan pilihan untuk melanjutkan
 
 __2.2.3 Total Harga Member__
 
