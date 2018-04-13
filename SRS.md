@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 2.0.5 </b><br>
+<p align="center"><b>Version 2.0.6 </b><br>
 <p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -108,7 +108,6 @@ ____2.1.1 Antarmuka sistem____
 Aplikasi POS Dengan QR Code scanner ini mempunyai 4 user yaitu Admin, Pemilik Toko, Karyawan dan Member. Dalam aplikasinya terdapat 2 fungsi utama yaitu melakukan pengolahan data dan transaksi. Admin memiliki fungsi mengelola data yang ada pada aplikasi seperti data toko, karyawan, dan juga member. Pemilik toko memiliki fungsi untuk mengelola segala data yang berhubungan dengan toko yang dimilikinya, seperti data karyawan, data barang dan data laporan transaksi. Karyawan mempunyai fungsi untuk mengelola data barang dan melakukan transaksi. Member mempunyai fungsi Transaksi dengan cara melakukan scan dan juga melakukan pembayaran baik secara cash ataupun dengan e-payment.
 
 ____2.1.2 Antarmuka pengguna____
-
 - Mock up android
 
 <div>
@@ -307,7 +306,7 @@ ____2.1.5 Antarmuka komunikasi____
 <br>Yang dibutuhkan hanya sebuah android dan pc yang dapat terhubung ke internet.
 
 ____2.1.6 Batasan-batasan memori____
-Besarnya memory yang dibutuhkan untuk menjalankan perangkat lunak ini diharapkan tidak melebihi 100mb.
+<br>Besarnya memory yang dibutuhkan untuk menjalankan aplikasi ini diharapkan tidak melebihi 100MB.
 
 ____2.1.7 Operasi-operasi____
 
@@ -334,6 +333,7 @@ ____2.1.7 Operasi-operasi____
 |Download Laporan|Digunakan untuk mendownload file laporan penjualan|
 
 ____2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi____
+<br>Sistem ini sangat bergantung pada lokasi, karena disesuaikan pada lokasi toko yang bersangkutan.
 
 __2.2 Spesifikasi Kebutuhan Fungsional__
 
@@ -511,6 +511,10 @@ Pemilik toko dapat mennambahkan data barang, dengan cara:
 __2.3 Spesifikasi Kebutuhan Non-Fungsional__
 
 __2.4 Karakteristik pengguna__
+|Katagori Pengguna| Tugas|Hak Akses ke Aplikasi
+|------|------|------|
+|Admin|-|Admin|
+
 
 __2.5 Batasan-batasan__
 - Bahasa pemrograman berbasis android yang digunakan adalah Java.
