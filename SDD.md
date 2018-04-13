@@ -3,7 +3,7 @@
 <h1>
 <p align="center"><b>Software Design Description</b></p>
 </h1>
-<p align="center"><b>Version 1.0.2 </b><br>
+<p align="center"><b>Version 1.0.3 </b><br>
 <p align="center">5 Maret 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -28,10 +28,7 @@
 
 ### BAB 1 Pendahuluan
 __1.1 Tujuan Pembuatan Dokumen__ <br>
-Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan
-langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan
-diterapkan pada Aplikasi Pos QR-Code berbasis Android, dan juga memberi definisi kebutuhan
-untuk sistem, spesifikasi kebutuhan fungsional.<br>
+Tujuan pembuatan SDD (Software Design Description) ini adalah untuk menjelaskan langkah langkah desain dan proses-proses dalam pembuatan sistem aplikasi yang akan diterapkan pada Aplikasi Pos QR-Code berbasis Android, dan juga memberi definisi kebutuhan untuk sistem, spesifikasi kebutuhan fungsional.<br>
 
 Dokumen perancangan ini dibuat berdasarkan spesifikasi kebutuhan Aplikasi Pos QR-Code berbasis Android yang akan dibuat. Dalam rangka membangun aplikasi tersebut, tentunya deskripsi perancangan untuk aplikasi tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun aplikasi tersebut.<br>
 
@@ -44,9 +41,10 @@ __1.3 Definisi, Akronim dan Singkatan__ <br>
 
 Definisi, Akronim dan Singkatan  | Penjelasan
 ----------------- | -------------
-DFD  | Data Flow Diagram. Diagram yang menggambarkan aliran data
-ERD  | Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
-SKPL | Spesifikasi Kebutuhan Perangkat Lunak. Sebuah dokumen yang berisi analisis terhadap suatu perangkat lunak yang akan dibangun yang dijabarkan dalam suatu spesifikasi kebutuhan.
+DPPL/SDD | Deskripsi  Perancangan Perangkat Lunak	atau Software Design Description, merupakan deskripsi dari perangkat lunak yang akan dikembangkan.
+SKPL/SRS | Spesifikasi Kebutuhan Perangkat Lunak atau Software Requirement Specification, merupakan dokumentasi kebutuhan perangkat lunak.
+DFD | Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak.
+ERD |	Entity Relationship Diagram, diagram dan notasi yang digunakan untuk merepresentasikan struktur data statis pada perangkat lunak.
 User | Pengguna Aplikasi
 Admin | Pengelola Sistem  Aplikasi.
 
@@ -58,15 +56,25 @@ Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai beriku
 <li>Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.</li>
 <li>Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) Super Monster Mall</li></ul>
 
-__1.6 Ikhtisar Dokumen__
+__1.6 Ikhtisar Dokumen__<br>
+Dokumen SDD ini dibagi menjadi tiga bagian utama. Bagian pertama berisi penjelasan tentang dokumen SDD yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum. Bagian kedua berisi diagram dan spesifikasi kelas, komponen sistem dan arsitektur sistem dari Q-PAY yang telah dispesifikasikan pada dokumen SRS. Bagian ketiga berisi deskripsi rinci masing-masing kelas.
 
-<br>
-
+##
 
 ### BAB 2 Deksripsi Perancangan Global
 __2.1 Rancangan Lingkungan Implementasi__ <br>
+Aplikasi ini akan dikembangkan pada lingkungan dengan spesifikasi sebagai berikut :
+-	Sistem Operasi	: Android, Windows
+-	Bahasa Pemrograman	: Java, PHP, HTML
+-	DBMS	: MySQL
+-	Tools	: Android Studio, XAMPP, Sublime Text
 
 __2.2 Deskripsi Data__ <br>
+<ul><li>Nama table	: admin </li>
+ <li>Volume	: </li>
+ <li>Primary key	:id_admin</li>
+ <li>Constraint integrity	: </li>
+<li>Tabel admin adalah tabel basis data yang berisi data dari admin yang mengelola sistem.</li></ul>
 
 ____2.2.1 Definisi Domain/Type____ <br>
 
