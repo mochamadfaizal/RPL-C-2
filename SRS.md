@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 2.0.4 </b><br>
+<p align="center"><b>Version 2.0.5 </b><br>
 <p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -307,7 +307,7 @@ ____2.1.5 Antarmuka komunikasi____
 <br>Yang dibutuhkan hanya sebuah android dan pc yang dapat terhubung ke internet.
 
 ____2.1.6 Batasan-batasan memori____
-
+Besarnya memory yang dibutuhkan untuk menjalankan perangkat lunak ini diharapkan tidak melebihi 100mb.
 
 ____2.1.7 Operasi-operasi____
 
@@ -530,5 +530,6 @@ __3.1 Persyaratan Antarmuka Eksternal__
 __3.2 Functional Requirement__
 
 __3.3 Struktur Detail Kebutuhan Non-Fungsional__
+
 ____3.3.1 Logika Struktur Data____
 ![](http://i64.tinypic.com/jz8qh2.jpg)
