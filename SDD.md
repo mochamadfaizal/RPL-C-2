@@ -3,7 +3,7 @@
 <h1>
 <p align="center"><b>Software Design Description</b></p>
 </h1>
-<p align="center"><b>Version 1.0.3 </b><br>
+<p align="center"><b>Version 1.0.4 </b><br>
 <p align="center">5 Maret 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -52,9 +52,9 @@ __1.4 Aturan Penamaan dan Penomoran__ <br>
 
 __1.5 Referensi__ <br>
 Dokumen ini memiliki beberapa referensi dalam pembuatannya, yaitu sebagai berikut: <br>
-<ul> <li>IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE
-<li>Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.</li>
-<li>Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) Super Monster Mall</li></ul>
+- IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE.
+- Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.
+- Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) Super Monster Mall.
 
 __1.6 Ikhtisar Dokumen__<br>
 Dokumen SDD ini dibagi menjadi tiga bagian utama. Bagian pertama berisi penjelasan tentang dokumen SDD yang mencakup tujuan pembuatan dokumen ini, lingkup masalah yang diselesaikan oleh perangkat lunak yang dikembangkan, definisi, referensi dan deskripsi umum. Bagian kedua berisi diagram dan spesifikasi kelas, komponen sistem dan arsitektur sistem dari Q-PAY yang telah dispesifikasikan pada dokumen SRS. Bagian ketiga berisi deskripsi rinci masing-masing kelas.
@@ -70,21 +70,25 @@ Aplikasi ini akan dikembangkan pada lingkungan dengan spesifikasi sebagai beriku
 -	Tools	: Android Studio, XAMPP, Sublime Text
 
 __2.2 Deskripsi Data__ <br>
-<ul><li>Nama table	: admin </li>
- <li>Volume	: </li>
- <li>Primary key	:id_admin</li>
- <li>Constraint integrity	: </li>
-<li>Tabel admin adalah tabel basis data yang berisi data dari admin yang mengelola sistem.</li></ul>
 
 ____2.2.1 Definisi Domain/Type____ <br>
+| Domain Name | Power Designer Type |
+| --------- | --------- |
+| - | - |
 
 ____2.2.2 Conceptual Data Model____ <br>
 
 ____2.2.3 Physical Data Model____ <br>
 
 ____2.2.4 Daftar Tabel Aplikasi____ <br>
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - |
 
 __2.3 Deskripsi Modul__ <br>
+| No | Nama Modul | Keterangan |
+| --------- | --------- | --------- |
+| - | - | - |
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
 __3.1 Diagram Konteks__ <br>
@@ -118,12 +122,37 @@ ____3.1.6 DFD Level 1 Mengelola Data Member____ <br>
 __3.2 Deskripsi Rinci Tabel__ <br>
 
 ____3.2.1 Tabel____ <br>
+Identifikasi/Nama : 
+Deskripsi Isi : 
+Jenis : 
+Volume : 
+Laju : 
+Primary Key : 
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - | - |
+
+____3.2.2 Tabel____ <br>
+Identifikasi/Nama : 
+Deskripsi Isi : 
+Jenis : 
+Volume : 
+Laju : 
+Primary Key : 
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - | - |
 
 __3.3 Deskripsi Rinci Modul__ <br>
 
 ____3.3.1 Modul____ <br>
 
 ______3.3.1.1 Fungsi Modul______ <br>
+| No | Fungsi | Jenis | Tabel Terkait |
+| --------- | --------- | --------- | --------- |
+| - | - | - | - |
 
 ______3.3.1.2 Spesifikasi Layar Utama______ <br>
 
