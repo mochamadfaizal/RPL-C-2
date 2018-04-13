@@ -2,8 +2,8 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 1.0.5 </b><br>
-<p align="center">12 Februari 2018</b><br><br>
+<p align="center"><b>Version 2.0.0 </b><br>
+<p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
 </p>
@@ -107,6 +107,9 @@ ____2.1.1 Antarmuka sistem____
 Aplikasi POS Dengan QR Code scanner ini mempunyai 4 user yaitu Admin, Pemilik Toko, Karyawan dan Member. Dalam aplikasinya terdapat 2 fungsi utama yaitu melakukan pengolahan data dan transaksi. Admin memiliki fungsi mengelola data yang ada pada aplikasi seperti data toko, karyawan, dan juga member. Pemilik toko memiliki fungsi untuk mengelola segala data yang berhubungan dengan toko yang dimilikinya, seperti data karyawan, data barang dan data laporan transaksi. Karyawan mempunyai fungsi untuk mengelola data barang dan melakukan transaksi. Member mempunyai fungsi Transaksi dengan cara melakukan scan dan juga melakukan pembayaran baik secara cash ataupun dengan e-payment.
 
 ____2.1.2 Antarmuka pengguna____
+
+-Mock up android
+
 <div>
 	<table>
 		<tr align="center">
@@ -160,6 +163,61 @@ ____2.1.2 Antarmuka pengguna____
 	</table>
     </div>
 
+-Mock up web
+	<table>
+		<tr align="center">
+			<td><b>Dashboard Pemilik Toko</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i63.tinypic.com/15i0l6g.png" /><br><p align="justify">Ini adalah tampilan dashboard untuk user pemilik toko yang berisi tampilan data umum dan menu-menu untuk pemilik toko.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Side Menu Master</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/1dzih3.png" /><br><p align="justify">Ini adalah tampilan side menu dari menu master, dimana didalamnya terdapat submenu data karyawan, data pemasok, dan data toko.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Side Menu Transaksi</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i63.tinypic.com/314a59l.png" /><br><p align="justify">Ini adalah tampilan side menu dari menu transaksi, dimana didalamnya terdapat submenu data penjualan, dan data pembelian.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Side Menu Laporan</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/314r1qb.png" /><br><p align="justify">Ini adalah tampilan side menu dari menu laporan, dimana didalamnya terdapat submenu laporan stock, laporan penjualan, dan laporan pembelian.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Tambah Karyawan</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i67.tinypic.com/34hf3ts.png" /><br><p align="justify">Ini adalah tampilan tambah data karyawan yang berisi form data yang dibutuhkan untuk menambahkan karyawan.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Data Karyawan</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/1zlsqjr.png" /><br><p align="justify">Ini adalah tampilan data karyawan yang berisi list karyawan beserta datanya yang sudah ditambahkan oleh pemilik toko.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Data Pemasok</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/aob8t3.png" /><br><p align="justify">Ini adalah tampilan data pemasok yang memberikan supply produk untuk pemilik toko, tampilannya berisi list pemasok beserta dengan datanya.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Tambah Data Pemasok</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i63.tinypic.com/beiqfb.png" /><br><p align="justify">Ini adalah tampilan tambah data pemasok yang berisi form data yang dibutuhkan untuk menambahkan pemasok.</p></td>	
+		</tr>
+		</table>
+
+
+
+   
 ____2.1.3 Antarmuka perangkat keras____
 <br>Kebutuhan minimum perangkat keras yang dapat digunakan oleh aplikasi ini adalah :
 
@@ -332,33 +390,71 @@ Karyawan akan dapat melakukan input barang, dengan cara:
 
 __2.2.9 Sign Up Toko__
 
-![](http://i66.tinypic.com/ayaj5h.jpg)
+![](http://i64.tinypic.com/16ln1wi.jpg)
 
-Karyawan akan dapat melakukan input barang, dengan cara:
+Pemilik toko harus mendaftarkan tokonya terlebih dahulu untuk dapat menggunakan aplikasi kami, dengan cara:
 
-1.Karyawan mengaktifkan fungsi data barang
-<br>2.Sistem menampilkan data barang yang sudah ada
-<br>3.Karyawan menekan tombol icon tambah
-<br>4.Sistem menampilkan form input barang
-<br>5.Karyawan mengisi form sesuai dengan requirement
+1.Pemilik toko mengakses web aplikasi Q-pay
+<br>2.Pemilik toko memilih menu daftar toko
+<br>3.Sistem menampilkan form pendaftaran toko
+<br>4.Pemilik toko mengisi form pendaftaran
+<br>5.Pemilik toko menekan tombol daftar
 <br>6.Sistem akan melakukan validasi
-<br>7.Sistem menyimpan data barang ke dalam database
+<br>7.Sistem menyimpan data toko ke dalam database
 
-__2.3.0 Lihat Rekap Bulanan__
+Kemudian setelah sign up maka pemilik toko diharuskan login, dengan cara :
 
-![](http://i66.tinypic.com/ayaj5h.jpg)
+1.Pemilik toko mengakses web aplikasi Q-pay
+<br>2.Pemilik toko memilih menu login
+<br>3.Sistem menampilkan form login
+<br>4.Pemilik toko mengisi form login
+<br>5.Pemilik toko menekan tombol login
+<br>6.Sistem akan melakukan validasi dari username dan password
+<br>7.Jika username dan password sesuai maka sistem akan menampilkan dashboard pemilik toko
+<br>8.Jika username dan password tidak sesuai maka sistem akan meminta pemilik toko untuk mengisi ulang form login
 
-Karyawan akan dapat melakukan input barang, dengan cara:
+__2.3.0 Lihat laporan penjualan__
 
-1.Karyawan mengaktifkan fungsi data barang
-<br>2.Sistem menampilkan data barang yang sudah ada
-<br>3.Karyawan menekan tombol icon tambah
-<br>4.Sistem menampilkan form input barang
-<br>5.Karyawan mengisi form sesuai dengan requirement
-<br>6.Sistem akan melakukan validasi
-<br>7.Sistem menyimpan data barang ke dalam database
+![](http://i65.tinypic.com/32zt7at.jpg)
 
+Pemilik toko dapat melihat laporan dari penjualan toko mereka melalui aplikasi kami, dengan cara:
 
+1.Pemilik toko masuk ke halaman dashboard pemilik toko
+<br>2.Sistem menampilkan menu untuk pemilik toko
+<br>3.Pemilik toko memilih menu laporan penjualan
+<br>4.Sistem menampilkan laporan penjualan
+
+__2.3.1 Daftar karyawan__
+
+![](http://i63.tinypic.com/24v4ht4.jpg)
+
+Pemilik toko dapat mendaftarkan atau menambah karyawan toko mereka, dengan cara:
+
+1.Pemilik toko masuk ke halaman dashboard pemilik toko
+<br>2.Sistem menampilkan menu untuk pemilik toko
+<br>3.Pemilik toko memilih menu tambah karyawan
+<br>4.Sistem menampilkan form penambahan karyawan
+<br>5.Pemilik toko mengisi form penambahan karayawan
+<br>6.Sistem menyimpan data karyawan ke dalam database
+
+__2.3.2 Tarik uang__
+
+![](http://i64.tinypic.com/16ih2j9.jpg)
+
+Pemilik toko dapat mencairkan saldo bagi pembelian produk dengan pembayaran menggunakan e-cash atau top up, dengan cara:
+
+__2.3.3 Input data barang__
+
+![](http://i66.tinypic.com/2jcbhuc.jpg)
+
+Pemilik toko dapat mennambahkan data barang, dengan cara:
+
+1.Pemilik toko masuk ke halaman dashboard pemilik toko
+<br>2.Sistem menampilkan menu untuk pemilik toko
+<br>3.Pemilik toko memilih menu tambah karyawan
+<br>4.Sistem menampilkan form penambahan karyawan
+<br>5.Pemilik toko mengisi form penambahan karayawan
+<br>6.Sistem menyimpan data karyawan ke dalam database
 
 
 __2.3 Spesifikasi Kebutuhan Non-Fungsional__
