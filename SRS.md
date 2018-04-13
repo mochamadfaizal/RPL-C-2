@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 2.0.1 </b><br>
+<p align="center"><b>Version 2.0.2 </b><br>
 <p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -164,6 +164,8 @@ ____2.1.2 Antarmuka pengguna____
 	</table>
     </div>
 
+<br>
+
 - Mock up web
 	<table>
 		<tr align="center">
@@ -171,6 +173,18 @@ ____2.1.2 Antarmuka pengguna____
 		</tr>
 		<tr  valign="top" align="center">
 				<td><img src="http://i63.tinypic.com/15i0l6g.png" /><br><p align="justify">Ini adalah tampilan dashboard untuk user pemilik toko yang berisi tampilan data umum dan menu-menu untuk pemilik toko.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Alert Jika username diklik</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/rt1gdj.png" /><br><p align="justify">Ini adalah tampilan jika icon username diklik yang berisi tampilan data umum pemilik toko dan tombol untuk mengubah password dan juga tombol keluar.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Ganti Password</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/2vxgg7t.png" /><br><p align="justify">Ini adalah tampilan jika tombol ganti password diklik. Disini pemilik toko dapat mengubah passwordnya.</p></td>	
 		</tr>
 		<tr align="center">
 			<td><b>Side Menu Master</b></td>
@@ -214,21 +228,69 @@ ____2.1.2 Antarmuka pengguna____
 		<tr  valign="top" align="center">
 				<td><img src="http://i63.tinypic.com/beiqfb.png" /><br><p align="justify">Ini adalah tampilan tambah data pemasok yang berisi form data yang dibutuhkan untuk menambahkan pemasok.</p></td>	
 		</tr>
+		<tr align="center">
+			<td><b>Data Toko</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/jsydzp.png" /><br><p align="justify">Ini adalah tampilan data toko yang berisi data-data dari toko yang bersangkutan.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Data Penjualan</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i63.tinypic.com/5o5kaq.png" /><br><p align="justify">Ini adalah tampilan data penjualan yang berisi rincian data penjualan dari toko yang bersangkutan.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Data Pembelian</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i65.tinypic.com/27y1xyc.png" /><br><p align="justify">Ini adalah tampilan data pembelian yang berisi rincian data pembelian dari toko yang bersangkutan.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Login Admin</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/2kkf1h.png" /><br><p align="justify">Ini adalah tampilan login untuk admin.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Dashboard Admin</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/2hr1myv.png" /><br><p align="justify">Ini adalah tampilan dashboard untuk user admin yang berisi tampilan data umum dan menu-menu untuk admin.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Data Pengguna</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i68.tinypic.com/j5wnlx.png" /><br><p align="justify">Ini adalah tampilan data pengguna yang berisi informasi umum pengguna.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Pesan</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/23uq53q.png" /><br><p align="justify">Ini adalah tampilan pesan yang berisi pesan-pesan yang masuk ke admin.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Tambah Toko</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/wb7vc2.png" /><br><p align="justify">Ini adalah tampilan tambah toko yang berisi form untuk menambahkan toko.</p></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Daftar Toko</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i65.tinypic.com/107ql4z.png" /><br><p align="justify">Ini adalah tampilan daftar toko yang sudah terdaftarkan.</p></td>	
+		</tr>
 		</table>
 
 
-
-   
 ____2.1.3 Antarmuka perangkat keras____
 <br>Kebutuhan minimum perangkat keras yang dapat digunakan oleh aplikasi ini adalah :
-
-<br>- Smarthpone Android
+- Smarthpone Android
 <br>Dibutuhkan sebuah smartphone dengan os Android yang dilengkapi dengan kamera untuk dapat menggunakan aplikasi Q-Pay ini untuk user member dan user karyawan.
-
-<br>- PC/Laptop
+- PC/Laptop
 <br>Untuk admin dan pemilik toko membutuhkan PC/Laptop untuk dapat menggunakan aplikasi Q-Pay ini.
-
-
 
 ![use case 1](http://i63.tinypic.com/2na8rxe.jpg)
 
@@ -292,7 +354,7 @@ Untuk dapat menggunakan aplikasi member harus mengisi form login terlebih dahulu
 <br>6. Jika login berhasil maka member akan diarahkan ke halaman pilih toko
 
 Untuk member yang belum mempunyai akun diharuskan melakukan sign up terlebih dahulu dengan cara:
-<br>1.Member mangaktifkan fungsi sign up
+<br>1. Member mangaktifkan fungsi sign up
 <br>2. Sistem menampilkan halaman register
 <br>3. Member mengisi form register sesuai dengan yang ditampilkan sistem
 <br>4. Sistem menyimpan data yang dimasukkan member
@@ -315,39 +377,36 @@ __2.2.3 Total Harga Member__
 ![Scan Member](http://i68.tinypic.com/2j4d4pt.jpg)
 
 Member dapat melihat total harga dan data belanjaan yang sudah diambil dan akan dibayar, dengan cara :
-
-1.Member masuk ke main menu
-<br>2.Sistem menampilkan pilihan menu
-<br>3.Member memilih menu daftar belanja
+<br>1. Member masuk ke main menu
+<br>2. Sistem menampilkan pilihan menu
+<br>3. Member memilih menu daftar belanja
 
 __2.2.4 Total Harga Member__
 
 ![](http://i68.tinypic.com/23vko6s.jpg)
 
 Member dapat melakukan transaksi atau pembayaran secara manual ataupun menggunakan top up, dengan cara :
-
-1.Member masuk ke main menu
-<br>2.Sistem menampilkan pilihan menu
-<br>3.Member memilih menu daftar belanja
-<br>4.Member memberikan input oke untuk melanjutkan ke fungsi transaksi
-<br>5.Sistem menampilkan pilihan pemmbayaran
-<br>6.Jika member memilih pembayaran manual, member dapat langsung membayar ke kasir
-<br>7.Jika user memilih menggunakan top up/e-cash maka sistem akan mengecek data saldo member
-<br>8.Jika saldo mencukupi untuk membayar belanjaan maka saldo akan langsung diambil sesuai harga belanjaan
-<br>9.Jika saldo tidak mencukupi maka member harus membayar secara manual 
+<br>1. Member masuk ke main menu
+<br>2. Sistem menampilkan pilihan menu
+<br>3. Member memilih menu daftar belanja
+<br>4. Member memberikan input oke untuk melanjutkan ke fungsi transaksi
+<br>5. Sistem menampilkan pilihan pemmbayaran
+<br>6. Jika member memilih pembayaran manual, member dapat langsung membayar ke kasir
+<br>7. Jika user memilih menggunakan top up/e-cash maka sistem akan mengecek data saldo member
+<br>8. Jika saldo mencukupi untuk membayar belanjaan maka saldo akan langsung diambil sesuai harga belanjaan
+<br>9. Jika saldo tidak mencukupi maka member harus membayar secara manual 
 
 __2.2.5 Login Karyawan__
 
 ![](http://i66.tinypic.com/1z3nu6r.jpg)
 
 Untuk dapat menggunakan aplikasi karyawan harus mengisi form login terlebih dahulu  dengan cara:
-
-1.Karyawan mengaktifkan fungsi login
-<br>2.Sistem menampilkan halaman login yang terdiri dari email dan password
-<br>3.Karyawan mengisi email dan password yang sudah diberikan oleh pemilik toko
-<br>4.Sistem melakukan validasi dari email dan password
-<br>5.Jika login gagal maka karyawan akan diminta mengulangi proses login
-<br>6.Jika login berhasil maka karyawan akan diarahkan ke halaman dashboard karyawan
+<br>1. Karyawan mengaktifkan fungsi login
+<br>2. Sistem menampilkan halaman login yang terdiri dari email dan password
+<br>3. Karyawan mengisi email dan password yang sudah diberikan oleh pemilik toko
+<br>4. Sistem melakukan validasi dari email dan password
+<br>5. Jika login gagal maka karyawan akan diminta mengulangi proses login
+<br>6. Jika login berhasil maka karyawan akan diarahkan ke halaman dashboard karyawan
 
 __2.2.6 Terima List Belanja Karyawan__
 
@@ -365,76 +424,70 @@ __2.2.7 Transaksi Karyawan__
 ![](http://i64.tinypic.com/21n4acn.jpg)
 
 Karyawan akan dapat melakukan transaksi dengan member, dengan cara:
-
-1.Karyawan mengaktifkan fungsi transaksi
-<br>2.Sistem menampilkan data member yang sudah mengirimkan data belanja
-<br>3.Karyawan memilih data member yang ingin dilihat
-<br>4.Sistem menampilkan list belanjaan dari member yang telah dipilih oleh karyawan
-<br>5.Jika member memilih membayar secara manual maka kasir menginputkan uang yang dibayarkan oleh member
-<br>6.Jika member memilih pembayaran dengan top up maka karyawan langsung melakukan cetak struk dengan menekan tombol cetak struk
+<br>1. Karyawan mengaktifkan fungsi transaksi
+<br>2. Sistem menampilkan data member yang sudah mengirimkan data belanja
+<br>3. Karyawan memilih data member yang ingin dilihat
+<br>4. Sistem menampilkan list belanjaan dari member yang telah dipilih oleh karyawan
+<br>5. Jika member memilih membayar secara manual maka kasir menginputkan uang yang dibayarkan oleh member
+<br>6. Jika member memilih pembayaran dengan top up maka karyawan langsung melakukan cetak struk dengan menekan tombol cetak struk
 
 __2.2.8 Input data barang Karyawan__
 
 ![](http://i66.tinypic.com/ayaj5h.jpg)
 
 Karyawan akan dapat melakukan input barang, dengan cara:
-
-1.Karyawan mengaktifkan fungsi data barang
-<br>2.Sistem menampilkan data barang yang sudah ada
-<br>3.Karyawan menekan tombol icon tambah
-<br>4.Sistem menampilkan form input barang
-<br>5.Karyawan mengisi form sesuai dengan requirement
-<br>6.Sistem akan melakukan validasi
-<br>7.Sistem menyimpan data barang ke dalam database
+<br>1. Karyawan mengaktifkan fungsi data barang
+<br>2. Sistem menampilkan data barang yang sudah ada
+<br>3. Karyawan menekan tombol icon tambah
+<br>4. Sistem menampilkan form input barang
+<br>5. Karyawan mengisi form sesuai dengan requirement
+<br>6. Sistem akan melakukan validasi
+<br>7. Sistem menyimpan data barang ke dalam database
 
 __2.2.9 Sign Up Toko__
 
 ![](http://i64.tinypic.com/16ln1wi.jpg)
 
 Pemilik toko harus mendaftarkan tokonya terlebih dahulu untuk dapat menggunakan aplikasi kami, dengan cara:
-
-1.Pemilik toko mengakses web aplikasi Q-pay
-<br>2.Pemilik toko memilih menu daftar toko
-<br>3.Sistem menampilkan form pendaftaran toko
-<br>4.Pemilik toko mengisi form pendaftaran
-<br>5.Pemilik toko menekan tombol daftar
-<br>6.Sistem akan melakukan validasi
-<br>7.Sistem menyimpan data toko ke dalam database
+<br>1. Pemilik toko mengakses web aplikasi Q-pay
+<br>2. Pemilik toko memilih menu daftar toko
+<br>3. Sistem menampilkan form pendaftaran toko
+<br>4. Pemilik toko mengisi form pendaftaran
+<br>5. Pemilik toko menekan tombol daftar
+<br>6. Sistem akan melakukan validasi
+<br>7. Sistem menyimpan data toko ke dalam database
 
 Kemudian setelah sign up maka pemilik toko diharuskan login, dengan cara :
-
-1.Pemilik toko mengakses web aplikasi Q-pay
-<br>2.Pemilik toko memilih menu login
-<br>3.Sistem menampilkan form login
-<br>4.Pemilik toko mengisi form login
-<br>5.Pemilik toko menekan tombol login
-<br>6.Sistem akan melakukan validasi dari username dan password
-<br>7.Jika username dan password sesuai maka sistem akan menampilkan dashboard pemilik toko
-<br>8.Jika username dan password tidak sesuai maka sistem akan meminta pemilik toko untuk mengisi ulang form login
+<br>1. Pemilik toko mengakses web aplikasi Q-pay
+<br>2. Pemilik toko memilih menu login
+<br>3. Sistem menampilkan form login
+<br>4. Pemilik toko mengisi form login
+<br>5. Pemilik toko menekan tombol login
+<br>6. Sistem akan melakukan validasi dari username dan password
+<br>7. Jika username dan password sesuai maka sistem akan menampilkan dashboard pemilik toko
+<br>8. Jika username dan password tidak sesuai maka sistem akan meminta pemilik toko untuk mengisi ulang form login
 
 __2.3.0 Lihat laporan penjualan__
 
 ![](http://i65.tinypic.com/32zt7at.jpg)
 
 Pemilik toko dapat melihat laporan dari penjualan toko mereka melalui aplikasi kami, dengan cara:
-
-1.Pemilik toko masuk ke halaman dashboard pemilik toko
-<br>2.Sistem menampilkan menu untuk pemilik toko
-<br>3.Pemilik toko memilih menu laporan penjualan
-<br>4.Sistem menampilkan laporan penjualan
+<br>1. Pemilik toko masuk ke halaman dashboard pemilik toko
+<br>2. Sistem menampilkan menu untuk pemilik toko
+<br>3. Pemilik toko memilih menu laporan penjualan
+<br>4. Sistem menampilkan laporan penjualan
 
 __2.3.1 Daftar karyawan__
 
 ![](http://i63.tinypic.com/24v4ht4.jpg)
 
 Pemilik toko dapat mendaftarkan atau menambah karyawan toko mereka, dengan cara:
-
-1.Pemilik toko masuk ke halaman dashboard pemilik toko
-<br>2.Sistem menampilkan menu untuk pemilik toko
-<br>3.Pemilik toko memilih menu tambah karyawan
-<br>4.Sistem menampilkan form penambahan karyawan
-<br>5.Pemilik toko mengisi form penambahan karayawan
-<br>6.Sistem menyimpan data karyawan ke dalam database
+<br>1. Pemilik toko masuk ke halaman dashboard pemilik toko
+<br>2. Sistem menampilkan menu untuk pemilik toko
+<br>3. Pemilik toko memilih menu tambah karyawan
+<br>4. Sistem menampilkan form penambahan karyawan
+<br>5. Pemilik toko mengisi form penambahan karayawan
+<br>6. Sistem menyimpan data karyawan ke dalam database
 
 __2.3.2 Tarik uang__
 
@@ -447,13 +500,12 @@ __2.3.3 Input data barang__
 ![](http://i66.tinypic.com/2jcbhuc.jpg)
 
 Pemilik toko dapat mennambahkan data barang, dengan cara:
-
-1.Pemilik toko masuk ke halaman dashboard pemilik toko
-<br>2.Sistem menampilkan menu untuk pemilik toko
-<br>3.Pemilik toko memilih menu tambah karyawan
-<br>4.Sistem menampilkan form penambahan karyawan
-<br>5.Pemilik toko mengisi form penambahan karayawan
-<br>6.Sistem menyimpan data karyawan ke dalam database
+<br>1. Pemilik toko masuk ke halaman dashboard pemilik toko
+<br>2. Sistem menampilkan menu untuk pemilik toko
+<br>3. Pemilik toko memilih menu tambah karyawan
+<br>4. Sistem menampilkan form penambahan karyawan
+<br>5. Pemilik toko mengisi form penambahan karayawan
+<br>6. Sistem menyimpan data karyawan ke dalam database
 
 
 __2.3 Spesifikasi Kebutuhan Non-Fungsional__
@@ -465,11 +517,12 @@ __2.5 Batasan-batasan__
 __2.6 Asumsi-asumsi keterkaitan__
 
 __2.7 Kebutuhan penyeimbang__
+ 
+##
 
-
-## BAB III KEBUTUHAN LAIN YANG SPESIFIK
+### BAB III KEBUTUHAN LAIN YANG SPESIFIK
 Kebutuhan fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini yaitu sistem harus dapat mempermudah pengguna dalam menggunkan aplikasi ini.
 
 
-## BAB IV INFORMASI PENDUKUNG
+### BAB IV INFORMASI PENDUKUNG
 ![](http://i64.tinypic.com/jz8qh2.jpg)
