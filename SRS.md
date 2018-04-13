@@ -218,7 +218,7 @@ __2.2 Spesifikasi Kebutuhan Fungsional__
 
 ![use case 2](http://i65.tinypic.com/2m29wsw.jpg)
 
-![use case 3](http://i65.tinypic.com/23w49wg.jpg)
+![use case 3](http://i63.tinypic.com/2agp6br.jpg)
 
 __2.2.1 Sign Up dan Login Member__
 
@@ -330,7 +330,7 @@ Karyawan akan dapat melakukan input barang, dengan cara:
 <br>6.Sistem akan melakukan validasi
 <br>7.Sistem menyimpan data barang ke dalam database
 
-__2.2.9 Input data barang Karyawan__
+__2.2.9 Sign Up Toko__
 
 ![](http://i66.tinypic.com/ayaj5h.jpg)
 
@@ -343,6 +343,21 @@ Karyawan akan dapat melakukan input barang, dengan cara:
 <br>5.Karyawan mengisi form sesuai dengan requirement
 <br>6.Sistem akan melakukan validasi
 <br>7.Sistem menyimpan data barang ke dalam database
+
+__2.3.0 Lihat Rekap Bulanan__
+
+![](http://i66.tinypic.com/ayaj5h.jpg)
+
+Karyawan akan dapat melakukan input barang, dengan cara:
+
+1.Karyawan mengaktifkan fungsi data barang
+<br>2.Sistem menampilkan data barang yang sudah ada
+<br>3.Karyawan menekan tombol icon tambah
+<br>4.Sistem menampilkan form input barang
+<br>5.Karyawan mengisi form sesuai dengan requirement
+<br>6.Sistem akan melakukan validasi
+<br>7.Sistem menyimpan data barang ke dalam database
+
 
 
 
