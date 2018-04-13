@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 2.0.2 </b><br>
+<p align="center"><b>Version 2.0.4 </b><br>
 <p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -307,7 +307,7 @@ ____2.1.5 Antarmuka komunikasi____
 <br>Yang dibutuhkan hanya sebuah android dan pc yang dapat terhubung ke internet.
 
 ____2.1.6 Batasan-batasan memori____
-<br>Perangkat lunak hanya dapat dijalankan di android.
+
 
 ____2.1.7 Operasi-operasi____
 
@@ -467,7 +467,7 @@ Kemudian setelah sign up maka pemilik toko diharuskan login, dengan cara :
 <br>7. Jika username dan password sesuai maka sistem akan menampilkan dashboard pemilik toko
 <br>8. Jika username dan password tidak sesuai maka sistem akan meminta pemilik toko untuk mengisi ulang form login
 
-__2.3.0 Lihat laporan penjualan__
+__2.2.10 Lihat laporan penjualan__
 
 ![](http://i65.tinypic.com/32zt7at.jpg)
 
@@ -477,7 +477,7 @@ Pemilik toko dapat melihat laporan dari penjualan toko mereka melalui aplikasi k
 <br>3. Pemilik toko memilih menu laporan penjualan
 <br>4. Sistem menampilkan laporan penjualan
 
-__2.3.1 Daftar karyawan__
+__2.2.11 Daftar karyawan__
 
 ![](http://i63.tinypic.com/24v4ht4.jpg)
 
@@ -489,13 +489,13 @@ Pemilik toko dapat mendaftarkan atau menambah karyawan toko mereka, dengan cara:
 <br>5. Pemilik toko mengisi form penambahan karayawan
 <br>6. Sistem menyimpan data karyawan ke dalam database
 
-__2.3.2 Tarik uang__
+__2.2.12 Tarik uang__
 
 ![](http://i64.tinypic.com/16ih2j9.jpg)
 
 Pemilik toko dapat mencairkan saldo bagi pembelian produk dengan pembayaran menggunakan e-cash atau top up, dengan cara:
 
-__2.3.3 Input data barang__
+__2.2.13 Input data barang__
 
 ![](http://i66.tinypic.com/2jcbhuc.jpg)
 
@@ -513,6 +513,9 @@ __2.3 Spesifikasi Kebutuhan Non-Fungsional__
 __2.4 Karakteristik pengguna__
 
 __2.5 Batasan-batasan__
+- Bahasa pemrograman berbasis android yang digunakan adalah Java.
+- Bahasa pemrograman berbasis web yang digunakan adalah PHP dan HTML.
+- DBMS yang digunakan adalah MySQL.
 
 __2.6 Asumsi-asumsi keterkaitan__
 
@@ -521,8 +524,11 @@ __2.7 Kebutuhan penyeimbang__
 ##
 
 ### BAB III KEBUTUHAN LAIN YANG SPESIFIK
-Kebutuhan fungsional adalah kebutuhan yang harus dipenuhi agar suatu sistem dapat berjalan atau dapat dikatakan kebutuhan tambahan yang memiliki input, proses dan output. Kebutuhan fungsional yang harus ada dalam sistem yang akan dikembangkan ini yaitu sistem harus dapat mempermudah pengguna dalam menggunkan aplikasi ini.
 
+__3.1 Persyaratan Antarmuka Eksternal__
 
-### BAB IV INFORMASI PENDUKUNG
+__3.2 Functional Requirement__
+
+__3.3 Struktur Detail Kebutuhan Non-Fungsional__
+____3.3.1 Logika Struktur Data____
 ![](http://i64.tinypic.com/jz8qh2.jpg)
