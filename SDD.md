@@ -188,9 +188,15 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi POS Menggun
 
 
 ____2.2.1 Definisi Domain/Type____ <br>
+
+Data User
+
 | Domain Name | Power Designer Type |
-| --------- | --------- |
-| - | - |
+|---------|---------|
+|id_user|primary key|
+|email|string|
+|password|string|
+|level|string|
 
 ____2.2.2 Conceptual Data Model____ <br>
 
