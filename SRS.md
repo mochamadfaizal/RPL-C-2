@@ -537,3 +537,83 @@ __3.3 Struktur Detail Kebutuhan Non-Fungsional__
 
 ____3.3.1 Logika Struktur Data____
 ![](http://i64.tinypic.com/jz8qh2.jpg)
+
+<b>User</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_user |Integer|id user auto increment|
+|email|Varchar|email yang digunakan user untuk login|
+|password|Varchar|password yang digunakan user untuk login|
+|level|Varchar|level user untuk login seperti member, karyawan, admin, dan pemilik toko|
+
+<b>Member</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_member|Integer|Id member auto increment|
+|id_user|Integer|Relasi untuk menghubungkan akun user dengan data member|
+|nama|Varchar|Nama member|
+|email|Varchar|Email member|
+|alamat|Varchar|Alamat member|
+|no_hp|Varchar|Nomor hp member|
+|jumlah_saldo|Integer|Jumlah saldo member|
+
+<b>Toko</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_toko|Integer|Id toko auto increment|
+|id_user|Integer|Relasi untuk menghubungkan akun user dengan data toko|
+|nama_toko|Varchar|Nama toko|
+|nama_pemilik_tokO|Varchar|Nama pemilik toko|
+|alamat_toko|Varchar|Alamat toko|
+|email|Varchar|Email pemilik toko atau email toko|
+|jumlah_saldo|Integer|Jumlah saldo toko|
+
+<b>Karyawan</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_karyawan|Integer|Id karyawan auto increment|
+|id_user|Integer|Relasi untuk menghubungkan akun user dengan data karyawan|
+|id_toko|Varchar|Relasi untuk menghubungkan data karyawan dengan data toko|
+|nama|Varchar|Nama karyawan|
+|email|Varchar|Email karyawan|
+|no_hp|Varchar|Nomor hp karyawan|
+|alamat|Varchar|Alamat karyawan|
+
+<b>Pemasok</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_pemasok|Integer|Id pemasok auto increment|
+|id_toko|Varchar|Relasi untuk menghubungkan data pemasok dengan data toko|
+|nama|Varchar|Nama pemasok|
+|no_hp|Varchar|Nomor hp pemasok|
+|alamat|Varchar|Alamat pemasok|
+
+<b>Barang</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_barang|Integer|Id barang auto increment|
+|id_toko|Varchar|Relasi untuk menghubungkan data barang dengan data toko|
+|nama_barang|Varchar|Nama barang|
+|harga_beli|Integer|Harga beli barang|
+|harga_jual|Integer|Harga jual barang|
+|satuan|Varchar|Satuan dari barang|
+|stok|Integer|Stok barang yang tersedia di toko|
+
+<b>Transaksi Penjualan</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_jual|Integer|Id transaksi penjualan auto increment|
+|id_toko|Integer|Relasi untuk menghubungkan data transaksi penjualan dengan data toko|
+|id_member|Integer|Relasi untuk menghubungkan data transaksi penjualan dengan data member|
+|id_karyawan|Integer|Relasi untuk menghubungkan data transaksi penjualan dengan data karyawan|
+|tanggal|date|Tanggal transaksi penjualan dilakukan|
+|total_harga|Integer|Total harga dari transaksi penjualan|
+|cara_pembayaran|Varchar|Cara pembayaran member saat transaksi penjualan|
+
