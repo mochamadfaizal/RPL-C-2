@@ -189,7 +189,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi POS Menggun
 
 ____2.2.1 Definisi Domain/Type____ <br>
 
-Data User
+**Data User**
 
 | Domain Name | Power Designer Type |
 |---------|---------|
@@ -197,6 +197,115 @@ Data User
 |email|string|
 |password|string|
 |level|string|
+
+**Data Toko**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_toko|primary key|
+| id_user|foreign key|
+| nama_toko|string|
+| nama_pemilik_toko|string|
+| alamat_toko|string|
+| email| string|
+| jumlah_saldo|number|
+
+**Data Member**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_member|primary key|
+| id_user|foreign key|
+| nama|string|
+| email|string|
+| alamat|string|
+| no_hp|string|
+| jumlah_saldo|number|
+
+
+**Data Karyawan**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_karyawan|primary key|
+| id_user|foreign key|
+| id_toko|foreign key|
+| nama|string|
+| email|string|
+| no_hp|string|
+| alamat|string|
+
+
+**Data Pemasok**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_pemasok|primary key|
+| id_toko|foreign key|
+| nama|string|
+| no_hp|string|
+| alamat|string|
+
+
+**Data Barang**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_barang|primary key|
+| id_toko|foreign key|
+| nama_barang|string|
+| harga_beli|number|
+| harga_jual|number|
+| satuan|string|
+| stok|number|
+
+
+**Data Transaksi Penjualan**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_jual|primary key|
+| id_toko|foreign key|
+| id_member|foreign key|
+| id_karyawan|foreign key|
+| tanggal|date|
+| total_harga|number|
+| cara_pembayaran|string|
+
+
+**Data Detail Transaksi Penjualan**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_detail_jual|primary key|
+| id_jual|foreign key|
+| id_barang|foreign key|
+| quantity|number|
+| harga|number|
+
+**Data Transaksi Pembelian**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_beli|primary key|
+| id_toko|foreign key|
+| id_member|foreign key|
+| id_karyawan|foreign key|
+| tanggal|date|
+| total_harga|number|
+
+
+**Data Detail Transaksi Pembelian**
+
+| Domain Name | Power Designer Type |
+|---------|---------|
+| id_detail_beli|primary key|
+| id_beli|foreign key|
+| id_barang|foreign key|
+| quantity|number|
+| harga|number|
+
+
 
 ____2.2.2 Conceptual Data Model____ <br>
 
