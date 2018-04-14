@@ -77,113 +77,113 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi POS Menggun
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_user| Integer| 11 | Primary Key| Iya |Auto_increment| id user auto increment |
-| email| varchar| 20 | Tidak | Tidak | -| email yang digunakan user untuk login |
-| password| varchar| 20 | Tidak | Tidak | - |password yang digunakan user untuk login |
-| level| varchar| 20 | Tidak | Tidak | -|level user untuk login seperti member, karyawan, admin, dan pemilik toko |
+| id_user| Integer| 11 | Primary Key| Iya |Auto_increment| Id user auto increment |
+| email| Varchar| 20 | Tidak | Tidak | -| Email yang digunakan user untuk login |
+| password| Varchar| 20 | Tidak | Tidak | - |Password yang digunakan user untuk login |
+| level| Varchar| 20 | Tidak | Tidak | -|Level user untuk login seperti member, karyawan, admin, dan pemilik toko |
 
 **Tabel Member**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_member| Integer| 11 | Primary Key| Iya |Auto_increment| id member auto increment |
-| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| relasi untuk menghubungkan akun user dengan data member |
-| nama| varchar| 20 | Tidak | Tidak | - |nama member  |
-| email| varchar| 20 | Tidak | Tidak | -|email member |
-| alamat| varchar| 80 | Tidak | Tidak | -|alamat member |
-| no_hp| varchar| 15 | Tidak | Tidak | -|nomor hp member |
-| jumlah_saldo| integer| 11 | Tidak | Tidak | -|jumlah saldo member |
+| id_member| Integer| 11 | Primary Key| Iya |Auto_increment| Id member auto increment |
+| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| Relasi untuk menghubungkan akun user dengan data member |
+| nama| Varchar| 20 | Tidak | Tidak | - |Nama member  |
+| email| Varchar| 20 | Tidak | Tidak | -|Email member |
+| alamat| Varchar| 80 | Tidak | Tidak | -|Alamat member |
+| no_hp| Varchar| 15 | Tidak | Tidak | -|Nomor hp member |
+| jumlah_saldo| Integer| 11 | Tidak | Tidak | -|Jumlah saldo member |
 
 **Tabel Toko**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_toko| Integer| 11 | Primary Key| Iya |Auto_increment| id toko auto increment |
-| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| relasi untuk menghubungkan akun user dengan data toko |
-| nama_toko| varchar| 20 | Tidak | Tidak | - |nama toko  |
-| nama_pemilik_toko| varchar| 20 | Tidak | Tidak | -|nama pemilik toko |
-| alamat_toko| varchar| 80 | Tidak | Tidak | -|alamat toko |
-| email| varchar| 20 | Tidak | Tidak | -|email pemilik toko atau email toko |
-| jumlah_saldo| integer| 11 | Tidak | Tidak | -|jumlah saldo toko |
+| id_toko| Integer| 11 | Primary Key| Iya |Auto_increment| Id toko auto increment |
+| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| Relasi untuk menghubungkan akun user dengan data toko |
+| nama_toko| Varchar| 20 | Tidak | Tidak | - |Nama toko  |
+| nama_pemilik_toko| Varchar| 20 | Tidak | Tidak | -|Nama pemilik toko |
+| alamat_toko| Varchar| 80 | Tidak | Tidak | -|Alamat toko |
+| email| Varchar| 20 | Tidak | Tidak | -|Email pemilik toko atau email toko |
+| jumlah_saldo| Integer| 11 | Tidak | Tidak | -|Jumlah saldo toko |
 
 **Tabel Karyawan**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_karyawan| Integer| 11 | Primary Key| Iya |Auto_increment| id karyawan auto increment |
-| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| relasi untuk menghubungkan akun user dengan data karyawan |
-| id_toko| varchar| 20 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data karyawan dengan data toko  |
-| nama| varchar| 20 | Tidak | Tidak | -|nama karyawan |
-| email| varchar| 20 | Tidak | Tidak | -|email karyawan |
-| no_hp| varchar| 15 | Tidak | Tidak | -|nomor hp karyawan |
-| alamat| varchar| 80 | Tidak | Tidak | -|alamat karyawan |
+| id_karyawan| Integer| 11 | Primary Key| Iya |Auto_increment| Id karyawan auto increment |
+| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| Relasi untuk menghubungkan akun user dengan data karyawan |
+| id_toko| Integer| 20 | Tidak | Foreign Key | id_toko pada tabel toko |Relasi untuk menghubungkan data karyawan dengan data toko  |
+| nama| Varchar| 20 | Tidak | Tidak | -|Nama karyawan |
+| email| Varchar| 20 | Tidak | Tidak | -|Email karyawan |
+| no_hp| Varchar| 15 | Tidak | Tidak | -|Nomor hp karyawan |
+| alamat| Varchar| 80 | Tidak | Tidak | -|Alamat karyawan |
 
 **Tabel Pemasok**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_pemasok| Integer| 11 | Primary Key| Iya |Auto_increment| id pemasok auto increment |
-| id_toko| varchar| 20 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data pemasok dengan data toko |
-| nama| varchar| 20 | Tidak | Tidak | -|nama pemasok |
-| no_hp| varchar| 15 | Tidak | Tidak | -|nomor hp pemasok |
-| alamat| varchar| 80 | Tidak | Tidak | -|alamat pemasok |
+| id_pemasok| Integer| 11 | Primary Key| Iya |Auto_increment| Id pemasok auto increment |
+| id_toko| Integer| 20 | Tidak | Foreign Key | id_toko pada tabel toko |Relasi untuk menghubungkan data pemasok dengan data toko |
+| nama| Varchar| 20 | Tidak | Tidak | -|Nama pemasok |
+| no_hp| Varchar| 15 | Tidak | Tidak | -|Nomor hp pemasok |
+| alamat| Varchar| 80 | Tidak | Tidak | -|Alamat pemasok |
 
 **Tabel Barang**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_barang| Integer| 11 | Primary Key| Iya |Auto_increment| id barang auto increment |
-| id_toko| varchar| 20 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data barang dengan data toko |
-| nama_barang| varchar| 20 | Tidak | Tidak | -|nama barang |
-| harga_beli| integer| 11 | Tidak | Tidak | -|harga beli barang |
-| harga_jual| integer| 11 | Tidak | Tidak | -|harga jual barang|
-| satuan| varchar| 10 | Tidak | Tidak | -|satuan dari barang |
-| stok| integer| 11 | Tidak | Tidak | -|stok barang yang tersedia di toko |
+| id_barang| Integer| 11 | Primary Key| Iya |Auto_increment| Id barang auto increment |
+| id_toko| Integer| 20 | Tidak | Foreign Key | id_toko pada tabel toko |Relasi untuk menghubungkan data barang dengan data toko |
+| nama_barang| Varchar| 20 | Tidak | Tidak | -|Nama barang |
+| harga_beli| Integer| 11 | Tidak | Tidak | -|Harga beli barang |
+| harga_jual| Integer| 11 | Tidak | Tidak | -|Harga jual barang|
+| satuan| Varchar| 10 | Tidak | Tidak | -|Satuan dari barang |
+| stok| Integer| 11 | Tidak | Tidak | -|Stok barang yang tersedia di toko |
 
 **Tabel Transaksi_Penjualan**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_jual| Integer| 11 | Primary Key| Iya |Auto_increment| id transaksi penjualan auto increment |
-| id_toko| integer| 11 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data transaksi penjualan dengan data toko |
-| id_member| integer| 11 | Tidak | Foreign Key | id_member pada tabel member |relasi untuk menghubungkan data transaksi penjualan dengan data member |
-| id_karyawan| integer| 11 | Tidak | Foreign Key | id_karyawan pada tabel karyawan |relasi untuk menghubungkan data transaksi penjualan dengan data karyawan |
-| tanggal| date| - | Tidak | Tidak | - |tanggal transaksi penjualan dilakukan |
-| total_harga| int| 11 | Tidak | Tidak | -|total harga dari transaksi penjualan |
-| cara_pembayaran| varchar| 20 | Tidak | Tidak | -|cara pembayaran member saat transaksi penjualan |
+| id_jual| Integer| 11 | Primary Key| Iya |Auto_increment| Id transaksi penjualan auto increment |
+| id_toko| Integer| 11 | Tidak | Foreign Key | id_toko pada tabel toko |Relasi untuk menghubungkan data transaksi penjualan dengan data toko |
+| id_member| Integer| 11 | Tidak | Foreign Key | id_member pada tabel member |Relasi untuk menghubungkan data transaksi penjualan dengan data member |
+| id_karyawan| Integer| 11 | Tidak | Foreign Key | id_karyawan pada tabel karyawan |Relasi untuk menghubungkan data transaksi penjualan dengan data karyawan |
+| tanggal| Date| - | Tidak | Tidak | - |Tanggal transaksi penjualan dilakukan |
+| total_harga| Integer| 11 | Tidak | Tidak | -|Total harga dari transaksi penjualan |
+| cara_pembayaran| Varchar| 20 | Tidak | Tidak | -|Cara pembayaran member saat transaksi penjualan |
 
 
 **Tabel Detail_Transaksi_Penjualan**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_detail_jual| Integer| 11 | Primary Key| Iya |Auto_increment| id detail transaksi penjualan auto increment |
-| id_jual| integer| 11 | Tidak | Foreign Key | id_jual pada tabel transaksi_penjualan |relasi untuk menghubungkan data detail transaksi penjualan dengan data transaksi penjualan |
-| id_barang| integer| 11 | Tidak | Foreign Key | id_barang pada tabel barang |relasi untuk menghubungkan data detail transaksi penjualan dengan data barang |
-| quantity| integer| 11 | Tidak | Tidak | - |quantity dari barang yang di jual |
-| harga| integer| 11 | Tidak | Tidak | - |harga barang setelah dikali dengan quantity |
+| id_detail_jual| Integer| 11 | Primary Key| Iya |Auto_increment| Id detail transaksi penjualan auto increment |
+| id_jual| Integer| 11 | Tidak | Foreign Key | id_jual pada tabel transaksi_penjualan |Relasi untuk menghubungkan data detail transaksi penjualan dengan data transaksi penjualan |
+| id_barang| Integer| 11 | Tidak | Foreign Key | id_barang pada tabel barang |Relasi untuk menghubungkan data detail transaksi penjualan dengan data barang |
+| quantity| Integer| 11 | Tidak | Tidak | - |Quantity dari barang yang di jual |
+| harga| Integer| 11 | Tidak | Tidak | - |Harga barang setelah dikali dengan quantity |
 
 **Tabel Transaksi_Pembelian**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_beli| Integer| 11 | Primary Key| Iya |Auto_increment| id transaksi pembelian auto increment |
-| id_toko| integer| 11 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data transaksi pembelian dengan data toko |
-| id_pemasok| integer| 11 | Tidak | Foreign Key | id_pemasok pada tabel pemasok |relasi untuk menghubungkan data transaksi pembelian dengan data pemasok |
-| id_karyawan| integer| 11 | Tidak | Foreign Key | id_karyawan pada tabel karyawan |relasi untuk menghubungkan data transaksi pembelian dengan data karyawan |
-| tanggal| date| - | Tidak | Tidak | - |tanggal transaksi pembelian dilakukan |
-| total_harga| int| 11 | Tidak | Tidak | -|total harga dari transaksi pembelian |
+| id_beli| Integer| 11 | Primary Key| Iya |Auto_increment| Id transaksi pembelian auto increment |
+| id_toko| Integer| 11 | Tidak | Foreign Key | id_toko pada tabel toko |Relasi untuk menghubungkan data transaksi pembelian dengan data toko |
+| id_pemasok| Integer| 11 | Tidak | Foreign Key | id_pemasok pada tabel pemasok |Relasi untuk menghubungkan data transaksi pembelian dengan data pemasok |
+| id_karyawan| Integer| 11 | Tidak | Foreign Key | id_karyawan pada tabel karyawan |Relasi untuk menghubungkan data transaksi pembelian dengan data karyawan |
+| tanggal| Date| - | Tidak | Tidak | - |Tanggal transaksi pembelian dilakukan |
+| total_harga| Integer| 11 | Tidak | Tidak | -|Total harga dari transaksi pembelian |
 
 
 **Tabel Detail_Transaksi_Pembelian**
 
 |Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_detail_beli| Integer| 11 | Primary Key| Iya |Auto_increment| id detail transaksi pembelian auto increment |
-| id_beli| integer| 11 | Tidak | Foreign Key | id_beli pada tabel transaksi_pembelian |relasi untuk menghubungkan data detail transaksi pembelian dengan data transaksi pembelian |
-| id_barang| integer| 11 | Tidak | Foreign Key | id_barang pada tabel barang |relasi untuk menghubungkan data detail transaksi pembelian dengan data barang |
-| quantity| integer| 11 | Tidak | Tidak | - |quantity dari barang yang di beli |
-| harga| integer| 11 | Tidak | Tidak | - |harga barang setelah dikali dengan quantity |
+| id_detail_beli| Integer| 11 | Primary Key| Iya |Auto_increment| Id detail transaksi pembelian auto increment |
+| id_beli| Integer| 11 | Tidak | Foreign Key | id_beli pada tabel transaksi_pembelian |Relasi untuk menghubungkan data detail transaksi pembelian dengan data transaksi pembelian |
+| id_barang| Integer| 11 | Tidak | Foreign Key | id_barang pada tabel barang |Relasi untuk menghubungkan data detail transaksi pembelian dengan data barang |
+| quantity| Integer| 11 | Tidak | Tidak | - |Quantity dari barang yang di beli |
+| harga| Integer| 11 | Tidak | Tidak | - |Harga barang setelah dikali dengan quantity |
 
 
 
