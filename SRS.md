@@ -566,7 +566,7 @@ ____3.3.1 Logika Struktur Data____
 |id_toko|Integer|Id toko auto increment|
 |id_user|Integer|Relasi untuk menghubungkan akun user dengan data toko|
 |nama_toko|Varchar|Nama toko|
-|nama_pemilik_tokO|Varchar|Nama pemilik toko|
+|nama_pemilik_toko|Varchar|Nama pemilik toko|
 |alamat_toko|Varchar|Alamat toko|
 |email|Varchar|Email pemilik toko atau email toko|
 |jumlah_saldo|Integer|Jumlah saldo toko|
@@ -577,7 +577,7 @@ ____3.3.1 Logika Struktur Data____
 |--|--|--|
 |id_karyawan|Integer|Id karyawan auto increment|
 |id_user|Integer|Relasi untuk menghubungkan akun user dengan data karyawan|
-|id_toko|Varchar|Relasi untuk menghubungkan data karyawan dengan data toko|
+|id_toko|Integer|Relasi untuk menghubungkan data karyawan dengan data toko|
 |nama|Varchar|Nama karyawan|
 |email|Varchar|Email karyawan|
 |no_hp|Varchar|Nomor hp karyawan|
@@ -588,7 +588,7 @@ ____3.3.1 Logika Struktur Data____
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |id_pemasok|Integer|Id pemasok auto increment|
-|id_toko|Varchar|Relasi untuk menghubungkan data pemasok dengan data toko|
+|id_toko|Integer|Relasi untuk menghubungkan data pemasok dengan data toko|
 |nama|Varchar|Nama pemasok|
 |no_hp|Varchar|Nomor hp pemasok|
 |alamat|Varchar|Alamat pemasok|
@@ -598,7 +598,7 @@ ____3.3.1 Logika Struktur Data____
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |id_barang|Integer|Id barang auto increment|
-|id_toko|Varchar|Relasi untuk menghubungkan data barang dengan data toko|
+|id_toko|Integer|Relasi untuk menghubungkan data barang dengan data toko|
 |nama_barang|Varchar|Nama barang|
 |harga_beli|Integer|Harga beli barang|
 |harga_jual|Integer|Harga jual barang|
@@ -617,3 +617,33 @@ ____3.3.1 Logika Struktur Data____
 |total_harga|Integer|Total harga dari transaksi penjualan|
 |cara_pembayaran|Varchar|Cara pembayaran member saat transaksi penjualan|
 
+<b>Detail Transaksi Penjualan</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_detail_jual|Integer|Id detail transaksi penjualan auto increment|
+|id_jual|Integer|Relasi untuk menghubungkan data detail transaksi penjualan dengan data transaksi penjualan|
+|id_barang|Integer|Relasi untuk menghubungkan data detail transaksi penjualan dengan data barang|
+|quantity|Integer|Quantity dari barang yang di jual|
+|harga|Integer|Harga barang setelah dikali dengan quantity|
+
+<b>Transaksi Pembelian</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_beli|Integer|Id transaksi pembelian auto increment|
+|id_toko|Integer|Relasi untuk menghubungkan data transaksi pembelian dengan data toko|
+|id_pemasok|Integer|Relasi untuk menghubungkan data transaksi pembelian dengan data pemasok|
+|id_karyawan|Integer|Relasi untuk menghubungkan data transaksi pembelian dengan data karyawan|
+|tanggal|Date|Tanggal transaksi pembelian dilakukan|
+|total_harga|Integer|Total harga dari transaksi pembelian|
+
+<b>Detail Transaksi Pembelian</b>
+
+|Data Item| Type | Deskripsi|
+|--|--|--|
+|id_detail_beli|Integer|Id detail transaksi pembelian auto increment|
+|id_beli|Integer|Relasi untuk menghubungkan data detail transaksi pembelian dengan data transaksi pembelian|
+|id_barang|Integer|Relasi untuk menghubungkan data detail transaksi pembelian dengan data barang|
+|quantity|Integer|Quantity dari barang yang di beli|
+|harga|Integer|Harga barang setelah dikali dengan quantity|
