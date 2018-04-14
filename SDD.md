@@ -312,6 +312,83 @@ ____2.2.2 Conceptual Data Model____ <br>
 ____2.2.3 Physical Data Model____ <br>
 
 ____2.2.4 Daftar Tabel Aplikasi____ <br>
+
+**Tabel User**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_user | primary key | D10 | Auto Increment | Nomor auto increment id_user |
+| email | unique | D10 | - | Digunakan sebagai username untuk login user |
+| password | - | D10 | - | Digunakan sebagai password untuk login user |
+| level | - | D10 | - | Digunakan untuk mengelompokkan user sesuai dengan levelnya |
+
+
+**Tabel Member**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_member | primary key | D5 | Auto Increment | Nomor auto increment id_member |
+| id_user | foreign key | D10 | - | Relasi untuk menghubungkan data member dengan data user |
+| nama | - | D5 | - | Nama member |
+| email | - | D5 | - | Email member |
+| alamat | - | D5 | - | Alamat member |
+| no_hp | - | D5 | - | Nomor hp member |
+| jumlah_saldo | - | D5 | - | Jumlah saldo yang dimiliki member dan dapat digunakan untuk transaksi |
+
+**Tabel Toko**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_toko|primary key| D2 | Auto Increment | Nomor auto increment id_toko |
+| id_user | foreign key | D10 | - | Relasi untuk menghubungkan data toko dengan data user |
+| nama_toko|-| D2 | - | Nama toko |
+| nama_pemilik_toko|-| D2 | - | Nama dari pemilik toko |
+| alamat_toko|-| D2 | - | Alamat toko |
+| email| - | D2 | - | Email toko ataupun email pemilik toko |
+| jumlah_saldo|-| D2 | - | Jumlah saldo yang didapatkan oleh toko dari member yang melakukan pembayaran menggunakan saldo e-cash atau top up |
+
+**Tabel Karyawan**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_karyawan|primary key| D3 | Auto Increment | Nomor auto increment id_karyawan |
+| id_user | foreign key | D10 | - | Relasi untuk menghubungkan data karyawan dengan data user |
+| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data karyawan dengan data toko |
+| nama| - | D3 | - | Nama karyawan |
+| email| - | D3 | - | Email karyawan |
+| no_hp| - | D3 | - | Nomor hp karyawan |
+| alamat| - | D3 | - | Alamat tempat tinggal karyawan |
+
+**Tabel Pemasok**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_pemasok|primary key| D4 | Auto Increment | Nomor auto increment id_pemasok |
+| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data pemasok dengan data toko |
+| nama| - | D4 | - | Nama pemasok |
+| no_hp| - | D4 | - | Nomor hp pemasok |
+| alamat| - | D4 | - | Alamat pemasok |
+
+**Tabel User**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - |
+
+**Tabel User**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - |
+
+**Tabel User**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - |
+
+**Tabel User**
+
 | Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
 | --------- | --------- | --------- | --------- | --------- |
 | - | - | - | - | - |
@@ -320,6 +397,18 @@ __2.3 Deskripsi Modul__ <br>
 | No | Nama Modul | Keterangan |
 | --------- | --------- | --------- |
 | - | - | - |
+
+**Tabel User**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - |
+
+**Tabel User**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| - | - | - | - | - |
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
 __3.1 Diagram Konteks__ <br>
