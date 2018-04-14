@@ -71,6 +71,65 @@ Aplikasi ini akan dikembangkan pada lingkungan dengan spesifikasi sebagai beriku
 
 __2.2 Deskripsi Data__ <br>
 
+Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi POS Menggunakan QR-CODE Scanner ini adalah sebagai berikut :
+
+**Tabel User**
+
+|Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_user| Integer| 11 | Primary Key| Iya |Auto_increment| id user auto increment |
+| email| varchar| 20 | Tidak | Tidak | -| email yang digunakan user untuk login |
+| password| varchar| 20 | Tidak | Tidak | - |password yang digunakan user untuk login |
+| level| varchar| 20 | Tidak | Tidak | -|level user untuk login seperti member, karyawan, admin, dan pemilik toko |
+
+**Tabel Member**
+
+|Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_member| Integer| 11 | Primary Key| Iya |Auto_increment| id user auto increment |
+| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| relasi untuk menghubungkan akun user dengan data member |
+| nama| varchar| 20 | Tidak | Tidak | - |nama member  |
+| email| varchar| 20 | Tidak | Tidak | -|email member |
+| alamat| varchar| 80 | Tidak | Tidak | -|alamat member |
+| no_hp| varchar| 15 | Tidak | Tidak | -|nomor hp member |
+| jumlah_saldo| integer| 11 | Tidak | Tidak | -|jumlah saldo member |
+
+**Tabel Toko**
+
+|Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_toko| Integer| 11 | Primary Key| Iya |Auto_increment| id user auto increment |
+| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| relasi untuk menghubungkan akun user dengan data toko |
+| nama_toko| varchar| 20 | Tidak | Tidak | - |nama toko  |
+| nama_pemilik_toko| varchar| 20 | Tidak | Tidak | -|nama pemilik toko |
+| alamat_toko| varchar| 80 | Tidak | Tidak | -|alamat toko |
+| email| varchar| 20 | Tidak | Tidak | -|email pemilik toko atau email toko |
+| jumlah_saldo| integer| 11 | Tidak | Tidak | -|jumlah saldo toko |
+
+**Tabel Karyawan**
+
+|Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_karyawan| Integer| 11 | Primary Key| Iya |Auto_increment| id user auto increment |
+| id_user| Integer| 11 | Tidak | Foreign Key | id user pada tabel user| relasi untuk menghubungkan akun user dengan data karyawan |
+| id_toko| varchar| 20 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data karyawan dengan data toko  |
+| nama| varchar| 20 | Tidak | Tidak | -|nama karyawan |
+| email| varchar| 20 | Tidak | Tidak | -|email karyawan |
+| no_hp| varchar| 15 | Tidak | Tidak | -|nomor hp karyawan |
+| alamat| varchar| 80 | Tidak | Tidak | -|alamat karyawan |
+
+**Tabel Pemasok**
+
+|Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_pemasok| Integer| 11 | Primary Key| Iya |Auto_increment| id user auto increment |
+| id_toko| varchar| 20 | Tidak | Foreign Key | id_toko pada tabel toko |relasi untuk menghubungkan data pemasok dengan data toko |
+| nama| varchar| 20 | Tidak | Tidak | -|nama pemasok |
+| no_hp| varchar| 15 | Tidak | Tidak | -|nomor hp pemasok |
+| alamat| varchar| 80 | Tidak | Tidak | -|alamat pemasok |
+
+
+
 ____2.2.1 Definisi Domain/Type____ <br>
 | Domain Name | Power Designer Type |
 | --------- | --------- |
