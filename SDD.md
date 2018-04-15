@@ -426,21 +426,17 @@ ____2.2.4 Daftar Tabel Aplikasi____ <br>
 | harga| - | D9 | - | Jumlah harga dari setiap barang |
 
 __2.3 Deskripsi Modul__ <br>
+
 | No | Nama Modul | Keterangan |
-| --------- | --------- | --------- |
-| - | - | - |
+|---------|---------|---------|
+| 1 | Otentikasi | Modul yang digunakan untuk memberikan validasi akses user dalam menggunakan aplikasi baik sisi web ataupun mobile |
+| 2 | Master | Modul yang digunakan untuk mengelola data master seperti CRUD data toko, data barang, data karyawan, dan data pemasok |
+| 3 | Scan | Modul yang digunakan member untuk men-scan QR Code untuk mengetahui info dari barang |
+| 4 | Member | Modul yang digunakan untuk mengelola data member dan berisi CRUD data member |
+| 5 | Transaksi | Modul yang digunakan untuk melakukan transaksi seperti penghitungan harga, pencatatan tanggal transaksi, dan cara pembayaran |
+| 6 | Laporan | Modul yang digunakan untuk membuat laporan penjualan dan pembelian toko secara rinci |
+| 7 | Top Up | Modul yang digunakan untuk mengelola saldo yang dimiliki member dan pemilik toko, dimana data akan update setiap kali ada transaksi dengan cara pembayaran e-cash atau top up member dengan toko yang bersangkutan |
 
-**Tabel User**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - |
-
-**Tabel User**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - |
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
 __3.1 Diagram Konteks__ <br>
