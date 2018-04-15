@@ -369,29 +369,61 @@ ____2.2.4 Daftar Tabel Aplikasi____ <br>
 | no_hp| - | D4 | - | Nomor hp pemasok |
 | alamat| - | D4 | - | Alamat pemasok |
 
-**Tabel User**
+**Tabel Barang**
 
 | Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
 | --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - |
+| id_barang|primary key| D1 | Auto Increment | Nomor auto increment id_barang |
+| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data barang dengan data toko |
+| nama_barang| - | D1 | - | Nama barang |
+| harga_jual| - | D1 | - | Harga barang yang dijual ke member |
+| harga_beli| - | D1 | - | Harga barang yang dibeli dari pemasok |
+| satuan| - | D1 | - | Satuan dari barang |
+| stok| - | D1 | - | Stok barang |
 
-**Tabel User**
 
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - |
-
-**Tabel User**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - |
-
-**Tabel User**
+**Tabel Transaksi Penjualan**
 
 | Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
 | --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - |
+| id_jual|primary key| D6 | Auto Increment | Nomor auto increment id_jual |
+| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data transaksi penjualan dengan data toko |
+| id_karyawan | foreign key | D3 | - | Relasi untuk menghubungkan data transaksi penjualan dengan data karyawan |
+| id_member | foreign key | D5 | - | Relasi untuk menghubungkan data transaksi penjualan dengan data member |
+| tanggal| - | D6 | - | Tanggal terjadinya transaksi |
+| total_harga| - | D6 | - | Jumlah harga yang harus dibayar member |
+| cara_pembayaran| - | D6 | - | Cara pembayaran yang dilakukan member apakah cash atau dengan menggunakan saldo |
+
+**Tabel Detail Penjualan**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_detail_jual|primary key| D7 | Auto Increment | Nomor auto increment id_detail_jual |
+| id_jual | foreign key | D6 | - | Relasi untuk menghubungkan data detail transaksi penjualan dengan data transaksi penjualan |
+| id_barang | foreign key | D1 | - | Relasi untuk menghubungkan data detail transaksi penjualan dengan data barang |
+| quantity| - | D7 | - | Jumlah setiap barang yang dijual ke member|
+| harga| - | D7 | - | Jumlah harga dari setiap barang |
+
+**Tabel Transaksi Pembelian**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_beli|primary key| D8 | Auto Increment | Nomor auto increment id_beli |
+| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data transaksi pembelian dengan data toko |
+| id_karyawan | foreign key | D3 | - | Relasi untuk menghubungkan data transaksi pembelian dengan data karyawan |
+| id_pemasok | foreign key | D4 | - | Relasi untuk menghubungkan data transaksi pembelian dengan data pemasok |
+| tanggal| - | D8 | - | Tanggal terjadinya transaksi |
+| total_harga| - | D8 | - | Jumlah harga yang harus dibayar toko ke pemasok |
+
+**Tabel Detail Penjualan**
+
+| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
+| --------- | --------- | --------- | --------- | --------- |
+| id_detail_beli|primary key| D9 | Auto Increment | Nomor auto increment id_detail_beli |
+| id_beli | foreign key | D8 | - | Relasi untuk menghubungkan data detail transaksi pembelian dengan data transaksi pembelian |
+| id_barang | foreign key | D1 | - | Relasi untuk menghubungkan data detail transaksi pembelian dengan data barang |
+| quantity| - | D9 | - | Jumlah setiap barang yang dibeli dari pemasok|
+| harga| - | D9 | - | Jumlah harga dari setiap barang |
 
 __2.3 Deskripsi Modul__ <br>
 | No | Nama Modul | Keterangan |
