@@ -309,7 +309,11 @@ ____2.2.1 Definisi Domain/Type____ <br>
 
 ____2.2.2 Conceptual Data Model____ <br>
 
+![](http://i64.tinypic.com/e6orqa.jpg)
+
 ____2.2.3 Physical Data Model____ <br>
+
+![](http://i63.tinypic.com/ezedcy.jpg)
 
 ____2.2.4 Daftar Tabel Aplikasi____ <br>
 
