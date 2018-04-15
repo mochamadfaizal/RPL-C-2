@@ -509,12 +509,24 @@ Pemilik toko dapat mennambahkan data barang, dengan cara:
 
 
 __2.3 Spesifikasi Kebutuhan Non-Fungsional__
+- Availability
+<br>Ketersediaan aplikasi yang dapat di-update sewaktu-waktu dan dapat beroperasi terus menerus selama 24 jam per hari tanpa berhenti, karena aplikasi ini akan bersifat android-based dan web-based dan akan diakses oleh pengguna yang membutuhkan dari berbagai tempat pada waktu yang berbeda-beda.
+- Security
+<br>Aplikasi yang dikembangkan nantinya harus memiliki tingkat keamanan yang tinggi dimana setiap user yang masuk tidak dapat seenaknya mengubah data yang berada di dalam aplikasi ini. Aplikasi ini juga aman karena terdapat transaksi keuangan maka faktor keamanan menjadi sangat penting.
+- Usability
+<br>Aplikasi ini diharapkan memudahkan user dalam penggunaannya.
+- Accessibility
+<br>Aplikasi bisa digunakan kapanpun dan dimanapun selama terkoneksi internet.
+- Portability
+<br>Aplikasi ini memberi kemudahan dalam pengaksesan sistem khususnya terkait dengan faktor waktu dan lokasi pengaksesan, serta perangkat atau teknologi yang digunakan untuk mengakses.
 
 __2.4 Karakteristik pengguna__
-|Katagori Pengguna| Tugas|Hak Akses ke Aplikasi
+|Katagori Pengguna| Tugas|Hak Akses ke Aplikasi|
 |------|------|------|
-|Admin|-|Admin|
-
+|Administrator|-|Mempunyai hak akses penuh terhadap data user dan aplikasi sistem|
+|Pemilik toko|-|-|
+|Karyawan|-|-|
+|Member|-|-|
 
 __2.5 Batasan-batasan__
 - Bahasa pemrograman berbasis android yang digunakan adalah Java.
@@ -530,14 +542,43 @@ __2.7 Kebutuhan penyeimbang__
 ### BAB III KEBUTUHAN LAIN YANG SPESIFIK
 
 __3.1 Persyaratan Antarmuka Eksternal__
+<br>Dalam operasionalnya, aplikasi yang akan dikembangkan memerlukan adanya interaksi dengan komponen-komponen lain diluar perangkat lunak itu seperti, user sebagai seorang pengguna perangkat lunak, perangkat keras dimana perangkat lunak ini akan dijalankan, perangkat komunikasi dimana perangkat lunak ini akan saling berkomunikasi dalam jaringan internet.
 
 __3.2 Functional Requirement__
+<p align="justify">
+ 	Logika Struktur terdapat pada bagian 3.3.1
+ </p>
+
+ **3.2.1 Sign In Member**
+
+| Nama fungsi  |Sign In  |
+|--|--|
+|Ref|Bag 2.1.2, Sign In member | 
+|Trigger|Membuka aplikasi Q-PAY|
+|Precondition|Halaman utama Aplikasi untuk Sign In|
+|Basic Path|1. Member mengklik tombol Sign In <br>2. Sistem menampilkan halaman Sign In yang terdiri dari kolom Email dan Password <br>3. Member memasukkan Email dan Password <br> 4. Sistem menyimpan Email dan Password dari member|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Sign In dan dapat mengakses aplikasi Q-PAY|
+|Exception Push	|1. Tidak ada Koneksi <br>2. User belum mendaftar ke aplikasi|
+
+**3.2.2 Sign Up Member**
+
+| Nama fungsi  |Sign Up  |
+|--|--|
+|Ref|Bag 2.1.2, Sign Up member | 
+|Trigger|Membuka aplikasi Q-PAY lalu mengklik tombol Sign Up|
+|Precondition|Halaman utama Aplikasi untuk Sign Up|
+|Basic Path|1. Member mengklik tombol Sign Up <br>2. Sistem menampilkan halaman Sign Up yang terdiri dari kolom Nama Lengkap, Alamat, No.Hp, Email dan Password <br>3. Member memasukkan Nama Lengkap, Alamat, No.Hp, Email dan Password <br> 4. Sistem menyimpan Nama Lengkap, Alamat, No.Hp, Email dan Password dari member|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Sign Up, Login dan dapat mengakses aplikasi Q-PAY|
+|Exception Push	|Tidak ada Koneksi|
 
 __3.3 Struktur Detail Kebutuhan Non-Fungsional__
 
 ____3.3.1 Logika Struktur Data____
 ![](http://i64.tinypic.com/jz8qh2.jpg)
 
+Deskripsi dapat dijelaskan seperti berikut:
 <b>User</b>
 
 |Data Item| Type | Deskripsi|
