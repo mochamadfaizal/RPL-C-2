@@ -332,6 +332,18 @@ ____2.2.4 Daftar Tabel Aplikasi____ <br>
 | Detail_pembelian | id_detail_beli | D9 | - | Berisi data rincian dari setiap transaksi pembelian |
 
 
+__2.3 Deskripsi Modul__ <br>
+
+| No | Nama Modul | Keterangan |
+|---------|---------|---------|
+| 1 | Otentikasi | Modul yang digunakan untuk memberikan validasi akses user dalam menggunakan aplikasi baik sisi web ataupun mobile |
+| 2 | Master | Modul yang digunakan untuk mengelola data master seperti CRUD data toko, data barang, data karyawan, dan data pemasok |
+| 3 | Scan | Modul yang digunakan member untuk men-scan QR Code untuk mengetahui info dari barang |
+| 4 | Member | Modul yang digunakan untuk mengelola data member dan berisi CRUD data member |
+| 5 | Transaksi | Modul yang digunakan untuk melakukan transaksi seperti penghitungan harga, pencatatan tanggal transaksi, dan cara pembayaran |
+| 6 | Laporan | Modul yang digunakan untuk membuat laporan penjualan dan pembelian toko secara rinci |
+| 7 | Top Up | Modul yang digunakan untuk mengelola saldo yang dimiliki member dan pemilik toko, dimana data akan update setiap kali ada transaksi dengan cara pembayaran e-cash atau top up member dengan toko yang bersangkutan |
+| 8 | Notifikasi | Modul yang digunakan untuk memberitahukan admin apabila terdapat request baru dari toko yang ingin mendaftar |
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
 __3.1 Diagram Konteks__ <br>
@@ -637,14 +649,95 @@ ______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
 
 |Final State (FS) |
 |-------------------|
-
 |Mengahsilkan otentikasi user yang masuk ke aplikasi|
-|----------------------------------------------------
+
 |Spesifikasi Proses/Algoritma|
+|----------------------------------------------------|
 |1.Buka aplikasi atau web|
 |2.Inputkan email dan password|
 |3.If email dan password sesuai maka akan berpindah ke halaman dashboard masing-masing user sesuai dengan levelnya|
 |Else email dan password tidak sesuai maka akan tampil pesan emai dan password tidak sesuai dan user diharapkan menginput ulang email dan password|
+
+
+____3.3.2 Modul Otentikasi____ <br>
+
+______3.3.1.1 Fungsi Modul______ <br>
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|---------|---------|---------|---------|
+| 1 | Login | form entry | user |
+| 2 | Sign Up | form entry | user |
+| 3 | Forgot Password | form entry | user |
+
+______3.3.1.2 Spesifikasi Layar Utama______ <br>
+    <table width="100%" align="center">
+		<tr align="center">
+			<td><b>Login</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/2kkf1h.png"/></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Android</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/rr73uh.png"/></td>	
+		</tr>
+    </table>
+
+______3.3.1.3 Spesifikasi Query______ <br>
+
+| ID Query | Deskripsi | Ekspresi Query |
+---------|---------|---------|
+| QRY01 | Login | SELECT * FROM user where email = '$email' AND password='$password' |
+| QRY02 | Sign Up | INSERT INTO user (email, password, level) VALUES ('$email','$password','$level') |
+
+______3.3.1.4 Spesifikasi Field Data Layar______ <br>
+
+| Label | Field | Tabel / Query | Validasi | Keterangan |
+|---------|---------|---------|---------|---------|
+| email | email | user | required, need '@', string, max:20 | email user yang dapat mengakses aplikasi |
+| password | password | user | required, string, max:20 | password diinputkan user agar dapat login |
+
+
+
+
+______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
+
+| ID Objek | Jenis | Keterangan | Platform |
+|---------|---------|---------|------------|
+| textEmail | input type text | isi text akan digunakan dalam proses login sebagai username | Web |
+| textPassword | input type password | isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Web |
+|btnLogin|button|Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Web |
+|lblregister|label|Jika diklik maka akan menuju ke tampilan register| Web |
+|textEmail|AutoCompleteTextView| isi text akan digunakan dalam proses login sebagai username | Android |
+|textPassword|EditText| isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Android |
+|LoginBtn| Button |Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Android |
+|SignUpBtn|Button|Jika diklik maka akan menampilkan fragmen menu sign up| Android |
+|SignInBtn|Button|Jika diklik maka akan menampilkan fragmen menu Login| Android |
+|forgotPassword|TextView|Jika diklik maka akan masuk ke halaman forgot password|
+
+______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
+
+<br>id_proses : login, sign up
+<br>objek terkait : email, password, button login
+<br>Event:Login
+
+|Inisial State (IS) |
+|-------------------|
+|Form login masih kosong|
+
+|Final State (FS) |
+|-------------------|
+|Mengahsilkan otentikasi user yang masuk ke aplikasi|
+
+|Spesifikasi Proses/Algoritma|
+|----------------------------------------------------|
+|1.Buka aplikasi atau web|
+|2.Inputkan email dan password|
+|3.If email dan password sesuai maka akan berpindah ke halaman dashboard masing-masing user sesuai dengan levelnya|
+|Else email dan password tidak sesuai maka akan tampil pesan emai dan password tidak sesuai dan user diharapkan menginput ulang email dan password|
+
 
 
 __3.4 Matriks Kerunutan__ <br>
