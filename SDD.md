@@ -673,10 +673,10 @@ ______3.3.1.1 Fungsi Modul______ <br>
 ______3.3.1.2 Spesifikasi Layar Utama______ <br>
     <table width="100%" align="center">
 		<tr align="center">
-			<td><b>Data Karyawan</b></td>
+			<td><b>Data Toko</b></td>
 		</tr>
 		<tr  valign="top" align="center">
-				<td><img src="http://i64.tinypic.com/1zlsqjr.png"/></td>	
+				<td><img src="http://i66.tinypic.com/jsydzp.png"/></td>	
 		</tr>
 		<tr align="center">
 			<td><b>Data Barang</b></td>
