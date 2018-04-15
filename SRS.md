@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Requirements Spesification</p></h1>
 
-<p align="center"><b>Version 2.0.6 </b><br>
+<p align="center"><b>Version 2.0.7 </b><br>
 <p align="center">13 April 2018</b><br><br>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -788,7 +788,7 @@ __3.2 Functional Requirement__
 |Post Condition|Karyawan dapat melihat transaksi secara detail|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.17 Input Bayar**
+**3.2.18 Input Bayar**
 
 | Nama fungsi  |Input Bayar|
 |--|--|
@@ -800,7 +800,7 @@ __3.2 Functional Requirement__
 |Post Condition|Karyawan dapat melakukan pembayaran dengan memasukkan jumlah bayar|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.18 Input Data Barang**
+**3.2.19 Input Data Barang**
 
 | Nama fungsi  |Input Data Barang|
 |--|--|
@@ -812,7 +812,7 @@ __3.2 Functional Requirement__
 |Post Condition|Karyawan dapat melakukan pembayaran dengan memasukkan jumlah bayar|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.19 Setting Profile Karyawan**
+**3.2.20 Setting Profile Karyawan**
 
 | Nama fungsi  |Setting Profile Karyawan|
 |--|--|
@@ -824,7 +824,7 @@ __3.2 Functional Requirement__
 |Post Condition|Member dapat mengubah data dirinya|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.20 Setting Foto Profile Karyawan**
+**3.2.21 Setting Foto Profile Karyawan**
 
 | Nama fungsi  |Setting Foto Profile Karyawan|
 |--|--|
