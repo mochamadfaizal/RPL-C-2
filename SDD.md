@@ -313,130 +313,20 @@ ____2.2.3 Physical Data Model____ <br>
 
 ____2.2.4 Daftar Tabel Aplikasi____ <br>
 
-**Tabel User**
 
 | Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
 | --------- | --------- | --------- | --------- | --------- |
-| id_user | primary key | D10 | Auto Increment | Nomor auto increment id_user |
-| email | unique | D10 | - | Digunakan sebagai username untuk login user |
-| password | - | D10 | - | Digunakan sebagai password untuk login user |
-| level | - | D10 | - | Digunakan untuk mengelompokkan user sesuai dengan levelnya |
+| User | id_user | D10 | - | Berisi email dan password user dengan level yang berbeda digunakan untuk login |
+| Barang | id_barang | D2 | - | Berisi data barang yang ada di toko seperti nama, harga jual dan harga beli, serta stok persediaan |
+| Karyawan | id_karyawan | D3 | - | Berisi data karyawan yang bekerja di toko |
+| Toko | id_toko | D2 | - | Berisi data toko dan pemilik toko seperti nama toko, nama pemilik toko, alamat, email dan sebagainya |
+| Pemasok | id_pemasok | D4 | Auto Increment | Berisi data pemasok barang pada toko, pemasok yang memang sudah sering men-supplay barang di toko tersebut |
+| Member | id_member | D5 | - | Berisi data diri member yang digunakan sebagai profil member pada apliksi |
+| Transaksi_penjualan | id_jual | D6 | - | Berisi data dari setiap transaksi penjualan yang dilakukan toko dengan member |
+| Detail_penjualan | id_detail_jual | D7 | - | Berisi data rincian dari setiap transaksi penjualan |
+| Transaksi_pembelian | id_beli | D8 | - | Berisi data dari setiap transaksi pembelian yang dilakukan toko dengan pemasok |
+| Detail_pembelian | id_detail_beli | D9 | - | Berisi data rincian dari setiap transaksi pembelian |
 
-
-**Tabel Member**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_member | primary key | D5 | Auto Increment | Nomor auto increment id_member |
-| id_user | foreign key | D10 | - | Relasi untuk menghubungkan data member dengan data user |
-| nama | - | D5 | - | Nama member |
-| email | - | D5 | - | Email member |
-| alamat | - | D5 | - | Alamat member |
-| no_hp | - | D5 | - | Nomor hp member |
-| jumlah_saldo | - | D5 | - | Jumlah saldo yang dimiliki member dan dapat digunakan untuk transaksi |
-
-**Tabel Toko**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_toko|primary key| D2 | Auto Increment | Nomor auto increment id_toko |
-| id_user | foreign key | D10 | - | Relasi untuk menghubungkan data toko dengan data user |
-| nama_toko|-| D2 | - | Nama toko |
-| nama_pemilik_toko|-| D2 | - | Nama dari pemilik toko |
-| alamat_toko|-| D2 | - | Alamat toko |
-| email| - | D2 | - | Email toko ataupun email pemilik toko |
-| jumlah_saldo|-| D2 | - | Jumlah saldo yang didapatkan oleh toko dari member yang melakukan pembayaran menggunakan saldo e-cash atau top up |
-
-**Tabel Karyawan**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_karyawan|primary key| D3 | Auto Increment | Nomor auto increment id_karyawan |
-| id_user | foreign key | D10 | - | Relasi untuk menghubungkan data karyawan dengan data user |
-| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data karyawan dengan data toko |
-| nama| - | D3 | - | Nama karyawan |
-| email| - | D3 | - | Email karyawan |
-| no_hp| - | D3 | - | Nomor hp karyawan |
-| alamat| - | D3 | - | Alamat tempat tinggal karyawan |
-
-**Tabel Pemasok**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_pemasok|primary key| D4 | Auto Increment | Nomor auto increment id_pemasok |
-| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data pemasok dengan data toko |
-| nama| - | D4 | - | Nama pemasok |
-| no_hp| - | D4 | - | Nomor hp pemasok |
-| alamat| - | D4 | - | Alamat pemasok |
-
-**Tabel Barang**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_barang|primary key| D1 | Auto Increment | Nomor auto increment id_barang |
-| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data barang dengan data toko |
-| nama_barang| - | D1 | - | Nama barang |
-| harga_jual| - | D1 | - | Harga barang yang dijual ke member |
-| harga_beli| - | D1 | - | Harga barang yang dibeli dari pemasok |
-| satuan| - | D1 | - | Satuan dari barang |
-| stok| - | D1 | - | Stok barang |
-
-
-**Tabel Transaksi Penjualan**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_jual|primary key| D6 | Auto Increment | Nomor auto increment id_jual |
-| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data transaksi penjualan dengan data toko |
-| id_karyawan | foreign key | D3 | - | Relasi untuk menghubungkan data transaksi penjualan dengan data karyawan |
-| id_member | foreign key | D5 | - | Relasi untuk menghubungkan data transaksi penjualan dengan data member |
-| tanggal| - | D6 | - | Tanggal terjadinya transaksi |
-| total_harga| - | D6 | - | Jumlah harga yang harus dibayar member |
-| cara_pembayaran| - | D6 | - | Cara pembayaran yang dilakukan member apakah cash atau dengan menggunakan saldo |
-
-**Tabel Detail Penjualan**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_detail_jual|primary key| D7 | Auto Increment | Nomor auto increment id_detail_jual |
-| id_jual | foreign key | D6 | - | Relasi untuk menghubungkan data detail transaksi penjualan dengan data transaksi penjualan |
-| id_barang | foreign key | D1 | - | Relasi untuk menghubungkan data detail transaksi penjualan dengan data barang |
-| quantity| - | D7 | - | Jumlah setiap barang yang dijual ke member|
-| harga| - | D7 | - | Jumlah harga dari setiap barang |
-
-**Tabel Transaksi Pembelian**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_beli|primary key| D8 | Auto Increment | Nomor auto increment id_beli |
-| id_toko | foreign key | D2 | - | Relasi untuk menghubungkan data transaksi pembelian dengan data toko |
-| id_karyawan | foreign key | D3 | - | Relasi untuk menghubungkan data transaksi pembelian dengan data karyawan |
-| id_pemasok | foreign key | D4 | - | Relasi untuk menghubungkan data transaksi pembelian dengan data pemasok |
-| tanggal| - | D8 | - | Tanggal terjadinya transaksi |
-| total_harga| - | D8 | - | Jumlah harga yang harus dibayar toko ke pemasok |
-
-**Tabel Detail Penjualan**
-
-| Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
-| --------- | --------- | --------- | --------- | --------- |
-| id_detail_beli|primary key| D9 | Auto Increment | Nomor auto increment id_detail_beli |
-| id_beli | foreign key | D8 | - | Relasi untuk menghubungkan data detail transaksi pembelian dengan data transaksi pembelian |
-| id_barang | foreign key | D1 | - | Relasi untuk menghubungkan data detail transaksi pembelian dengan data barang |
-| quantity| - | D9 | - | Jumlah setiap barang yang dibeli dari pemasok|
-| harga| - | D9 | - | Jumlah harga dari setiap barang |
-
-__2.3 Deskripsi Modul__ <br>
-
-| No | Nama Modul | Keterangan |
-|---------|---------|---------|
-| 1 | Otentikasi | Modul yang digunakan untuk memberikan validasi akses user dalam menggunakan aplikasi baik sisi web ataupun mobile |
-| 2 | Master | Modul yang digunakan untuk mengelola data master seperti CRUD data toko, data barang, data karyawan, dan data pemasok |
-| 3 | Scan | Modul yang digunakan member untuk men-scan QR Code untuk mengetahui info dari barang |
-| 4 | Member | Modul yang digunakan untuk mengelola data member dan berisi CRUD data member |
-| 5 | Transaksi | Modul yang digunakan untuk melakukan transaksi seperti penghitungan harga, pencatatan tanggal transaksi, dan cara pembayaran |
-| 6 | Laporan | Modul yang digunakan untuk membuat laporan penjualan dan pembelian toko secara rinci |
-| 7 | Top Up | Modul yang digunakan untuk mengelola saldo yang dimiliki member dan pemilik toko, dimana data akan update setiap kali ada transaksi dengan cara pembayaran e-cash atau top up member dengan toko yang bersangkutan |
-| 8 | Notifikasi | Modul yang digunakan untuk memberitahukan admin apabila terdapat request baru dari toko yang ingin mendaftar |
 
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
@@ -509,12 +399,12 @@ Primary Key :
 | - | - | - | - | - | - |
 
 ____3.2.2 Tabel____ <br>
-Identifikasi/Nama : 
-Deskripsi Isi : 
-Jenis : 
-Volume : 
-Laju : 
-Primary Key : 
+<br>Identifikasi/Nama : 
+<br>Deskripsi Isi : 
+<br>Jenis : 
+<br>Volume : 
+<br>Laju : 
+<br>Primary Key : 
 
 | Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
 | --------- | --------- | --------- | --------- | --------- | --------- |
