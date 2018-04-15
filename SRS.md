@@ -521,12 +521,6 @@ __2.3 Spesifikasi Kebutuhan Non-Fungsional__
 <br>Aplikasi ini memberi kemudahan dalam pengaksesan sistem khususnya terkait dengan faktor waktu dan lokasi pengaksesan, serta perangkat atau teknologi yang digunakan untuk mengakses.
 
 __2.4 Karakteristik pengguna__
-|Katagori Pengguna| Tugas|Hak Akses ke Aplikasi|
-|------|------|------|
-|Administrator|-|Mempunyai hak akses penuh terhadap data user dan aplikasi sistem|
-|Pemilik toko|-|-|
-|Karyawan|-|-|
-|Member|-|-|
 
 __2.5 Batasan-batasan__
 - Bahasa pemrograman berbasis android yang digunakan adalah Java.
@@ -549,14 +543,14 @@ __3.2 Functional Requirement__
  	Logika Struktur terdapat pada bagian 3.3.1
  </p>
 
- **3.2.1 Sign In Member**
+ **3.2.1 Sign In Member dan Karyawan**
 
-| Nama fungsi  |Sign In  |
+| Nama fungsi  |Sign In Member dan Karyawan |
 |--|--|
-|Ref|Bag 2.1.2, Sign In member | 
+|Ref|Bag 2.1.2, Sign In Member dan Karyawan | 
 |Trigger|Membuka aplikasi Q-PAY|
-|Precondition|Halaman utama Aplikasi untuk Sign In|
-|Basic Path|1. Member mengklik tombol Sign In <br>2. Sistem menampilkan halaman Sign In yang terdiri dari kolom Email dan Password <br>3. Member memasukkan Email dan Password <br> 4. Sistem menyimpan Email dan Password dari member|
+|Precondition|Halaman utama Sign In pada aplikasi|
+|Basic Path|1. User mengklik tombol Sign In <br>2. Sistem menampilkan halaman Sign In yang terdiri dari kolom Email dan Password <br>3. User memasukkan Email dan Password <br>4. Sistem menyimpan Email dan Password dari user|
 |Alternative|Tidak Ada|
 |Post Condition|User dapat Sign In dan dapat mengakses aplikasi Q-PAY|
 |Exception Push	|1. Tidak ada Koneksi <br>2. User belum mendaftar ke aplikasi|
@@ -567,10 +561,58 @@ __3.2 Functional Requirement__
 |--|--|
 |Ref|Bag 2.1.2, Sign Up member | 
 |Trigger|Membuka aplikasi Q-PAY lalu mengklik tombol Sign Up|
-|Precondition|Halaman utama Aplikasi untuk Sign Up|
-|Basic Path|1. Member mengklik tombol Sign Up <br>2. Sistem menampilkan halaman Sign Up yang terdiri dari kolom Nama Lengkap, Alamat, No.Hp, Email dan Password <br>3. Member memasukkan Nama Lengkap, Alamat, No.Hp, Email dan Password <br> 4. Sistem menyimpan Nama Lengkap, Alamat, No.Hp, Email dan Password dari member|
+|Precondition|Halaman utama Sign Up pada aplikasi|
+|Basic Path|1. Member mengklik tombol Sign Up <br>2. Sistem menampilkan halaman Sign Up yang terdiri dari kolom Nama Lengkap, Alamat, No.Hp, Email dan Password <br>3. Member memasukkan Nama Lengkap, Alamat, No.Hp, Email dan Password <br>4. Sistem menyimpan Nama Lengkap, Alamat, No.Hp, Email dan Password dari member|
 |Alternative|Tidak Ada|
 |Post Condition|User dapat Sign Up, Login dan dapat mengakses aplikasi Q-PAY|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.3 Navbar Menu Member**
+
+| Nama fungsi  |Navbar Menu Member  |
+|--|--|
+|Ref|Bag 2.1.2, Navbar Menu Member | 
+|Trigger|Mengklik tombol Navbar Menu|
+|Precondition|Halaman profile member dan daftar menu aplikasi|
+|Basic Path|1. Member mengklik tombol navbar menu <br>2. Sistem menampilkan halaman profile member dan daftar menu yang terdiri dari menu Scan, Daftar Belanja, Top Up, Struk dan Logout|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat mengakses menu dari aplikasi Q-PAY|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.4 Scan QR Code**
+
+| Nama fungsi  |Scan QR Code |
+|--|--|
+|Ref|Bag 2.1.2, Scan QR Code | 
+|Trigger|Mengklik tombol Scan pada navbar menu|
+|Precondition|Halaman utama Scan QR Code|
+|Basic Path|1. Member mengklik tombol Scan pada navbar menu <br>2. Sistem menampilkan halaman Scan <br>3. Member mengarahkan QR Code scanner pada QR Code bar <br>4. Sistem menampilkan nama dan harga produk|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat men-Scan QR Code bar dan mengetahui nama serta harga produk tersebut|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.4 Daftar Belanja**
+
+| Nama fungsi  |Daftar Belanja |
+|--|--|
+|Ref|Bag 2.1.2, Daftar Belanja | 
+|Trigger|Mengklik tombol Daftar Belanja pada navbar menu|
+|Precondition|Halaman utama Daftar Belanja|
+|Basic Path|1. Member mengklik tombol Daftar Belanja pada navbar menu <br>2. Sistem menampilkan daftar belanja member yang terdiri dari nama barang, qty dan harga|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat melihat produk apa saja yang sudah di scan|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.5 Top Up**
+
+| Nama fungsi  |Top Up |
+|--|--|
+|Ref|Bag 2.1.2, Top Up | 
+|Trigger|Mengklik tombol Top Up pada navbar menu|
+|Precondition|Halaman utama Top Up|
+|Basic Path|1. Member mengklik tombol Top Up pada navbar menu <br>2. Sistem menampilkan top up yang terdiri dari jumlah saldo saat ini dan pemakaian terakhir dari saldo|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat melihat jumlah saldo saat ini dan mengetahui pemakaian  terakhir dari saldo tersebut|
 |Exception Push	|Tidak ada Koneksi|
 
 __3.3 Struktur Detail Kebutuhan Non-Fungsional__
