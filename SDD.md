@@ -613,7 +613,7 @@ ______3.3.1.4 Spesifikasi Field Data Layar______ <br>
 ______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
 
 | ID Objek | Jenis | Keterangan | Platform |
-|---------|---------|---------|
+|---------|---------|---------|------------|
 | textEmail | input type text | isi text akan digunakan dalam proses login sebagai username | Web |
 | textPassword | input type password | isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Web |
 |btnLogin|button|Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Web |
@@ -627,16 +627,19 @@ ______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
 
 ______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
 
-id_proses : login, sign up
-objek terkait : email, password, button login
-Event:Login
+<br>id_proses : login, sign up
+<br>objek terkait : email, password, button login
+<br>Event:Login
 
 |Inisial State (IS) |
+|-------------------|
 |Form login masih kosong|
 
 |Final State (FS) |
-|Mengahsilkan otentikasi user yang masuk ke aplikasi|
+|-------------------|
 
+|Mengahsilkan otentikasi user yang masuk ke aplikasi|
+|----------------------------------------------------
 |Spesifikasi Proses/Algoritma|
 |1.Buka aplikasi atau web|
 |2.Inputkan email dan password|
