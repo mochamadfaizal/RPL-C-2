@@ -595,7 +595,19 @@ __3.2 Functional Requirement__
 |Post Condition|User dapat Sign In dan dapat mengakses aplikasi Q-PAY|
 |Exception Push	|1. Tidak ada Koneksi <br>2. User belum mendaftar ke aplikasi|
 
-**3.2.2 Sign Up Member**
+**3.2.2 Lupa Password Member dan Karyawan**
+
+| Nama fungsi  |Lupa Password Member dan Karyawan |
+|--|--|
+|Ref|Bag 2.1.2, Lupa Password Member dan Karyawan | 
+|Trigger|Membuka aplikasi Q-PAY lalu mengklik tombol Lupa Password|
+|Precondition|Halaman utama Lupa Password|
+|Basic Path|1. User mengklik tombol Lupa Password <br>2. Sistem menampilkan halaman Lupa Password yang berisikan kolom Email yang harus diisikan <br>3. User memasukkan Email <br>4. Sistem mengirim verifikasi melalui Email user|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Sign In dan dapat mengakses aplikasi Q-PAY|
+|Exception Push	|1. Tidak ada Koneksi <br>2. User belum mendaftar ke aplikasi|
+
+**3.2.3 Sign Up Member**
 
 | Nama fungsi  |Sign Up  |
 |--|--|
@@ -607,54 +619,222 @@ __3.2 Functional Requirement__
 |Post Condition|User dapat Sign Up, Login dan dapat mengakses aplikasi Q-PAY|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.3 Navbar Menu Member**
+**3.2.4 Navbar Member**
 
 | Nama fungsi  |Navbar Menu Member  |
 |--|--|
 |Ref|Bag 2.1.2, Navbar Menu Member | 
 |Trigger|Mengklik tombol Navbar Menu|
-|Precondition|Halaman profile member dan daftar menu aplikasi|
-|Basic Path|1. Member mengklik tombol navbar menu <br>2. Sistem menampilkan halaman profile member dan daftar menu yang terdiri dari menu Scan, Daftar Belanja, Top Up, Struk dan Logout|
+|Precondition|Halaman utama profile member dan daftar menu aplikasi|
+|Basic Path|1. Member mengklik tombol navbar menu <br>2. Sistem menampilkan halaman profile member dan daftar menu yang terdiri dari menu Scan, Daftar Belanja, Top Up, Struk, Setting Profile dan Logout|
 |Alternative|Tidak Ada|
 |Post Condition|Member dapat mengakses menu dari aplikasi Q-PAY|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.4 Scan QR Code**
+**3.2.5 Scan QR Code**
 
 | Nama fungsi  |Scan QR Code |
 |--|--|
 |Ref|Bag 2.1.2, Scan QR Code | 
 |Trigger|Mengklik tombol Scan pada navbar menu|
-|Precondition|Halaman utama Scan QR Code|
+|Precondition|Halaman utama menu Scan QR Code|
 |Basic Path|1. Member mengklik tombol Scan pada navbar menu <br>2. Sistem menampilkan halaman Scan <br>3. Member mengarahkan QR Code scanner pada QR Code bar <br>4. Sistem menampilkan nama dan harga produk|
 |Alternative|Tidak Ada|
 |Post Condition|Member dapat men-Scan QR Code bar dan mengetahui nama serta harga produk tersebut|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.4 Daftar Belanja**
+**3.2.6 Daftar Belanja**
 
 | Nama fungsi  |Daftar Belanja |
 |--|--|
 |Ref|Bag 2.1.2, Daftar Belanja | 
 |Trigger|Mengklik tombol Daftar Belanja pada navbar menu|
-|Precondition|Halaman utama Daftar Belanja|
+|Precondition|Halaman utama menu Daftar Belanja|
 |Basic Path|1. Member mengklik tombol Daftar Belanja pada navbar menu <br>2. Sistem menampilkan halaman daftar belanja member yang terdiri dari nama barang, qty dan harga|
 |Alternative|Tidak Ada|
 |Post Condition|Member dapat melihat produk apa saja yang sudah di scan|
 |Exception Push	|Tidak ada Koneksi|
 
-**3.2.5 Top Up**
+**3.2.7 Top Up**
 
 | Nama fungsi  |Top Up |
 |--|--|
 |Ref|Bag 2.1.2, Top Up | 
 |Trigger|Mengklik tombol Top Up pada navbar menu|
-|Precondition|Halaman utama Top Up|
-|Basic Path|1. Member mengklik tombol Top Up pada navbar menu <br>2. Sistem menampilkan halaman top up yang berisi kolom masukkan kode<br>3. Member mengisikan kolom masukkan kode|
+|Precondition|Halaman utama menu Top Up|
+|Basic Path|1. Member mengklik tombol Top Up pada navbar menu <br>2. Sistem menampilkan halaman top up yang berisikan kolom masukkan kode untuk mengambil saldo dari admin sebagai pembayaran <br>3. Member mengisikan kolom masukkan kode <br>4. Sistem memproses kode|
 |Alternative|Tidak Ada|
-|Post Condition||
+|Post Condition|Member dapat memasukkan kode untuk memulai proses pengiriman saldo|
 |Exception Push	|Tidak ada Koneksi|
 
+**3.2.8 Isi Saldo**
+
+| Nama fungsi  |Isi Saldo |
+|--|--|
+|Ref|Bag 2.1.2, Isi Saldo | 
+|Trigger|Mengklik tombol Isi Saldo pada menu Top Up|
+|Precondition|Halaman utama menu Isi Saldo|
+|Basic Path|1. Member mengklik tombol Isi Saldo pada menu Top Up <br>2. Sistem menampilkan halaman Isi Saldo yang berisikan daftar pilihan saldo yang dapat member pilih untuk dikirimkan <br>3. Sistem memproses jumlah saldo|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat memilih jumlah saldo yang akan dikirimkan|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.9 Info Transfer**
+
+| Nama fungsi  |Info Transfer |
+|--|--|
+|Ref|Bag 2.1.2, Info Transfer | 
+|Trigger|Mengklik tombol kirim pada menu Isi saldo|
+|Precondition|Halaman utama menu Info Transfer|
+|Basic Path|1. Member mengklik tombol kirim pada menu Top Up <br>2. Sistem menampilkan halaman Info Transfer yang berisikan kolom no. rekening yang harus diisikan member <br>3. Sistem memproses saldo|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat memasukkan no. rekening yang akan dituju untuk pengiriman saldo|
+|Exception Push	|Tidak ada Koneksi|
+
+
+**3.2.10 Struk**
+
+| Nama fungsi  |Struk |
+|--|--|
+|Ref|Bag 2.1.2, Struk | 
+|Trigger|Mengklik tombol Struk pada navbar menu|
+|Precondition|Halaman utama menu Struk|
+|Basic Path|1. Member mengklik tombol Struk pada navbar menu <br>2. Sistem menampilkan halaman struk yang berisikan struk dari list transaksi|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat melihat list transaksi yang pernah dilakukan member di toko tersebut beserta dengan tanggal transaksinya|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.11 Detail Struk**
+
+| Nama fungsi  |Detail Struk |
+|--|--|
+|Ref|Bag 2.1.2, Detail Struk | 
+|Trigger|Mengklik salah satu dari list pada menu Struk|
+|Precondition|Halaman utama menu Detail Struk|
+|Basic Path|1. Member mengklik salah satu dari list pada menu struk <br>2. Sistem menampilkan halaman detail struk yang berisikan nama barang, qty dan harga produk|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat melihat struk secara detail|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.12 Setting Profile Member**
+
+| Nama fungsi  |Setting Profile Member|
+|--|--|
+|Ref|Bag 2.1.2, Setting Profile Member| 
+|Trigger|Mengklik tombol Setting Profile pada navbar menu|
+|Precondition|Halaman utama menu Setting Profile|
+|Basic Path|1. Member mengklik tombol Setting Profile pada navbar menu <br>2. Sistem menampilkan halaman Setting Profile yang berisikan kolom data diri member <br>3. Member mengklik salah satu kolom data diri dan mengubah isi dari data pada kolom tersebut <br>4. Sistem memproses dan menyimpan data tersebut|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat mengubah data dirinya|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.13 Setting Foto Profile Member**
+
+| Nama fungsi  |Setting Foto Profile Member|
+|--|--|
+|Ref|Bag 2.1.2, Setting Foto Profile Member| 
+|Trigger|Mengklik foto profile pada menu setting profile|
+|Precondition|Halaman utama menu Setting Foto Profile|
+|Basic Path|1. Member mengklik foto profile pada menu setting profile <br>2. Sistem menampilkan halaman Setting Foto Profile yang berisikan pilihan pengambilan foto <br>3. Sistem memproses dan menyimpan foto profile tersebut|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat mengubah foto profilenya|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.14 Navbar Karyawan**
+
+| Nama fungsi  |Navbar Menu Karyawan|
+|--|--|
+|Ref|Bag 2.1.2, Navbar Menu Karyawan| 
+|Trigger|Mengklik tombol Navbar Menu|
+|Precondition|Halaman utama profile karyawan dan daftar menu aplikasi|
+|Basic Path|1. Karyawan mengklik tombol navbar menu <br>2. Sistem menampilkan halaman profile member dan daftar menu yang terdiri dari menu Data Barang, Transaksi, Setting Profile dan Logout|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat mengakses menu dari aplikasi Q-PAY|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.15 Transaksi Penjualan**
+
+| Nama fungsi  |Transaksi Penjualan|
+|--|--|
+|Ref|Bag 2.1.2, Transaksi Penjualan| 
+|Trigger|Mengklik tombol Transaksi Penjualan pada menu pilihan Transaksi|
+|Precondition|Halaman utama Transaksi Penjualan|
+|Basic Path|1. Karyawan mengklik tombol transaksi lalu mengklik salah satu pilihan Transaksi Penjualan <br>2. Sistem menampilkan halaman Transaksi Penjualan yang berisikan list transaksi antara toko dengan member|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat melihat list dari transaksi penjualan|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.16 Transaksi Pembelian**
+
+| Nama fungsi  |Transaksi Pembelian|
+|--|--|
+|Ref|Bag 2.1.2, Transaksi Pembelian| 
+|Trigger|Mengklik tombol Transaksi Pembelian pada menu pilihan Transaksi|
+|Precondition|Halaman utama Transaksi Pembelian|
+|Basic Path|1. Karyawan mengklik tombol transaksi lalu mengklik salah satu pilihan Transaksi Pembelian <br>2. Sistem menampilkan halaman Transaksi Pembelian yang berisikan list transaksi antara toko dengan pemasok yang melakukan supplay barang|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat melihat list dari transaksi penjualan|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.17 Detail Transaksi**
+
+| Nama fungsi  |Detail Transaksi|
+|--|--|
+|Ref|Bag 2.1.2, Detail Transaksi| 
+|Trigger|Mengklik salah satu dari list pada menu Transaksi|
+|Precondition|Halaman utama menu Detail Transaksi|
+|Basic Path|1. Karyawan mengklik salah satu dari list pada menu transaksi <br>2. Sistem menampilkan halaman detail transaksi yang berisikan nama barang, qty dan harga produk|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat melihat transaksi secara detail|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.17 Input Bayar**
+
+| Nama fungsi  |Input Bayar|
+|--|--|
+|Ref|Bag 2.1.2, Input Bayar| 
+|Trigger|Mengklik tombol cetak pada menu Detail Transaksi|
+|Precondition|Halaman utama menu Input Bayar|
+|Basic Path|1. Karyawan mengklik tombol cetak pada menu Detail Transaksi <br>2. Sistem menampilkan halaman input bayar <br>3. Karyawan memasukkan jumlah yang akan dibayarkan <br>4. Sistem memproses pembayaran|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat melakukan pembayaran dengan memasukkan jumlah bayar|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.18 Input Data Barang**
+
+| Nama fungsi  |Input Data Barang|
+|--|--|
+|Ref|Bag 2.1.2, Input Data Barang| 
+|Trigger|Mengklik tombol Data Barang pada menu navbar|
+|Precondition|Halaman utama menu Input Data Barang|
+|Basic Path|1. Karyawan mengklik tombol Input Data Barang pada menu navbar <br>2. Sistem menampilkan halaman Input Data Barang yang berisikan kolom Nama Barang, Harga Beli, Harga Jual, Satuan dan Stok <br>3. Karyawan memasukkan isi dari tiap kolom Input Data Barang <br>4. Sistem memproses dan menyimpan data barang|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat melakukan pembayaran dengan memasukkan jumlah bayar|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.19 Setting Profile Karyawan**
+
+| Nama fungsi  |Setting Profile Karyawan|
+|--|--|
+|Ref|Bag 2.1.2, Setting Profile Karyawan| 
+|Trigger|Mengklik tombol Setting Profile pada navbar menu|
+|Precondition|Halaman utama menu Setting Profile|
+|Basic Path|1. Karyawan mengklik tombol Setting Profile pada navbar menu <br>2. Sistem menampilkan halaman Setting Profile yang berisikan kolom data diri karyawan <br>3. Karyawan mengklik salah satu kolom data diri dan mengubah isi dari data pada kolom tersebut <br>4. Sistem memproses dan menyimpan data tersebut|
+|Alternative|Tidak Ada|
+|Post Condition|Member dapat mengubah data dirinya|
+|Exception Push	|Tidak ada Koneksi|
+
+**3.2.20 Setting Foto Profile Karyawan**
+
+| Nama fungsi  |Setting Foto Profile Karyawan|
+|--|--|
+|Ref|Bag 2.1.2, Setting Foto Profile Karyawan| 
+|Trigger|Mengklik foto profile pada menu setting profile|
+|Precondition|Halaman utama menu Setting Foto Profile|
+|Basic Path|1. Karyawan mengklik foto profile pada menu setting profile <br>2. Sistem menampilkan halaman Setting Foto Profile yang berisikan pilihan pengambilan foto <br>3. Sistem memproses dan menyimpan foto profile tersebut|
+|Alternative|Tidak Ada|
+|Post Condition|Karyawan dapat mengubah foto profilenya|
+|Exception Push	|Tidak ada Koneksi|
 
 __3.3 Struktur Detail Kebutuhan Non-Fungsional__
 
