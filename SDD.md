@@ -489,7 +489,76 @@ ____3.2.6 Tabel Barang____ <br>
 | harga_jual | menyatakan harga jual dari barang | int | No | - | Harga barang yang akan dijual ke member |
 | harga_beli | menyatakan harga beli dari barang | int | No | - | Harga barang yang dibeli dari pemasok |
 | satuan | menyatakan satuan dari barang | int | No | - | Satuan dari barang, seperti kg, lusin, pak |
-| stoko | menyatakan stok dari barang | int | No | - | stok persediaan barang di toko |
+| stok | menyatakan stok dari barang | int | No | - | stok persediaan barang di toko |
+
+____3.2.7 Tabel Transaksi Penjualan____ <br>
+<br>Identifikasi/Nama : Transaksi penjualan
+<br>Deskripsi Isi : Berisi data transaksi penjualan yang dilakukan toko dengan member
+<br>Jenis : tabel transaksi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_jual
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_jual | merupakan key dalam tabel transaksi penjualan | int | No | - | Primary key yang unik setiap transaksi penjualan, bersifat auto increment contoh : 1 |
+| id_toko | merupakan foreign key yang terhubung dengan tabel toko | int | No | - | Foreign key yang menghubungkan tabel transaksi penjualan dengan toko karena setiap toko mempunyai data tansaksi penjualan yang berbeda |
+| id_member | merupakan foreign key yang terhubung dengan tabel member | int | No | - | Foreign key yang menghubungkan tabel transaksi penjualan dengan member karena setiap transaksi penjualan dilakukan dengan member yang berbeda |
+| id_karyawan | merupakan foreign key yang terhubung dengan tabel karyawan | int | No | - | Foreign key yang menghubungkan tabel transaksi penjualan dengan karyawan karena setiap transaksi penjualan bisa saja dilakukan oleh karyawan yang berbeda |
+| tanggal | menyatakan tanggal transaksi penjualan dilakukan | date | No | - | Berisi tanggal transaksi penjualan dilakukan |
+| total_harga | menyatakan total harga yang harus dibayar oleh member | int | No | - | Jumlah harga barang yang harus dibayar member |
+| cara_pembayaran | menyatakan cara pembayaran yang dilakukan oleh member | varchar(20) | No | - | Berisi hanya pilihan cash (bayar manual) ataupun top up (menggunakan saldo member yang ada pada admin |
+
+____3.2.8 Tabel Detail Penjualan____ <br>
+<br>Identifikasi/Nama : Detail Penjualan
+<br>Deskripsi Isi : Berisi data rincian dari tabel transaksi penjualan
+<br>Jenis : tabel transaksi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_detail_jual
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_detail_jual | merupakan key dalam tabel detail penjualan | int | No | - | Primary key yang unik setiap detail penjualan, bersifat auto increment contoh : 1 |
+| id_jual | merupakan foreign key yang terhubung dengan tabel transaksi penjualan | int | No | - | Foreign key yang menghubungkan tabel detail penjualan dengan transaksi penjualan karena setiap transaksi penjualan mempunyai beberapa data detail penjualan  |
+| id_barang | merupakan foreign key yang terhubung dengan tabel barang | int | No | - | Foreign key yang menghubungkan tabel detail penjualan dengan barang karena setiap detail penjualan mempunyai data barang yang lebih dari satu |
+| quntity | menyatakan banyaknya barang detail penjualan | int | No | - | Jumlah atau quantity dari barang dari setiap transaksi penjualan |
+| harga | menyatakan harga dari barang | int | No | - | Harga dari setiap barang dalam transaksi penjualan |
+
+
+____3.2.9 Tabel Transaksi Pembelian____ <br>
+<br>Identifikasi/Nama : Transaksi pembelian
+<br>Deskripsi Isi : Berisi data transaksi pembelian barang yang dilakukan toko dengan pemasok
+<br>Jenis : tabel transaksi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_beli
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_beli | merupakan key dalam tabel transaksi pembelian | int | No | - | Primary key yang unik setiap transaksi pembelian, bersifat auto increment contoh : 1 |
+| id_toko | merupakan foreign key yang terhubung dengan tabel toko | int | No | - | Foreign key yang menghubungkan tabel transaksi pembelian dengan toko karena setiap toko mempunyai data tansaksi pembelian yang berbeda |
+| id_pemasok | merupakan foreign key yang terhubung dengan tabel pemasok | int | No | - | Foreign key yang menghubungkan tabel transaksi pembelian dengan pemasok karena setiap transaksi pembelian dilakukan dengan pemasok yang berbeda |
+| id_karyawan | merupakan foreign key yang terhubung dengan tabel karyawan | int | No | - | Foreign key yang menghubungkan tabel transaksi pembelian dengan karyawan karena setiap transaksi pembelian bisa saja dilakukan oleh karyawan yang berbeda |
+| tanggal | menyatakan tanggal transaksi pembelian dilakukan | date | No | - | Berisi tanggal transaksi pembelian dilakukan |
+| total_harga | menyatakan total harga yang harus dibayar oleh toko | int | No | - | Jumlah harga barang yang harus dibayar toko |
+
+____3.2.10 Tabel Detail Pembelian____ <br>
+<br>Identifikasi/Nama : Detail Pembelian
+<br>Deskripsi Isi : Berisi data rincian dari tabel transaksi pembelian
+<br>Jenis : tabel transaksi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_detail_beli
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_detail_beli | merupakan key dalam tabel detail pembelian | int | No | - | Primary key yang unik setiap detail pembelian, bersifat auto increment contoh : 1 |
+| id_beli | merupakan foreign key yang terhubung dengan tabel transaksi pembelian | int | No | - | Foreign key yang menghubungkan tabel detail pembelian dengan transaksi pembelian karena setiap transaksi pembelian mempunyai beberapa data detail pembelian  |
+| id_barang | merupakan foreign key yang terhubung dengan tabel barang | int | No | - | Foreign key yang menghubungkan tabel detail pembelian dengan barang karena setiap detail pembelian mempunyai data barang yang lebih dari satu |
+| quntity | menyatakan banyaknya barang detail pembelian | int | No | - | Jumlah atau quantity dari barang dari setiap transaksi pembelian |
+| harga | menyatakan harga dari barang | int | No | - | Harga dari setiap barang dalam transaksi pembelian |
+
 
 
 __3.3 Deskripsi Rinci Modul__ <br>
