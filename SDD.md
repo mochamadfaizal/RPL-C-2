@@ -436,6 +436,7 @@ __2.3 Deskripsi Modul__ <br>
 | 5 | Transaksi | Modul yang digunakan untuk melakukan transaksi seperti penghitungan harga, pencatatan tanggal transaksi, dan cara pembayaran |
 | 6 | Laporan | Modul yang digunakan untuk membuat laporan penjualan dan pembelian toko secara rinci |
 | 7 | Top Up | Modul yang digunakan untuk mengelola saldo yang dimiliki member dan pemilik toko, dimana data akan update setiap kali ada transaksi dengan cara pembayaran e-cash atau top up member dengan toko yang bersangkutan |
+| 8 | Notifikasi | Modul yang digunakan untuk memberitahukan admin apabila terdapat request baru dari toko yang ingin mendaftar |
 
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
