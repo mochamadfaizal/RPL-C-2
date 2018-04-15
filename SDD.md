@@ -682,7 +682,7 @@ ______3.3.1.2 Spesifikasi Layar Utama______ <br>
 			<td><b>Data Barang</b></td>
 		</tr>
 		<tr  valign="top" align="center">
-				<td><img src="http://i65.tinypic.com/333dgyo.png"/></td>	
+				<td><img src="http://i65.tinypic.com/333dgyo.png" width="180" height="350"/></td>	
 		</tr>
     </table>
 
@@ -711,7 +711,10 @@ ______3.3.1.4 Spesifikasi Field Data Layar______ <br>
 
 | Label | Field | Tabel / Query | Validasi | Keterangan |
 |---------|---------|---------|---------|---------|
-| - | - | - | - | - |
+| namaToko | nama_toko | data_toko | - | - |
+| namaPemilik | nama_pemilik_toko | data_toko | - | - |
+| alamatToko | alamat_toko | data_toko | - | - |
+| email | email | data_toko | - | - |
 
 
 
