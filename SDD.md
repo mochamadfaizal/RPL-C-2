@@ -317,10 +317,10 @@ ____2.2.4 Daftar Tabel Aplikasi____ <br>
 | Nama Tabel | Primary Key | Data Store | E/R | Deskripsi Isi |
 | --------- | --------- | --------- | --------- | --------- |
 | User | id_user | D10 | - | Berisi email dan password user dengan level yang berbeda digunakan untuk login |
-| Barang | id_barang | D2 | - | Berisi data barang yang ada di toko seperti nama, harga jual dan harga beli, serta stok persediaan |
+| Barang | id_barang | D1 | - | Berisi data barang yang ada di toko seperti nama, harga jual dan harga beli, serta stok persediaan |
 | Karyawan | id_karyawan | D3 | - | Berisi data karyawan yang bekerja di toko |
 | Toko | id_toko | D2 | - | Berisi data toko dan pemilik toko seperti nama toko, nama pemilik toko, alamat, email dan sebagainya |
-| Pemasok | id_pemasok | D4 | Auto Increment | Berisi data pemasok barang pada toko, pemasok yang memang sudah sering men-supplay barang di toko tersebut |
+| Pemasok | id_pemasok | D4 | - | Berisi data pemasok barang pada toko, pemasok yang memang sudah sering men-supplay barang di toko tersebut |
 | Member | id_member | D5 | - | Berisi data diri member yang digunakan sebagai profil member pada apliksi |
 | Transaksi_penjualan | id_jual | D6 | - | Berisi data dari setiap transaksi penjualan yang dilakukan toko dengan member |
 | Detail_penjualan | id_detail_jual | D7 | - | Berisi data rincian dari setiap transaksi penjualan |
@@ -387,16 +387,19 @@ DFD level 1 merupakan rincian dari dari level 0, dan pada dfd level 1 mengelola 
 __3.2 Deskripsi Rinci Tabel__ <br>
 
 ____3.2.1 Tabel____ <br>
-Identifikasi/Nama : 
-Deskripsi Isi : 
-Jenis : 
-Volume : 
-Laju : 
-Primary Key : 
+Identifikasi/Nama : User
+Deskripsi Isi : Berisi semua user dalam aplikasi
+Jenis : Tabel referensi
+Volume : -
+Laju : -
+Primary Key : id_user
 
 | Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - | - |
+| id_user | Merupakan key dari tabel user | int | No | - | Primary key yang unik, bersifat auto increment contoh : 1 |
+| email | menyatakan email user | varchar(20) | No | - | Email akan digunakan sebagai username untuk login user |
+| password | menyatakan password user | varchar(20) | No | - | password akan digunakan untuk login user, password harus sesuai dengan email agar login berhasil |
+| level | menyatakan tingkatan user | varchar(20) | No | - | level digunakan untuk menyatakan tingkatan user, dimana terdapat 4 level yaitu admin, karyawab, pemilik toko, dan member |
 
 ____3.2.2 Tabel____ <br>
 <br>Identifikasi/Nama : 
