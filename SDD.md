@@ -659,29 +659,30 @@ ______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
 |Else email dan password tidak sesuai maka akan tampil pesan emai dan password tidak sesuai dan user diharapkan menginput ulang email dan password|
 
 
-____3.3.2 Modul Otentikasi____ <br>
+____3.3.2 Modul Master____ <br>
 
 ______3.3.1.1 Fungsi Modul______ <br>
 
 | No | Fungsi | Jenis | Tabel Terkait |
 |---------|---------|---------|---------|
-| 1 | Login | form entry | user |
-| 2 | Sign Up | form entry | user |
-| 3 | Forgot Password | form entry | user |
+| 1 | CRUD Data Toko | form entry | toko |
+| 2 | CRUD Data Karyawan | form entry | karyawan |
+| 3 | CRUD Data Pemasok | form entry | pemasok |
+| 4 | CRUD Data Barang | form entry | barang |
 
 ______3.3.1.2 Spesifikasi Layar Utama______ <br>
     <table width="100%" align="center">
 		<tr align="center">
-			<td><b>Login</b></td>
+			<td><b>Data Karyawan</b></td>
 		</tr>
 		<tr  valign="top" align="center">
-				<td><img src="http://i66.tinypic.com/2kkf1h.png"/></td>	
+				<td><img src="http://i64.tinypic.com/1zlsqjr.png"/></td>	
 		</tr>
 		<tr align="center">
-			<td><b>Android</b></td>
+			<td><b>Data Barang</b></td>
 		</tr>
 		<tr  valign="top" align="center">
-				<td><img src="http://i64.tinypic.com/rr73uh.png"/></td>	
+				<td><img src="http://i65.tinypic.com/333dgyo.png"/></td>	
 		</tr>
     </table>
 
@@ -689,16 +690,28 @@ ______3.3.1.3 Spesifikasi Query______ <br>
 
 | ID Query | Deskripsi | Ekspresi Query |
 ---------|---------|---------|
-| QRY01 | Login | SELECT * FROM user where email = '$email' AND password='$password' |
-| QRY02 | Sign Up | INSERT INTO user (email, password, level) VALUES ('$email','$password','$level') |
+| QRY01 | Create data toko | INSERT INTO data_toko (nama_toko, nama_pemilik_toko, alamat_toko, email) VALUES ('$nmtoko', '$nmpemilik', '$alamat', '$email') |
+| QRY02 | Read data toko | SELECT * FROM data_toko |
+| QRY03 | Update data toko | Update data_toko set nama_toko='$nmtoko', nama_pemilik_toko='$nmpemilik', alamat_toko='$alamat', email='$email'  where id_toko='$id_toko' |
+| QRY04 | Delete data toko | Delete from data_toko where id_toko='$id_toko' |
+| QRY05 | Create data karyawan | INSERT INTO data_karyawan (nama, email, no_hp, alamat) VALUES ('$nama', '$email', '$no_hp', '$alamat') |
+| QRY06 | Read data karyawan | SELECT * FROM data_karyawan |
+| QRY07 | Update data karyawan | Update data_karyawan set nama='$nama', email='$email', no_hp='$no_hp', alamat='$alamat'  where id_karyawan='$id_karyawan' |
+| QRY08 | Delete data karyawan | Delete from data_karyawan where id_karyawan='$id_karyawan' |
+| QRY09 | Create data pemasok | INSERT INTO data_pemasok (nama, no_telp, alamat) VALUES ('$nama', '$no_telp', '$alamat') |
+| QRY10 | Read data pemasok | SELECT * FROM data_pemasok |
+| QRY11 | Update data pemasok | Update data_pemasok set nama='$nama', no_telp='$no_telp', alamat='$alamat'  where id_pemasok='$id_pemasok' |
+| QRY12 | Delete data pemasok | Delete from data_pemasok where id_pemasok='$id_pemasok' |
+| QRY13 | Create data barang | INSERT INTO data_barang (nama_barang, harga_jual, harga_beli, satuan, stok) VALUES ('$nama_barang', '$harga_jual', '$harga_beli', '$satuan', '$stok') |
+| QRY14 | Read data barang | SELECT * FROM data_barang |
+| QRY15 | Update data barang | Update data_barang set nama_barang='$nama_barang', harga_jual='$harga_jual', harga_beli='$harga_beli', satuan='$satuan', stok='$stok'  where id_barang='$id_barang' |
+| QRY16 | Delete data barang | Delete from data_barang where id_barang='$id_barang' |
 
 ______3.3.1.4 Spesifikasi Field Data Layar______ <br>
 
 | Label | Field | Tabel / Query | Validasi | Keterangan |
 |---------|---------|---------|---------|---------|
-| email | email | user | required, need '@', string, max:20 | email user yang dapat mengakses aplikasi |
-| password | password | user | required, string, max:20 | password diinputkan user agar dapat login |
-
+| - | - | - | - | - |
 
 
 
@@ -706,37 +719,24 @@ ______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
 
 | ID Objek | Jenis | Keterangan | Platform |
 |---------|---------|---------|------------|
-| textEmail | input type text | isi text akan digunakan dalam proses login sebagai username | Web |
-| textPassword | input type password | isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Web |
-|btnLogin|button|Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Web |
-|lblregister|label|Jika diklik maka akan menuju ke tampilan register| Web |
-|textEmail|AutoCompleteTextView| isi text akan digunakan dalam proses login sebagai username | Android |
-|textPassword|EditText| isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Android |
-|LoginBtn| Button |Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Android |
-|SignUpBtn|Button|Jika diklik maka akan menampilkan fragmen menu sign up| Android |
-|SignInBtn|Button|Jika diklik maka akan menampilkan fragmen menu Login| Android |
-|forgotPassword|TextView|Jika diklik maka akan masuk ke halaman forgot password|
-
+| - | - | - | - |
 ______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
 
-<br>id_proses : login, sign up
-<br>objek terkait : email, password, button login
-<br>Event:Login
+<br>id_proses : -
+<br>objek terkait : -
+<br>Event: -
 
 |Inisial State (IS) |
 |-------------------|
-|Form login masih kosong|
+|-|
 
 |Final State (FS) |
 |-------------------|
-|Mengahsilkan otentikasi user yang masuk ke aplikasi|
+|-|
 
 |Spesifikasi Proses/Algoritma|
 |----------------------------------------------------|
-|1.Buka aplikasi atau web|
-|2.Inputkan email dan password|
-|3.If email dan password sesuai maka akan berpindah ke halaman dashboard masing-masing user sesuai dengan levelnya|
-|Else email dan password tidak sesuai maka akan tampil pesan emai dan password tidak sesuai dan user diharapkan menginput ulang email dan password|
+| - |
 
 
 
