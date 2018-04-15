@@ -441,32 +441,58 @@ __2.3 Deskripsi Modul__ <br>
 
 ### BAB 3 Deskripsi Perancangan Rinci <br>
 __3.1 Diagram Konteks__ <br>
+<p align="justify">Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Q-Pay.</p>
+
 * Context Diagram
-![Context](http://i68.tinypic.com/30sd175.jpg)
+![Context](http://i63.tinypic.com/2yzarmg.jpg)
 
 ____3.1.1 DFD Level 0____ <br>
+Data Flow Diagram merupakan cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, dan merupakan penjelasan dari context diagram. Dalam aplikasi ini terdapat 3 proses utama yaitu mengelola data master, mengelola transaksi dan mengelola data member.
+
 * DFD Level 0
-![LV0]( http://i66.tinypic.com/2aak55j.jpg)
+![LV0](http://i63.tinypic.com/2ewcgox.jpg)
 
 ____3.1.2 DFD Level 1 Mengelola Data Master____ <br>
+DFD level 1 merupakan rincian dari dari level 0, dan pada dfd level 1 mengelola data master terdapat 4 proses yaitu mengelola data toko, mengelola data karyawan, mengelola data pemasok dan mengelola data barang.
+
 * DFD Level 1 Mengelola Data Master
-![LV1TOKO](http://i67.tinypic.com/24qnv40.jpg)
+![LV1MASTER](http://i65.tinypic.com/2czwv8x.jpg)
 
 ____3.1.3 DFD Level 2 Mengelola Data Toko____ <br>
+DFD level 2 merupakan rincian dari dari level 1, dan pada dfd level 2 mengelola data toko terdapat 5 proses yaitu melakukan validasi, menambahkan data, mengubah data, menghapus data dan melihat data.
+
 * DFD Level 2 Mengelola Data Toko
-![LV1TOKO](http://i64.tinypic.com/jkc93c.jpg)
+![LV2TOKO](http://i64.tinypic.com/2chrp5g.jpg)
 
 ____3.1.4 DFD Level 2 Mengelola Data Karyawan____ <br>
+DFD level 2 merupakan rincian dari dari level 1, dan pada dfd level 2 mengelola data karyawan terdapat 5 proses yaitu melakukan validasi, menambahkan data, mengubah data, menghapus data dan melihat data.
+
 * DFD Level 2 Mengelola Data Karyawan
-![LV1KARYAWAN](http://i64.tinypic.com/2ni1jif.jpg)
+![LV2KARYAWAN](http://i66.tinypic.com/5vdisg.jpg)
 
 ____3.1.5 DFD Level 2 Mengelola Data Barang____ <br>
-* DFD Level 2 Mengelola Data Barang
-![LV1BARANG](http://i65.tinypic.com/f9fqki.jpg )
+DFD level 2 merupakan rincian dari dari level 1, dan pada dfd level 2 mengelola data barang terdapat 5 proses yaitu melakukan validasi, menambahkan data, mengubah data, menghapus data dan melihat data.
 
-____3.1.6 DFD Level 1 Mengelola Data Member____ <br>
+* DFD Level 2 Mengelola Data Barang
+![LV2BARANG](http://i67.tinypic.com/25ti3gx.jpg)
+
+____3.1.6 DFD Level 2 Mengelola Data Pemasok____ <br>
+DFD level 2 merupakan rincian dari dari level 1, dan pada dfd level 2 mengelola data pemasok terdapat 5 proses yaitu melakukan validasi, menambahkan data, mengubah data, menghapus data dan melihat data.
+
+* DFD Level 2 Mengelola Data Pemasok
+![LV2PEMASOK](http://i63.tinypic.com/ivz9ug.jpg)
+
+____3.1.7 DFD Level 1 Mengelola Data Member____ <br>
+DFD level 1 merupakan rincian dari dari level 0, dan pada dfd level 1 mengelola data member terdapat 5 proses yaitu melakukan validasi, menambahkan data, mengubah data, menghapus data dan melihat data.
+
 * DFD Level 1 Mengelola Data Member
-![LV1MEMBER](http://i65.tinypic.com/k0jy9l.jpg)
+![LV1MEMBER](http://i64.tinypic.com/2aj3qip.jpg)
+
+____3.1.8 DFD Level 1 Mengelola Data Transaksi____ <br>
+DFD level 1 merupakan rincian dari dari level 0, dan pada dfd level 1 mengelola data transaksi terdapat 3 proses yaitu melakukan konversi qr code dan hitung harga, transaksi penjualan, dan transaksi pembelian.
+
+* DFD Level 1 Mengelola Data Transaksi
+![LV1TRANSAKSI](http://i63.tinypic.com/2lvk0me.jpg)
 
 __3.2 Deskripsi Rinci Tabel__ <br>
 
