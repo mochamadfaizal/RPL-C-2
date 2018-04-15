@@ -567,18 +567,48 @@ ____3.2.10 Tabel Detail Pembelian____ <br>
 
 __3.3 Deskripsi Rinci Modul__ <br>
 
-____3.3.1 Modul____ <br>
+____3.3.1 Modul Otentikasi____ <br>
 
 ______3.3.1.1 Fungsi Modul______ <br>
+
 | No | Fungsi | Jenis | Tabel Terkait |
-| --------- | --------- | --------- | --------- |
-| - | - | - | - |
+|---------|---------|---------|---------|
+| 1 | Login | form entry | user |
+| 2 | Sign Up | form entry | user |
+| 3 | Forgot Password | form entry | user |
 
 ______3.3.1.2 Spesifikasi Layar Utama______ <br>
+    <table width=100%>
+		<tr align="center">
+			<td><b>Login</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/2kkf1h.png"/></td>	
+		</tr>
+		<tr align="center">
+			<td><b>Android</b></td>
+		</tr>
+		<tr  valign="top" align="center">
+				<td><img src="http://i64.tinypic.com/rr73uh.png"/></td>	
+		</tr>
+    </table>
 
 ______3.3.1.3 Spesifikasi Query______ <br>
 
+| ID Query | Deskripsi | Ekspresi Query |
+|---------|---------|---------|---------|
+| QRY01 | Login | SELECT * FROM user where email = '$email' AND password='$password' |
+| QRY | Sign Up | INSERT INTO user (email, password, level) VALUES ('$email','$password','$level') |
+
 ______3.3.1.4 Spesifikasi Field Data Layar______ <br>
+
+| Label | Field | Tabel / Query | Validasi | Keterangan |
+|---------|---------|---------|---------|---------|
+| email | email | user | required, need '@', string, max:20 | email user yang dapat mengakses aplikasi |
+| password | password | user | required, string, max:20 | password diinputkan user agar dapat login |
+
+
+
 
 ______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
 
