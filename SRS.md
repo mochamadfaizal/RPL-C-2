@@ -618,7 +618,7 @@ __3.2 Functional Requirement__
 __3.3 Struktur Detail Kebutuhan Non-Fungsional__
 
 ____3.3.1 Logika Struktur Data____
-![](http://i64.tinypic.com/jz8qh2.jpg)
+![](http://i68.tinypic.com/msknkw.jpg)
 
 Deskripsi dapat dijelaskan seperti berikut:
 <b>User</b>
