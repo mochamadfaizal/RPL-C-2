@@ -596,7 +596,7 @@ ______3.3.1.2 Spesifikasi Layar Utama______ <br>
 ______3.3.1.3 Spesifikasi Query______ <br>
 
 | ID Query | Deskripsi | Ekspresi Query |
-|---------|---------|---------|---------|
+---------|---------|---------|
 | QRY01 | Login | SELECT * FROM user where email = '$email' AND password='$password' |
 | QRY | Sign Up | INSERT INTO user (email, password, level) VALUES ('$email','$password','$level') |
 
