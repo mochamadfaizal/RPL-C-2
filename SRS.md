@@ -128,9 +128,9 @@ ____2.1.2 Antarmuka pengguna____
 			<td><b>Navbar Menu</td>
 		</tr>
 		<tr valign="top" align="center">
-				<td><img src="http://i64.tinypic.com/554ax0.png" width="180" height="350" /><br><p align="justify">Tampilan Sign Up ini adalah tampilan register bagi member yang belum mempunyai akun.</p></td>
+				<td><img src="http://i66.tinypic.com/2r1zrlv.png" width="180" height="350" /><br><p align="justify">Tampilan Sign Up ini adalah tampilan register bagi member yang belum mempunyai akun.</p></td>
 				<td><img src="http://i63.tinypic.com/2u6k4js.png" width="180" height="350" /><br><p align="justify">Pada tampilan Dashboard member ini terdapat tampilan utama yang berisi foto-foto dan promo toko.</p></td>
-				<td><img src="http://i65.tinypic.com/20itelf.png" width="180" height="350" /><br><p align="justify">Pada tampilan Navbar ini tersedia menu-menu untuk member seperti scan, daftar belanja, topup, struk, setting dan lainnya.</p></td>		
+				<td><img src="http://i66.tinypic.com/2lszc6h.png" width="180" height="350" /><br><p align="justify">Pada tampilan Navbar ini tersedia menu-menu untuk member seperti scan, daftar belanja, topup, struk, setting dan lainnya.</p></td>		
 		</tr>
 		<tr align="center">
 			<td><b>Scan</td>
@@ -142,23 +142,63 @@ ____2.1.2 Antarmuka pengguna____
 				<td><img src="http://i63.tinypic.com/m75qom.png" width="180" height="350" /><br><p align="justify">Pada tampilan hasil scan akan muncul tampilan berupa pop up dimana akan ditampilkan nama produk dan juga harga produk, kemudian member diminta untuk memasukkan jumlah produk jika ingin melanjutkan pembelian.</p></td>
 				<td><img src="http://i67.tinypic.com/2aeyud1.png" width="180" height="350" /><br><p align="justify">Pada menu daftar belanja ini akan tampil list produk yang sudah di scan beserta keterangan harga masing-masing produk dan total harga yang harus dibayar.</p></td>		
 		</tr>
+        <tr align="center">
+			<td><b>Top Up</td>
+			<td><b>Isi Saldo</td>
+			<td><b>Info transfer</td>
+		</tr>
+		<tr valign="top" align="center">
+				<td><img src="http://i68.tinypic.com/20tldug.png" width="180" height="350" /><br><p align="justify">Pada tampilan ini member dapat mengambil saldo dari admin untuk pembayaran dengan memasukkan kode top up</p></td>
+				<td><img src="http://i64.tinypic.com/344wehc.png" width="180" height="350" /><br><p align="justify">Pada tampilan ini member dapat mengisi saldo sesuai dengan menu yang tersedia.</p></td>
+				<td><img src="http://i67.tinypic.com/2a7bipg.png" width="180" height="350" /><br><p align="justify">Pada menu ini setelah member mengisi menu isi saldo akan ada info member harus mentransfer ke rekening milik admin.</p></td>		
+		</tr>
 		<tr align="center">
+			<td><b>lupa password</td>
+			<td><b>Setting Profil</td>
+			<td><b>Setting foto profil</td>
+		</tr>
+		<tr valign="top" align="center">
+				<td><img src="http://i66.tinypic.com/wi2135.png" width="180" height="350" /><br><p align="justify">Ini adalah tampilan ketika user lupa password, dimana terdapat inputan email dan kemudian sistem akan mengirim ulang password user ke email yang diinputkan dan email harus sesuai dengan email yang digunakan saat login.</p></td>
+				<td><img src="http://i67.tinypic.com/2z5q3qv.png" width="180" height="350" /><br><p align="justify">Pada tampilan profil ini akan ditampilkan info profil dari member dan member juga dapa mengubah info profil mereka sendiri.</p></td>
+				<td><img src="http://i66.tinypic.com/23vjfkh.png" width="180" height="350" /><br><p align="justify">Pada tampilan ini member dapat mengubah foto profil mereka, bisa dengan foto langsung, mengambil dari galeri atau pun dari folder tertentu pada device</p></td>		
+		</tr>
+        <tr align="center">
 			<td><b>Struk</td>
 			<td><b>Detail Struk</td>
 			<td><b>Dashboard Karyawan</td>
 		</tr>
 		<tr valign="top" align="center">
 				<td><img src="http://i68.tinypic.com/2hx7tr9.png" width="180" height="350" /><br><p align="justify">Pada menu struk ini akan ditampilkan list dari struk transaksi yang pernah dilakukan member di toko tersebut beserta dengan tanggal transaksinya.</p></td>
-				<td><img src="http://i64.tinypic.com/334p8ie.png" width="180" height="350" /><br><p align="justify">Padaq tampilan detail struk ini akan ditampilkan rincian dari produk, harga, beserta total harga dari transaksi yang pernah dilakukan member.</p></td>
+				<td><img src="http://i64.tinypic.com/334p8ie.png" width="180" height="350" /><br><p align="justify">Pada tampilan detail struk ini akan ditampilkan rincian dari produk, harga, beserta total harga dari transaksi yang pernah dilakukan member.</p></td>
 				<td><img src="http://i67.tinypic.com/34j3fyc.png" width="180" height="350" /><br><p align="justify">Dashboard karyawan ini merupakan menu utama dari user karyawan dimana akan ditampilkan nama karyawan yang telah login.</p></td>		
 		</tr>
 		<tr align="center">
             <td> <b>Navbar Karyawan</td>
+            <td> <b>Navbar Karyawan Transaksi</td>
 			<td> <b>Data Barang</td>
 		</tr>
 		<tr valign="top" align="center">
-            <td><img src="http://i64.tinypic.com/xlbk06.png" width="180" height="350" /><br><p align="justify">Pada tampilan navbar karyawan ini terdapat menu-menu yang bisa digunakan oleh user karyawan diantaranya menu data barang dan menu transaksi.</p></td>
-			<td><img src="http://i68.tinypic.com/wcl84j.png" width="180" height="350" /><br><p align="justify">Pada menu data barang ini karyawan dapat mengelola data barang seperti menambahkan barang, mengubah data barang, menghapus data barang dan melihat data barang.</p></td>
+            <td><img src="http://i63.tinypic.com/95rfpy.png" width="180" height="350" /><br><p align="justify">Pada tampilan navbar karyawan ini terdapat menu-menu yang bisa digunakan oleh user karyawan diantaranya menu data barang dan menu transaksi.</p></td>
+			<td><img src="http://i68.tinypic.com/25swz21.png" width="180" height="350" /><br><p align="justify">Pada tampilan sub navbar transaksi ini terdapat submenu transaksi yaitu transaksi penjualan dan transaksi pembelian.</p></td>
+			<td><img src="http://i65.tinypic.com/333dgyo.png" width="180" height="350" /><br><p align="justify">Pada menu data barang ini karyawan dapat mengelola data barang seperti menambahkan barang, mengubah data barang, menghapus data barang dan melihat data barang.</p></td>
+		</tr>
+		<tr align="center">
+            <td> <b>Transaksi Penjualan</td>
+            <td> <b>Transaksi Pembelian</td>
+			<td> <b>Detail transaksi</td>
+		</tr>
+		<tr valign="top" align="center">
+            <td><img src="http://i67.tinypic.com/2z55gcj.png" width="180" height="350" /><br><p align="justify">Pada tampilan menu transaksi penjualan ini akan ditampilkan list transaksi antara toko dengan member.</p></td>
+			<td><img src="http://i64.tinypic.com/213md21.png" width="180" height="350" /><br><p align="justify">Pada tampilan menu transaksi pembelian ini akan ditampilkan list transaksi antara toko dengan pemasok yang melakukan supplay barang.</p></td>
+			<td><img src="http://i63.tinypic.com/fkv0gz.png" width="180" height="350" /><br><p align="justify">Pada menu detail transaksi ini  karyawan dapat melihat list barang yang dijual untuk transaksi penjualan ataupun list barang yang dibeli jika transaksi pembelian</p></td>
+		</tr>
+		<tr align="center">
+            <td> <b>Input bayar</td>
+            <td> <b>Input data barang</td>
+		</tr>
+		<tr valign="top" align="center">
+            <td><img src="http://i66.tinypic.com/5oh9bl.png" width="180" height="350" /><br><p align="justify">Pada tampilan ini karyawan diminta menginputkan pembayaran apabila transaki dilakukan manual atau tidak menggunakan e-cash atau top up.</p></td>
+			<td><img src="http://i64.tinypic.com/v5wqrt.png" width="180" height="350" /><br><p align="justify">Pada tampilan ini karyawan dapat menginputkan data barang sesuai dengan form yang tersedia.</p></td>
 		</tr>
 	</table>
     </div>
