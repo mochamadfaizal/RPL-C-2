@@ -386,32 +386,111 @@ DFD level 1 merupakan rincian dari dari level 0, dan pada dfd level 1 mengelola 
 
 __3.2 Deskripsi Rinci Tabel__ <br>
 
-____3.2.1 Tabel____ <br>
-Identifikasi/Nama : User
-Deskripsi Isi : Berisi semua user dalam aplikasi
-Jenis : Tabel referensi
-Volume : -
-Laju : -
-Primary Key : id_user
+____3.2.1 Tabel User____ <br>
+<br>Identifikasi/Nama : User
+<br>Deskripsi Isi : Berisi semua user dalam aplikasi
+<br>Jenis : Tabel referensi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_user
 
 | Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| id_user | Merupakan key dari tabel user | int | No | - | Primary key yang unik, bersifat auto increment contoh : 1 |
+| id_user | merupakan key dari tabel user | int | No | - | Primary key yang unik setiap user, bersifat auto increment contoh : 1 |
 | email | menyatakan email user | varchar(20) | No | - | Email akan digunakan sebagai username untuk login user |
 | password | menyatakan password user | varchar(20) | No | - | password akan digunakan untuk login user, password harus sesuai dengan email agar login berhasil |
 | level | menyatakan tingkatan user | varchar(20) | No | - | level digunakan untuk menyatakan tingkatan user, dimana terdapat 4 level yaitu admin, karyawab, pemilik toko, dan member |
 
-____3.2.2 Tabel____ <br>
-<br>Identifikasi/Nama : 
-<br>Deskripsi Isi : 
-<br>Jenis : 
-<br>Volume : 
-<br>Laju : 
-<br>Primary Key : 
+____3.2.2 Tabel Member____ <br>
+<br>Identifikasi/Nama : Member
+<br>Deskripsi Isi : Berisi data profil member yang sudah melakukan registrasi
+<br>Jenis : tabel referensi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_member
 
 | Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| - | - | - | - | - | - |
+| id_member | merupakan key dalam tabel member | int | No | - | Primary key yang unik setiap member, bersifat auto increment contoh : 1 |
+| id_user | merupakan foreign key yang terhubung dengan tabel user | int | No | - | Foreign key yang menghubungkan tabel member dengan user karena setiap member mempunyai data user yang digunakan untuk login |
+| nama | menyatakan nama member | varchar(20) | No | - | Nama dari member |
+| email | menyatakan email member | varchar(20) | No | - | Email dari member |
+| alamat | menyatakan alamat member | varchar(50) | Yes | - | Alamat dari member |
+| no_hp | menyatakan nomor hp member | varchar(15) | Yes | - | Nomor hp dari member |
+| jumlah_saldo | menyatakan jumlah saldo member yang ada pada admin | int | No | 0 | Merupakan jumlah saldo dari member yang ada pada admin dan dapat digunakan pada saat transaksi dengan fitur top up atau e-cash |
+
+____3.2.3 Tabel Toko____ <br>
+<br>Identifikasi/Nama : Toko
+<br>Deskripsi Isi : Berisi data toko yang sudah melakukan registrasi
+<br>Jenis : tabel referensi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_toko
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_toko | merupakan key dalam tabel toko | int | No | - | Primary key yang unik setiap toko, bersifat auto increment contoh : 1 |
+| id_user | merupakan foreign key yang terhubung dengan tabel user | int | No | - | Foreign key yang menghubungkan tabel toko dengan user karena setiap toko mempunyai data user yang digunakan untuk login |
+| nama_toko | menyatakan nama toko yang mendaftar | varchar(20) | No | - | Nama dari toko |
+| nama_pemilik_toko | menyatakan nama pemilik toko | varchar(20) | No | - | Nama dari pemilik toko |
+| alamat_toko | menyatakan alamat toko | varchar(50) | Yes | - | Alamat dari toko |
+| email | menyatakan email toko | varchar(20) | No | - | Email dari toko atau pemilik toko |
+| jumlah_saldo | menyatakan jumlah saldo toko yang ada pada admin | int | No | 0 | Merupakan jumlah saldo dari toko yang ada pada admin didapatkan dari transaksi dengan member yang menggunakan fitur top up atau e-cash |
+
+____3.2.4 Tabel Karyawan____ <br>
+<br>Identifikasi/Nama : Karyawan
+<br>Deskripsi Isi : Berisi data karyawan yang sudah ditambahkan oleh pemilik toko
+<br>Jenis : tabel referensi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_karyawan
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_karyawan | merupakan key dalam tabel karyawan | int | No | - | Primary key yang unik setiap karyawan, bersifat auto increment contoh : 1 |
+| id_user | merupakan foreign key yang terhubung dengan tabel user | int | No | - | Foreign key yang menghubungkan tabel karyawan dengan user karena setiap karyawan mempunyai data user yang digunakan untuk login |
+| id_toko | merupakan foreign key yang terhubung dengan tabel toko | int | No | - | Foreign key yang menghubungkan tabel karyawan dengan toko karena setiap toko mempunyai data karyawan berbeda |
+| nama | menyatakan nama karyawan | varchar(20) | No | - | Nama dari karyawan |
+| email | menyatakan email karyawan | varchar(20) | No | - | Email dari karyawan |
+| no_hp | menyatakan nomor hp karyawan | varchar(15) | Yes | - | Nomor hp dari karyawan |
+| alamat | menyatakan alamat karyawan | varchar(50) | Yes | - | Alamat dari karyawan |
+
+
+____3.2.5 Tabel Pemasok____ <br>
+<br>Identifikasi/Nama : Pemasok
+<br>Deskripsi Isi : Berisi data pemasok yang sudah ditambahkan oleh pemilik toko
+<br>Jenis : tabel referensi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_pemasok
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_pemasok | merupakan key dalam tabel pemasok | int | No | - | Primary key yang unik setiap pemasok, bersifat auto increment contoh : 1 |
+| id_toko | merupakan foreign key yang terhubung dengan tabel toko | int | No | - | Foreign key yang menghubungkan tabel pemasok dengan toko karena setiap toko mempunyai data pemasok yang berbeda |
+| nama | menyatakan nama pemasok | varchar(20) | No | - | Nama dari pemasok |
+| no_hp | menyatakan nomor hp pemasok | varchar(15) | Yes | - | Nomor hp dari pemasok |
+| alamat | menyatakan alamat pemasok | varchar(50) | Yes | - | Alamat dari pemasok |
+
+
+____3.2.6 Tabel Barang____ <br>
+<br>Identifikasi/Nama : Barang
+<br>Deskripsi Isi : Berisi data barang yang sudah ditambahkan oleh karyawan ataupun pemilik toko
+<br>Jenis : tabel referensi
+<br>Volume : -
+<br>Laju : -
+<br>Primary Key : id_barang
+
+| Id Field | Deskripsi | Tipe & Length | Boleh NULL | Default | Keterangan |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| id_barang | merupakan key dalam tabel barang | int | No | - | Primary key yang unik setiap barang, bersifat auto increment contoh : 1 |
+| id_toko | merupakan foreign key yang terhubung dengan tabel toko | int | No | - | Foreign key yang menghubungkan tabel barang dengan toko karena setiap toko mempunyai data barang yang berbeda |
+| nama_barang | menyatakan nama barang | varchar(20) | No | - | Nama dari barang |
+| harga_jual | menyatakan harga jual dari barang | int | No | - | Harga barang yang akan dijual ke member |
+| harga_beli | menyatakan harga beli dari barang | int | No | - | Harga barang yang dibeli dari pemasok |
+| satuan | menyatakan satuan dari barang | int | No | - | Satuan dari barang, seperti kg, lusin, pak |
+| stoko | menyatakan stok dari barang | int | No | - | stok persediaan barang di toko |
+
 
 __3.3 Deskripsi Rinci Modul__ <br>
 
