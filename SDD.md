@@ -578,7 +578,7 @@ ______3.3.1.1 Fungsi Modul______ <br>
 | 3 | Forgot Password | form entry | user |
 
 ______3.3.1.2 Spesifikasi Layar Utama______ <br>
-    <table width=100%>
+    <table width="100%" align="center">
 		<tr align="center">
 			<td><b>Login</b></td>
 		</tr>
@@ -598,7 +598,7 @@ ______3.3.1.3 Spesifikasi Query______ <br>
 | ID Query | Deskripsi | Ekspresi Query |
 ---------|---------|---------|
 | QRY01 | Login | SELECT * FROM user where email = '$email' AND password='$password' |
-| QRY | Sign Up | INSERT INTO user (email, password, level) VALUES ('$email','$password','$level') |
+| QRY02 | Sign Up | INSERT INTO user (email, password, level) VALUES ('$email','$password','$level') |
 
 ______3.3.1.4 Spesifikasi Field Data Layar______ <br>
 
@@ -612,6 +612,36 @@ ______3.3.1.4 Spesifikasi Field Data Layar______ <br>
 
 ______3.3.1.5 Spesifikasi Objek-objek pada Layar______ <br>
 
+| ID Objek | Jenis | Keterangan | Platform |
+|---------|---------|---------|
+| textEmail | input type text | isi text akan digunakan dalam proses login sebagai username | Web |
+| textPassword | input type password | isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Web |
+|btnLogin|button|Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Web |
+|lblregister|label|Jika diklik maka akan menuju ke tampilan register| Web |
+|textEmail|AutoCompleteTextView| isi text akan digunakan dalam proses login sebagai username | Android |
+|textPassword|EditText| isi password akan di cek apakah sesuai dengan email jika iya maka login berhasil jika tidak maka login akan gagal | Android |
+|LoginBtn| Button |Jika di klik maka akan menjalankan QRY01 untuk melakukan proses login jika berhasil maka akan masuk ke dashboard masing-masing user | Android |
+|SignUpBtn|Button|Jika diklik maka akan menampilkan fragmen menu sign up| Android |
+|SignInBtn|Button|Jika diklik maka akan menampilkan fragmen menu Login| Android |
+|forgotPassword|TextView|Jika diklik maka akan masuk ke halaman forgot password|
+
 ______3.3.1.6 Spesifikasi Proses/Algoritma______ <br>
+
+id_proses : login, sign up
+objek terkait : email, password, button login
+Event:Login
+
+|Inisial State (IS) |
+|Form login masih kosong|
+
+|Final State (FS) |
+|Mengahsilkan otentikasi user yang masuk ke aplikasi|
+
+|Spesifikasi Proses/Algoritma|
+|1.Buka aplikasi atau web|
+|2.Inputkan email dan password|
+|3.If email dan password sesuai maka akan berpindah ke halaman dashboard masing-masing user sesuai dengan levelnya|
+|Else email dan password tidak sesuai maka akan tampil pesan emai dan password tidak sesuai dan user diharapkan menginput ulang email dan password|
+
 
 __3.4 Matriks Kerunutan__ <br>
