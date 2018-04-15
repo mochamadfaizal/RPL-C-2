@@ -550,7 +550,7 @@ __3.2 Functional Requirement__
 |Ref|Bag 2.1.2, Sign In Member dan Karyawan | 
 |Trigger|Membuka aplikasi Q-PAY|
 |Precondition|Halaman utama Sign In pada aplikasi|
-|Basic Path|1. User mengklik tombol Sign In <br>2. Sistem menampilkan halaman Sign In yang terdiri dari kolom Email dan Password <br>3. User memasukkan Email dan Password <br>4. Sistem menyimpan Email dan Password dari user|
+|Basic Path|1. User mengklik tombol Sign In <br>2. Sistem menampilkan halaman Sign In yang terdiri dari kolom Email dan Password <br>3. User memasukkan Email dan Password <br>4. Sistem mem-validasi Email dan Password|
 |Alternative|Tidak Ada|
 |Post Condition|User dapat Sign In dan dapat mengakses aplikasi Q-PAY|
 |Exception Push	|1. Tidak ada Koneksi <br>2. User belum mendaftar ke aplikasi|
@@ -598,7 +598,7 @@ __3.2 Functional Requirement__
 |Ref|Bag 2.1.2, Daftar Belanja | 
 |Trigger|Mengklik tombol Daftar Belanja pada navbar menu|
 |Precondition|Halaman utama Daftar Belanja|
-|Basic Path|1. Member mengklik tombol Daftar Belanja pada navbar menu <br>2. Sistem menampilkan daftar belanja member yang terdiri dari nama barang, qty dan harga|
+|Basic Path|1. Member mengklik tombol Daftar Belanja pada navbar menu <br>2. Sistem menampilkan halaman daftar belanja member yang terdiri dari nama barang, qty dan harga|
 |Alternative|Tidak Ada|
 |Post Condition|Member dapat melihat produk apa saja yang sudah di scan|
 |Exception Push	|Tidak ada Koneksi|
@@ -610,18 +610,22 @@ __3.2 Functional Requirement__
 |Ref|Bag 2.1.2, Top Up | 
 |Trigger|Mengklik tombol Top Up pada navbar menu|
 |Precondition|Halaman utama Top Up|
-|Basic Path|1. Member mengklik tombol Top Up pada navbar menu <br>2. Sistem menampilkan top up yang terdiri dari jumlah saldo saat ini dan pemakaian terakhir dari saldo|
+|Basic Path|1. Member mengklik tombol Top Up pada navbar menu <br>2. Sistem menampilkan halaman top up yang berisi kolom masukkan kode<br>3. Member mengisikan kolom masukkan kode|
 |Alternative|Tidak Ada|
-|Post Condition|Member dapat melihat jumlah saldo saat ini dan mengetahui pemakaian  terakhir dari saldo tersebut|
+|Post Condition||
 |Exception Push	|Tidak ada Koneksi|
+
 
 __3.3 Struktur Detail Kebutuhan Non-Fungsional__
 
 ____3.3.1 Logika Struktur Data____
+<br>Struktur data logika pada aplikasi ini terdapat struktur Database yang dijelaskan menggunakan ERD berikut :<br>
+
 ![](http://i68.tinypic.com/msknkw.jpg)
 
-Deskripsi dapat dijelaskan seperti berikut:
-<b>User</b>
+Deskripsi dapat dijelaskan seperti berikut:<br>
+
+<b>Tabel User</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -630,7 +634,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |password|Varchar|password yang digunakan user untuk login|
 |level|Varchar|level user untuk login seperti member, karyawan, admin, dan pemilik toko|
 
-<b>Member</b>
+<b>Tabel Member</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -642,7 +646,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |no_hp|Varchar|Nomor hp member|
 |jumlah_saldo|Integer|Jumlah saldo member|
 
-<b>Toko</b>
+<b>Tabel Toko</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -654,7 +658,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |email|Varchar|Email pemilik toko atau email toko|
 |jumlah_saldo|Integer|Jumlah saldo toko|
 
-<b>Karyawan</b>
+<b>Tabel Karyawan</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -666,7 +670,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |no_hp|Varchar|Nomor hp karyawan|
 |alamat|Varchar|Alamat karyawan|
 
-<b>Pemasok</b>
+<b>Tabel Pemasok</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -676,7 +680,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |no_hp|Varchar|Nomor hp pemasok|
 |alamat|Varchar|Alamat pemasok|
 
-<b>Barang</b>
+<b>Tabel Barang</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -688,7 +692,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |satuan|Varchar|Satuan dari barang|
 |stok|Integer|Stok barang yang tersedia di toko|
 
-<b>Transaksi Penjualan</b>
+<b>Tabel Transaksi_Penjualan</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -700,7 +704,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |total_harga|Integer|Total harga dari transaksi penjualan|
 |cara_pembayaran|Varchar|Cara pembayaran member saat transaksi penjualan|
 
-<b>Detail Transaksi Penjualan</b>
+<b>Tabel Detail_Transaksi_Penjualan</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -710,7 +714,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |quantity|Integer|Quantity dari barang yang di jual|
 |harga|Integer|Harga barang setelah dikali dengan quantity|
 
-<b>Transaksi Pembelian</b>
+<b>Tabel Transaksi_Pembelian</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -721,7 +725,7 @@ Deskripsi dapat dijelaskan seperti berikut:
 |tanggal|Date|Tanggal transaksi pembelian dilakukan|
 |total_harga|Integer|Total harga dari transaksi pembelian|
 
-<b>Detail Transaksi Pembelian</b>
+<b>Tabel Detail_Transaksi_Pembelian</b>
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
