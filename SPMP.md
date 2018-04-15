@@ -2,7 +2,7 @@
 <body>
 <h1><p align="center">Software Project Management Plan</p></h1>
 
-<p align="center"><b>Version 2.0.2 </b><br>
+<p align="center"><b>Version 2.0.3 </b><br>
 <p align="center">12 Februari 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -158,7 +158,7 @@ Dampak Negative
 || Anlisa software |
 || Simulasi software |
 |Kegalan menjalan tugas eksternal| Benchmarking |
-|| Simulas |
+|| Simulasi |
 || Tuning |
 || Analisis teknis |
 
@@ -222,20 +222,32 @@ __5.1 Paket Pekerjaan__
 | 2 | Luqmanul Hakim  | Android Developer               | Login           | Membuat login pada android member                          |
 |   |                 |                                 |                 | Membuat login pada android karyawan                        |
 |   |                 |                                 | Register        | Membuat register pada android member                       |
-|   |                 |                                 | Data Master     | CRUD data profile karyawan pada android karyawan           |
-|   |                 |                                 |                 | CRUD data barang pada android karyawan                     |
+|   |                 |                                 | Data Master     | Menampilkan data toko, karyawan, barang dan pemasok        |
+|   |                 |                                 |                 | CRUD data toko, karyawan, barang dan pemasok               |
 |   |                 |                                 | Scan            | Membuat QR Scanner pada android member                     |
 |   |                 |                                 | Daftar Belanja  | Menampilkan daftar belanja pada android member             |
 |   |                 |                                 |                 | Menampilkan total harga pada android member                |
 |   |                 |                                 | Top Up          | Menampilkan top up pada android member                     |
-|   |                 |                                 | Member          | CRUD profile member pada android member                    |
+|   |                 |                                 | Struk           | Menampilkan struk pada android member                      |
+|   |                 |                                 | Setting Profile | Menampilkan profile pada android member                    |
+|   |                 |                                 |                 | CRUD profile pada android member                           |
+|   |                 |                                 |                 | Menampilkan profile pada android karyawan                  |
+|   |                 |                                 |                 | CRUD profile pada android karyawan                         |
+|   |                 |                                 | Transaksi       | Menampilkan transaksi penjualan pada android member        |
+|   |                 |                                 |                 | Menampilkan transaksi pembelian pada android member        |
 | 3 | Inneke Widianti | UI/UX Designer                  | Login           | Mendesain interface login pada android member              |
 |   |                 |                                 |                 | Mendesain interface login pada android karyawan            |
 |   |                 |                                 | Register        | Mendesain interface register pada android member           |
+|   |                 |                                 | Data Master     | Mendesain interface data master                            |
 |   |                 |                                 | Scan            | Mendesain interface QR Scanner pada android member         |
 |   |                 |                                 | Daftar Belanja  | Mendesain interface daftar belanja pada android member     |
 |   |                 |                                 |                 | Mendesain interface total harga pada android member        |
 |   |                 |                                 | Top Up          | Mendesain interface top up pada android member             |
+|   |                 |                                 | Struk           | Mendesain interface struk pada android member              |
+|   |                 |                                 | Setting Profile | Mendesain interface profile pada android member            |
+|   |                 |                                 |                 | Mendesain interface profile pada android karyawan          |
+|   |                 |                                 | Transaksi       | Mendesain interface transaksi penjualan pada android member|
+|   |                 |                                 |                 | Mendesain interface transaksi pembelian pada android member|
 | 4 | Rizaluddin Sidqi Baihaqi | Database Engineer      | Data Master     | Membuat koneksi dengan database pada android & web         |
 |   |                          |                        | Login           | Mengkoneksikan Login dengan database pada android & web    |
 |   |                          |                        | Register        | Mengkoneksikan Register dengan database pada android & web |
