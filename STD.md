@@ -75,8 +75,8 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
 __1.4 Definisi dan Singkatan__ <br>
 Definisi, Akronim dan Singkatan  | Penjelasan
 ----------------- | -------------
-STD/DUPL | Software Test Description/Dokumen Uji Perangkat Lunak
-STD/DUPL | DUPL adalah dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.
+STD/DUPL | Software Test Description/Dokumen Uji Perangkat Lunak.|
+STD/DUPL | DUPL adalah dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
 
 __1.5 Dokumen Referensi__ <br>
 Dokumen Referensi yang digunakan dalam pembuatan DUPL adalah :<br>
