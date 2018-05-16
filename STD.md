@@ -31,8 +31,38 @@ __1.1 Tujuan Pembuatan Dokumen__ <br>
 Dokumen ini digunakan sebagai panduan untuk melakukan pengujian terhadap perangkat lunak Aplikasi POS QR-Code. Dokumen ini dipakai untuk melihat kemampuan dari program yang telah dirancang agar sesuai dengan keinginan dari pengguna. Pembuatan dokumen ini ditujukan untuk menguji perangkat lunak Aplikasi POS QR-Code yang merupakan bagian dari tugas mata kuliah Rekayasa Perangkat Lunak.
 
 __1.2 Deskripsi Umum Sistem__ <br>
-Perangkat lunak yang akan diuji adalah “Aplikasi POS QR-Code”. Perangkat lunak ini adalah perangkat lunak yang digunakan untuk
-proses transaksi antara penjual dengan pembeli dan membantu pengelolaan data. Sistem ini diimplementasikan melalui komunikasi di media antara sesama pengguna dengan sistem.
+Pada umumnya toko-toko yang tidak terlalu besar metode transaksi pembayarannya manual seperti ditulis dikertas lalu di jumlah dengan kalkulator, dengan metode seperti itu memakan waktu dan tidak efisien, karena untuk transaksi pembayaran harus cepat dan tepat patal jadinya jika penghitungan salah, toko dapat merugi, ditambah pohon-pohon yang ada di muka semakin menipis, ini terjadi karena pohon menjadi bahan baku pembuatan kertas, semakin sedikitnya pohon, bumi semakin panas dan cuaca pun tidak menentu, dan sudah jelas kerusakan alam sudah mulai terlihat akibat pohon-pohon dimuka bumi ini berkurang.
+
+Oleh karena itu kelompok kami mempunyai ide yang mungkin dapat meminimalisir penggunaan kertas secara berlebihan, yaitu dengan membuat aplikasi point of sales dengan QR-Code berbasis android. Aplikasi menggunakan sistem scan kode QR untuk setiap jenisa makanan yang dijual pada toko-toko, dari sistemnya sendirinya digunakan oleh 4 user, yaitu pembeli, kasir/karyawan, pemilik toko dan admin.
+
+Dari sistem pembeli menggunakan imei dan nomor telpon untuk mendaftar kan smartphonenya, jiak imei nya sudah didaftar kan dan di data diri diisi dengan data pembeli maka aplikasi tersebut sudah bisa digunakan. Pada sistem pembeli terdapat beberapa fungsi utama yaitu :
+<ul><li> Pembeli dapat melihat harga makanan dengan melakukan sca QR Code.</li>
+<li> Pembeli dapat melakukan Top Up agar pada saat transaksi pembayaran tidak mengeluarkan uang cash.</li>
+<li> Pembeli dapat melihat jumlah harga dari makanan yang dibeli.</li>
+<li> Rincian pembeli langsung diterima oleh kasir setelah pembeli selesai melakukan memilih makanan yang akan mereka beli.</li>
+</ul>
+
+Pada sitem karyawan memiliki fungsi utama yaitu :
+<ul>
+<li> Menerima rincian pembelian.</li>
+<li> Mengisi dompet elektronik pembeli(Top Up).</li>
+<li> Mamasukan data barang.</li>
+<li> Transaksi pembayaran.</li>
+</ul>
+
+Pada sistem pemilik toko memiliki fungsi utama yaitu :
+<ul>
+<li> Melihat rekap data bulanan.</li>
+<li> Melihat omset bulanan. </li>
+<li> Melihat data barang. </li>
+</ul>
+
+Admin disini adalah super user yang mengelola setiap data sistem ini. Sistem admin memiliki beberpa fungi utama yaitu :
+<ul>
+<li> Menerima data pada tiap-tiap toko.</li>
+<li> Aprovement jika ada pembel yang mendaftar.</li>
+<li> Presentase jumlah produk yang banyak terjual pada tiap-tiap toko perbulan secara otomatis.</li>
+</ul>
 
 ____1.2.1 Perpektif Umum Sistem yang diuji____ <br>
 ____1.2.2 Spesifikasi Fungsional dan Non Fungsional____ <br>
@@ -43,14 +73,13 @@ __1.3 Deskripsi Dokumen (Ikhtisar)__ <br>
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 __1.4 Definisi dan Singkatan__ <br>
-- SKPL adalah Spesifikasi Kebutuhan Perangkat Lunak, atau dalam bahasa Inggris-nya sering juga disebut sebagai Software Requirements Spesification (SRS), dan merupakan spesifikasi dari perangkat lunak yang akan dikembangkan
-- DFD adalah Data Flow Diagram, diagram dan notasi yang digunakan untuk menunjukkan aliran data pada perangkat lunak.
-- ERD adalah Entity Relationship Diagram, diagram dan notasi yang digunakan untuk merepresentasikan struktur data statis pada perangkat lunak.
+Definisi, Akronim dan Singkatan  | Penjelasan
+----------------- | -------------
+STD/DUPL | Software Test Description/Dokumen Uji Perangkat Lunak
+STD/DUPL | DUPL adalah dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.
 
 __1.5 Dokumen Referensi__ <br>
 Dokumen Referensi yang digunakan dalam pembuatan DUPL adalah :<br>
-- Sistem Pencarian Pegawai.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL) SPP. Bogor.
-- Sistem Pencarian Pegawai. Dokumen Perancangan Perangkat Lunak (DPPL) SITBO. Bogor.
 - Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.
 
 
