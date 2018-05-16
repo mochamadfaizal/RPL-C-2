@@ -1,9 +1,10 @@
+
 <html>
 <body>
 <h1>
 <p align="center"><b>Software Testing Document</b></p>
 </h1>
-<p align="center"><b>Version 1.0.0 </b><br>
+<p align="center"><b>Version 1.0.1 </b><br>
 <p align="center">14 Mei 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -73,10 +74,11 @@ __1.3 Deskripsi Dokumen (Ikhtisar)__ <br>
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 __1.4 Definisi dan Singkatan__ <br>
-Definisi, Akronim dan Singkatan  | Penjelasan
------------------ | -------------
-STD/DUPL | Software Test Description/Dokumen Uji Perangkat Lunak.|
-STD/DUPL | DUPL adalah dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
+| Definisi, Akronim dan Singkatan  | Penjelasan |
+| ----------------- | ------------- |
+| STD/DUPL | _Software Test Description_/Dokumen Uji Perangkat Lunak merupakan dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
+| SRS/SKPL | _Software Requirements Spesification_/Spesifikasi Kebutuhan Perangkat Lunak merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.|
+| SDD/DPPL | _Software Design Description_/Deskripsi Perancangan Perangkat Lunak merupakan deskripsi dari perangkat lunak yang akan dikembangkan.|
 
 __1.5 Dokumen Referensi__ <br>
 Dokumen Referensi yang digunakan dalam pembuatan DUPL adalah :<br>
