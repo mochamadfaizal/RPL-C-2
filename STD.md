@@ -134,6 +134,7 @@ __Smartphone__
 <li>Bahasa Pemrograman : Java</li>
 <li>Database : Mysql
 </ul>
+
 __Laptop__
 <ul>
 <li>Processor : Intel Pentium Dual Core</li>
@@ -150,6 +151,7 @@ __Smartphone__
 <li>Database : Mysql
 </ul>
 Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Windows adalah sebagai berikut :<br>
+
 __Laptop__
 <ul>
 <li>Processor : Intel Pentium Dual Core</li>
@@ -289,24 +291,24 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="3" align="center"><strong>Login User Pemilik Toko</strong></td>
 			<td>Username dan Password yang di masukkan sesuai data yang ada pada database</td>
-			<td> 2.2.9 </td>
-			<td> 5.0 </td>
+			<td> SRS-2.2.9 </td>
+			<td> STD-5.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
 		</tr>
 		<tr>
 			<td>Username dan Password yang di masukkan tidak sesuai data yang ada pada database</td>
-			<td> 2.2.9 </td>
-			<td> 5.1 </td>
+			<td> SRS-2.2.9 </td>
+			<td> STD-5.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td> 
 		</tr>
 		<tr>
 			<td>Tidak mengisi form login </td>
-			<td> 2.2.9 </td>
-			<td> 5.2 </td>
+			<td> SRS-2.2.9 </td>
+			<td> STD-5.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -315,24 +317,24 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="3" align="center"><strong>Menambah Data Karyawan Web Toko</strong></td>
 			<td>Mengisi form data Karyawan sesuai dengan kebutuhan sistem</td>
-			<td> 2.2.11 </td>
-			<td> 6.0 </td>
+			<td> SRS-2.2.11 </td>
+			<td> STD-6.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
 		</tr>
 		<tr>
-			<td>Mengosongkan salah satu kolom pada form input data Karwayan</td>
-			<td> 2.2.11 </td>
-			<td> 6.1 </td>
+			<td>Mengosongkan kolom pada form input data Karwayan</td>
+			<td> SRS-2.2.11 </td>
+			<td> STD-6.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
 		</tr>
 		<tr>
 			<td>Memasukan Alamat email tanpa '@' pada kolom input data karyawan</td>
-			<td> 2.2.11 </td>
-			<td> 6.2 </td>
+			<td> SRS-2.2.11 </td>
+			<td> STD-6.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -342,7 +344,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td rowspan="3" align="center"><strong>Menambah Data Pemasok Web Toko</strong></td>
 			<td>Mengisi form data Pemasok sesuai dengan kebutuhan sistem</td>
 			<td> - </td>
-			<td> 7.0 </td>
+			<td> STD-7.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -350,7 +352,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td>Mengosongkan salah satu kolom pada form input data Pemasok</td>
 			<td> - </td>
-			<td> 7.1 </td>
+			<td> STD-7.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -358,7 +360,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td>Memasukan Nama yang sama pada kolom input data Pemasok</td>
 			<td> - </td>
-			<td> 7.2 </td>
+			<td> STD-7.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -1462,7 +1464,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tujuan</td>
-			<td colspan="3">Memeriksa apakah Login berhasil masuk ke halaman dashboard user</td>
+			<td colspan="3">Memeriksa apakah Login dengan data yang salah akan berhasil masuk ke halaman dashboard pemilik</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Kondisi Awal</td>
@@ -1483,7 +1485,90 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td colspan="4">
 				<ul>
-					 Input Username dan password yang sesuai database <br>
+					 Input Username dan password yang tidak sesuai database<br>
+                     klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Username  : faizal <br>
+					 Password  : 12345
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User tidak dapat login dengan data yang tidak sesuai dan tidak dapat masuk ke halaman dashboard pemilik toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Username dan password yang tidak sesuai dengan data tidak dapat login dan user tidak dapat masuk ke halaman dashboard pemilik toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Login Web Pemilik Toko dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-5.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak mengisi Username dan Password </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login berhasil jika tidak mengisi form login</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Mochamad Faizal</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Tidak menginputkan apapun pada form login <br>
 					 klik tombol login
 				</ul>
 			</td>
@@ -1500,18 +1585,271 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="1">
 				<ul> 
-					 Username  : luqman <br>
-					 Password  : luqman
+					 tidak ada
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					 User dapat login dengan data yang sesuai dan masuk ke halaman dashboard user
+					 Pemilik Toko tidak dapat login karena tidak mengisi form login
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-				     Username dan password harus sesuai dengan database.
+				     Terdapat peringatan bahwa form harus diisi
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Register member sesuai requirement-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-6.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Mengisi form data Karyawan sesuai dengan kebutuhan sistem</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Tambah data karyawan berhasil dan data dapat masuk ke dalam database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Input Data Karyawan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Mochamad Faizal</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Nama, Alamat, No Hp, Email, Username dan Password sesuai dengan yang diminta sistem <br>
+					 klik tombol tambah
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Nama  : mochamad faizal <br>
+					 Alamat  : indramayu <br>
+					 No HP  : 083928772817 <br>
+					 Email  : mchfaizal@gmail.com <br>
+					 Username  : faizal <br>
+					 Password  : faizal
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Pemilik toko dapat menambahkan data karyawan dan datanya tersimpan ke database
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Data yang di inputkan harus dengan format yang sesuai dengan form tambah data karyawan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Register Member tidak mengisi form register-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-6.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Mengosongkan kolom pada form input data Karwayan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah tambah data karyawan dapat dilakukan dengan form data karyawan yang kosong atau tidak diisi</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Input Data Karyawan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Mochamad Faizal</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Tidak menginputkan data apapun pada form data karyawan <br>
+					 klik tombol tambah
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Pemilik toko tidak dapat menambah data karyawan karena tidak ada data yang diinputkan 
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa kolom tidak boleh ada yang kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Register Member dengan data yang tidak valid-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-6.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Memasukan Alamat email tanpa '@' pada kolom input data karyawan </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Input data karyawan berhasil dengan inputan email yang tidak sesuai dengan kebutuhan sistem</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Input Data Karyawan<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Nama, Alamat, No Hp, Email tanpa karakter '@', Username dan Password <br>
+					 klik tombol daftar
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Nama  : mochamad faizal <br>
+					 Alamat  : indramayu <br>
+					 No HP  : 083928772817 <br>
+					 Email  : mchfaizal <br>
+					 Username  : faizal <br>
+					 Password  : faizal
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Pemilik toko tidak dapat melakukan tambah data karyawan karena email yang di inputkan tidak sesuai dengan data yang dibutuhkan sistem (dalam kasus ini kurang karakter '@')
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa email yang diinput harus valid yaitu disertai dengan karakter '@'
 				</ul>
 			</td>
 			<td rowspan="1">
