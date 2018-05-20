@@ -223,7 +223,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td>Luqman</td>
 		</tr>
 		<tr>
-			<td>Mengisi email tidak sesuai dengan format yang diminta sistem (kurang tanda '@')</td>
+			<td>Mengisi email tidak sesuai dengan format yang diminta sistem (kurang karakter '@')</td>
 			<td>SRS-2.2.1</td>
 			<td>STD-2.2</td>
 			<td>sistem</td>
@@ -489,6 +489,256 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td rowspan="1">
 				<ul>
 				     Terdapat peringatan bahwa form harus diisi
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Register member sesuai requirement-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Mengisi form register sesuai dengan data yang diminta sistem</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Register berhasil dan data dapat masuk ke dalam database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Register<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Nama, Alamat, No Hp, Email, Username dan Password sesuai dengan yang diminta sistem <br>
+					 klik tombol daftar
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Nama  : luqmanul Hakim <br>
+					 Alamat  : indramayu <br>
+					 No HP  : 083824397272 <br>
+					 Email  : luqmanulhakim0422978@gmail.com <br>
+					 Username  : luqman <br>
+					 Password  : luqman
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Member dapat mendaftarkan diri dengan data yang telah di inputkan dan datanya tersimpan ke database
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Data yang di inputkan harus dengan format yang sesuai dengan form register
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Register Member tidak mengisi form register-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak mengisi form register</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Register dapat dilakukan dengan form register yang kosong atau tidak diisi</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Register<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Tidak menginputkan data apapun pada form register <br>
+					 klik tombol daftar
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User tidak dapat register karena tidak ada data yang diinputkan 
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa kolom tidak boleh ada yang kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Login User dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Mengisi email tidak sesuai dengan format yang diminta sistem (kurang karakter '@') </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Register berhasil dengan inputan email yang tidak sesuai dengan kebutuhan sistem</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Register<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Nama, Alamat, No Hp, Email tanpa karakter '@', Username dan Password <br>
+					 klik tombol daftar
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User tidak dapat register karena email yang di inputkan tidak sesuai dengan data yang dibutuhkan sistem (dalam kasus ini kurang karakter '@')
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa email yang diinput harus valid yaitu disertai dengan karakter '@'
 				</ul>
 			</td>
 			<td rowspan="1">
