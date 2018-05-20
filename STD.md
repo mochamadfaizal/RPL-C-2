@@ -256,6 +256,32 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td>Black Box</td>
 			<td>Luqman</td>
 		</tr>
+        <!-- Scan QR Code / transaksi --> 
+		<tr>
+			<td rowspan="3" align="center"><strong>Scan QR Code</strong></td>
+			<td>Member malakukan scan QR Code yang berisi kode barang dari toko</td>
+			<td>SRS-2.2.2</td>
+			<td>STD-4.0</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<tr>
+			<td>Member malakukan scan QR Code yang berisi bukan kode barang dari toko</td>
+			<td>SRS-2.2.2</td>
+			<td>STD-4.1</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<tr>
+			<td>Tidak terkoneksi dengan internet</td>
+			<td>SRS-2.2.2</td>
+			<td>STD-4.2</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
 	</thead>
 </table>
 
