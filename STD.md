@@ -289,7 +289,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="3" align="center"><strong>Login User Pemilik Toko</strong></td>
 			<td>Username dan Password yang di masukkan sesuai data yang ada pada database</td>
-			<td> - </td>
+			<td> 2.2.9 </td>
 			<td> 5.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
@@ -297,7 +297,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td>Username dan Password yang di masukkan tidak sesuai data yang ada pada database</td>
-			<td> - </td>
+			<td> 2.2.9 </td>
 			<td> 5.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
@@ -305,7 +305,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td>Tidak mengisi form login </td>
-			<td> - </td>
+			<td> 2.2.9 </td>
 			<td> 5.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
@@ -835,7 +835,12 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="1">
 				<ul> 
-					 tidak ada
+					 Nama  : luqmanul Hakim <br>
+					 Alamat  : indramayu <br>
+					 No HP  : 083824397272 <br>
+					 Email  : luqmanulhakim <br>
+					 Username  : luqman <br>
+					 Password  : luqman
 				</ul>
 			</td>
 			<td rowspan="1">
@@ -1344,6 +1349,169 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td rowspan="1">
 				<ul>
 				     Terdapat peringatan bahwa aplikasi tidak terkoneksi dengan internet
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Login User Pemilik toko dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3"> 5.0 </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Username dan Password yang di masukkan sesuai data yang ada pada database </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login dengan data yang salah akan berhasil masuk ke halaman dashboard pemilik toko</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Mochamad Faizal</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Username dan password yang sesuai database <br>
+                     klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					 Username  : faizal <br>
+					 Password  : faizal
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Pemilik toko dapat login dengan data yang sesuai dan masuk ke halaman dashboard pemilik toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Username dan password harus sesuai dengan database.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3"> 5.1 </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Username dan Password yang di masukkan tidak sesuai data yang ada pada database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login berhasil masuk ke halaman dashboard user</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Mochamad Faizal</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Username dan password yang sesuai database <br>
+					 klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Username  : luqman <br>
+					 Password  : luqman
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User dapat login dengan data yang sesuai dan masuk ke halaman dashboard user
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Username dan password harus sesuai dengan database.
 				</ul>
 			</td>
 			<td rowspan="1">
