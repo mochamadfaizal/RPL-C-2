@@ -99,7 +99,8 @@ __Smartphone__
 <li>Bahasa Pemrograman : Java</li>
 <li>Database : Mysql
 </ul><br>
- __Laptop__
+
+__Laptop__
 <ul>
 <li>Processor : Intel Pentium Dual Core</li>
 <li>Memory : 4 GB DDR2</li?
@@ -116,6 +117,7 @@ Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian perang
 <li>Memahami proses pengujian perangkat lunak berorientasi objek.</li>
 <li>Memahami konsep pemrograman database MySQL.</li>
 </ul>
+
 __2.5 Prosedur Umum Pengujian__ <br>
 ____2.5.1 Pengenalan dan Latihan____ <br>
 Penguji aplikasi ini hanya diberikan latihan kembali tentang SQL, dan pengenalan lebih lanjut tentang Android Studio dan Java. Pada dasarnya penguji telah memiliki pengetahuan tentang hal yang disebutkan sebelumnya tetapi latihan yang diberikan hanya bersifat penyegaran kembali.
