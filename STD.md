@@ -4,7 +4,7 @@
 <h1>
 <p align="center"><b>Software Testing Document</b></p>
 </h1>
-<p align="center"><b>Version 1.0.1 </b><br>
+<p align="center"><b>Version 1.1.0 </b><br>
 <p align="center">14 Mei 2018</b>
 <p align="center">
 <img src="http://i67.tinypic.com/2yuhmww.png"/>
@@ -108,7 +108,7 @@ __Laptop__
 </ul>
 
 __2.3 Material Pengujian__ <br>
-Pada program “Aplikasi POS QR-Code” ini seorang member dapat melakukan pendaftaran dan login melalui android.(cont)
+Pada program “Aplikasi POS QR-Code” ini seorang member dapat melakukan pendaftaran dan login melalui android, melakukan scan dan transaksi. Karyawan dapat mengelola barang dari android, dan melakukan transasksi. Pemilik toko dapat mengelola data karyawan, data barang, dan data pemasok melalui web. 
 
 __2.4 Sumber Daya Manusia__ <br>
 Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian perangkat lunak ini adalah :<br>
