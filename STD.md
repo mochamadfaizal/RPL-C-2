@@ -14,7 +14,7 @@
 <p align="center"><b>Aplikasi Menggunakan Kode QR
 </b>
 <p align="center">Kelompok 2 <br><br>
- Mochamad Faizal			(1603179)<br>
+ Mochamad Faizal			(1603079)<br>
  Luqmanul Hakim				(1603076)<br>
  Inneke Widianti			(1603072)<br>
  Rizaluddin Sidqi Baihaqi	(1603082)<br><br><br>
@@ -69,36 +69,52 @@ __1.3 Deskripsi Dokumen (Ikhtisar)__ <br>
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 __1.4 Definisi dan Singkatan__ <br>
-| Definisi, Akronim dan Singkatan  | Penjelasan |
-| -------- | ------------------------- |
-| STD/DUPL | _Software Test Description_/Dokumen Uji Perangkat Lunak merupakan dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
-| SRS/SKPL | _Software Requirements Spesification_/Spesifikasi Kebutuhan Perangkat Lunak merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.|
-| SDD/DPPL | _Software Design Description_/Deskripsi Perancangan Perangkat Lunak merupakan deskripsi dari perangkat lunak yang akan dikembangkan.|
 
+Definisi, Akronim dan Singkatan | Penjelasan |
+--------------------------------| ---------- |
+STD/DUPL | _Software Test Description_/Dokumen Uji Perangkat Lunak merupakan dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
+SRS/SKPL | _Software Requirements Spesification_/Spesifikasi Kebutuhan Perangkat Lunak merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.|
+SDD/DPPL | _Software Design Description_/Deskripsi Perancangan Perangkat Lunak merupakan deskripsi dari perangkat lunak yang akan dikembangkan.|
 __1.5 Dokumen Referensi__ <br>
 Dokumen Referensi yang digunakan dalam pembuatan DUPL adalah :<br>
-- Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.
+<ul>
+<li>Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.</li>
+</ul>
 
-##
 ### BAB 2 Lingkungan Pengujian Perangkat Lunak
 __2.1 Perangkat Lunak Pengujian__ <br>
 Perangkat lunak ini (Aplikasi POS QR-Code) diujikan dengan beberapa perangkat lunak lain, yaitu:<br>
-- Sistem operasi: Android, Windows
-- Bahasa pemrograman: Java, HTML, PHP
-- Database: MySQL
+<ul>
+<li>Sistem operasi: Android, Windows</li>
+<li>Bahasa pemrograman: Java, HTML, PHP</li>
+<li>Database: MySQL</li>
+</ul>
 
 __2.2 Perangkat Keras Pengujian__ <br>
-Perangkat keras yang diperlukan untuk menguji Aplikasi POS QR-Code ini adalah satu set smartphone dan laptop dengan spesifikasi:(cont table)
+Perangkat keras yang diperlukan untuk menguji Aplikasi POS QR-Code ini adalah satu set smartphone dan laptop dengan spesifikasi:<br><br>
+__Smartphone__
+<ul>
+<li>operating sistem : Andoid Nougat (7.0)</li>
+<li>Bahasa Pemrograman : Java</li>
+<li>Database : Mysql
+</ul><br>
+ __Laptop__
+<ul>
+<li>Processor : Intel Pentium Dual Core</li>
+<li>Memory : 4 GB DDR2</li?
+<li>Harddisk : 500 GB</li>
+</ul>
 
 __2.3 Material Pengujian__ <br>
 Pada program “Aplikasi POS QR-Code” ini seorang member dapat melakukan pendaftaran dan login melalui android.(cont)
 
 __2.4 Sumber Daya Manusia__ <br>
 Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian perangkat lunak ini adalah :<br>
-- Memahami konsep pemrograman berorientasi objek dalam bahasa Java, HTML dan PHP.
-- Memahami proses pengujian perangkat lunak berorientasi objek.
-- Memahami konsep pemrograman database MySQL.
-
+<ul>
+<li>Memahami konsep pemrograman berorientasi objek dalam bahasa Java, HTML dan PHP.</li>
+<li>Memahami proses pengujian perangkat lunak berorientasi objek.</li>
+<li>Memahami konsep pemrograman database MySQL.</li>
+</ul>
 __2.5 Prosedur Umum Pengujian__ <br>
 ____2.5.1 Pengenalan dan Latihan____ <br>
 Penguji aplikasi ini hanya diberikan latihan kembali tentang SQL, dan pengenalan lebih lanjut tentang Android Studio dan Java. Pada dasarnya penguji telah memiliki pengetahuan tentang hal yang disebutkan sebelumnya tetapi latihan yang diberikan hanya bersifat penyegaran kembali.
@@ -108,12 +124,35 @@ ______2.5.2.1 Persiapan Prosedural______ <br>
 Pengujian ini dilakukan di dalam lingkungan kampus. Dimana pengujian ini dilakukan oleh tim penguji yang telah di tentukan oleh Dosen mata kuliah Rekayasa Perangkat Lunak (RPL). Alat yang digunakan 1 buah smartphone dan 1 buah laptop dengan software yang telah di instalasi.
 
 ______2.5.2.2 Persiapan Perangkat Keras______ <br>
-Perangkat keras yang diperlukan untuk menguji Aplikasi POS QR-Code ini adalah satu set smartphone dan laptop dengan spesifikasi:(cont table)
+Perangkat keras yang diperlukan untuk menguji Aplikasi POS QR-Code ini adalah satu set smartphone dan laptop dengan spesifikasi:<br>
+__Smartphone__
+<ul>
+<li>operating sistem : Andoid Nougat (7.0)</li>
+<li>Bahasa Pemrograman : Java</li>
+<li>Database : Mysql
+</ul>
+__Laptop__
+<ul>
+<li>Processor : Intel Pentium Dual Core</li>
+<li>Memory : 4 GB DDR2</li?
+<li>Harddisk : 500 GB</li>
+</ul>
 
 ______2.5.2.3 Persiapan Perangkat Lunak______ <br>
-Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Android adalah sebagai berikut : (cont)<br>
-
-Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Windows adalah sebagai berikut : (cont)
+Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Android adalah sebagai berikut :<br>
+__Smartphone__
+<ul>
+<li>operating sistem : Andoid Nougat (7.0)</li>
+<li>Bahasa Pemrograman : Java</li>
+<li>Database : Mysql
+</ul>
+Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Windows adalah sebagai berikut :<br>
+__Laptop__
+<ul>
+<li>Processor : Intel Pentium Dual Core</li>
+<li>Memory : 4 GB DDR2</li?
+<li>Harddisk : 500 GB</li>
+</ul>
 
 ____2.5.3 Pelaksanaan____ <br>
 Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak Aplikasi POS QR-Code dengan mengikuti skenario tertentu yang dibuat berdasarkan skenario yang terdapat pada dokumen SKPL-Aplikasi POS QR-Code.
