@@ -1809,7 +1809,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
-			<td colspan="3">Luqman</td>
+			<td colspan="3">Mochamad Faizal</td>
 		</tr>
 		<tr>
 			<td colspan="4" align="center"><strong>Skenario</td>
