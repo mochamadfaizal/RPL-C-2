@@ -75,7 +75,7 @@ Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Renc
 
 __1.4 Definisi dan Singkatan__ <br>
 | Definisi, Akronim dan Singkatan  | Penjelasan |
-| ----------------- | ------------- |
+| ----------------- | ------------------------- |
 | STD/DUPL | _Software Test Description_/Dokumen Uji Perangkat Lunak merupakan dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
 | SRS/SKPL | _Software Requirements Spesification_/Spesifikasi Kebutuhan Perangkat Lunak merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.|
 | SDD/DPPL | _Software Design Description_/Deskripsi Perancangan Perangkat Lunak merupakan deskripsi dari perangkat lunak yang akan dikembangkan.|
@@ -84,7 +84,7 @@ __1.5 Dokumen Referensi__ <br>
 Dokumen Referensi yang digunakan dalam pembuatan DUPL adalah :<br>
 - Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.
 
-
+##
 ### BAB 2 Lingkungan Pengujian Perangkat Lunak
 __2.1 Perangkat Lunak Pengujian__ <br>
 Perangkat lunak ini (Aplikasi POS QR-Code) diujikan dengan beberapa perangkat lunak lain, yaitu:<br>
@@ -113,13 +113,12 @@ ______2.5.2.1 Persiapan Prosedural______ <br>
 Pengujian ini dilakukan di dalam lingkungan kampus. Dimana pengujian ini dilakukan oleh tim penguji yang telah di tentukan oleh Dosen mata kuliah Rekayasa Perangkat Lunak (RPL). Alat yang digunakan 1 buah smartphone dan 1 buah laptop dengan software yang telah di instalasi.
 
 ______2.5.2.2 Persiapan Perangkat Keras______ <br>
-Perangkat keras yang perlu dipesiapkan adalah :<br>
-Sebuah perangkat komputer yang dilengkapi dengan :(cont table)
+Perangkat keras yang diperlukan untuk menguji Aplikasi POS QR-Code ini adalah satu set smartphone dan laptop dengan spesifikasi:(cont table)
 
 ______2.5.2.3 Persiapan Perangkat Lunak______ <br>
 Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Android adalah sebagai berikut : (cont)<br>
 
-Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Android adalah sebagai berikut : (cont)
+Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Windows adalah sebagai berikut : (cont)
 
 ____2.5.3 Pelaksanaan____ <br>
 Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak Aplikasi POS QR-Code dengan mengikuti skenario tertentu yang dibuat berdasarkan skenario yang terdapat pada dokumen SKPL-Aplikasi POS QR-Code.
