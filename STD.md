@@ -65,17 +65,12 @@ Admin disini adalah super user yang mengelola setiap data sistem ini. Sistem adm
 <li> Presentase jumlah produk yang banyak terjual pada tiap-tiap toko perbulan secara otomatis.</li>
 </ul>
 
-____1.2.1 Perpektif Umum Sistem yang diuji____ <br>
-____1.2.2 Spesifikasi Fungsional dan Non Fungsional____ <br>
-____1.2.3 Arsitektur____ <br>
-____1.2.4 Struktur Chart Modul____ <br>
-
 __1.3 Deskripsi Dokumen (Ikhtisar)__ <br>
 Dalam dokumen ini berisi 3 bagian utama yaitu Pendahuluan, Identifikasi dan Rencana Pengujian, Deskripsi dan Uji Hasil.
 
 __1.4 Definisi dan Singkatan__ <br>
 | Definisi, Akronim dan Singkatan  | Penjelasan |
-| ----------------- | ------------------------- |
+| -------- | ------------------------- |
 | STD/DUPL | _Software Test Description_/Dokumen Uji Perangkat Lunak merupakan dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
 | SRS/SKPL | _Software Requirements Spesification_/Spesifikasi Kebutuhan Perangkat Lunak merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.|
 | SDD/DPPL | _Software Design Description_/Deskripsi Perancangan Perangkat Lunak merupakan deskripsi dari perangkat lunak yang akan dikembangkan.|
@@ -126,16 +121,9 @@ Pelaksanaan pengujian dilakukan dengan mengeksekusi perangkat lunak Aplikasi POS
 ____2.5.4 Pelaporan Hasil____ <br>
 Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangkat Lunak dan dievaluasi oleh dosen Rekayasa Perangkat Lunak dan kelompok lain yang bertindak sebagai klien dari kelompok kami. Sehingga aplikasi mendapatkan umpan balik dalam pengembangan perangkat lunak ini selanjutnya.
 
+##
 ### BAB 3 Identifikasi dan Rencana Pengujian
-__3.1 Object yang diuji__ <br>
 
-__3.2 Kasus Uji__ <br>
-
-__3.3 Teknik Pengujian yang dipakai__ <br>
-
-__3.4 Expected result__ <br>
-
+##
 ### BAB 4 Deskripsi dan Hasil Uji
 
-
-### BAB 5 Analisis Hasil
