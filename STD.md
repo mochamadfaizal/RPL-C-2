@@ -75,6 +75,7 @@ Definisi, Akronim dan Singkatan | Penjelasan |
 STD/DUPL | _Software Test Description_/Dokumen Uji Perangkat Lunak merupakan dokumen yang menyatakan hasil perencanaan pengujian, deskripsi kasus uji yang diberlakukan serta hasil pengujian yang telah dilakukan.|
 SRS/SKPL | _Software Requirements Spesification_/Spesifikasi Kebutuhan Perangkat Lunak merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.|
 SDD/DPPL | _Software Design Description_/Deskripsi Perancangan Perangkat Lunak merupakan deskripsi dari perangkat lunak yang akan dikembangkan.|
+
 __1.5 Dokumen Referensi__ <br>
 Dokumen Referensi yang digunakan dalam pembuatan DUPL adalah :<br>
 <ul>
@@ -241,7 +242,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td>Luqman</td>
 		</tr>
 		<tr>
-			<td>Mengosongkan salah satu kolom pada form input data barang</td>
+			<td>Mengosongkan form input data barang</td>
 			<td>SRS-2.2.8</td>
 			<td>STD-3.1</td>
 			<td>sistem</td>
@@ -259,7 +260,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
         <!-- Scan QR Code / transaksi --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Scan QR Code</strong></td>
-			<td>Member malakukan scan QR Code yang berisi kode barang dari toko</td>
+			<td>Member melakukan scan QR Code yang berisi kode barang dari toko</td>
 			<td>SRS-2.2.2</td>
 			<td>STD-4.0</td>
 			<td>sistem</td>
@@ -267,7 +268,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td>Luqman</td>
 		</tr>
 		<tr>
-			<td>Member malakukan scan QR Code yang berisi bukan kode barang dari toko</td>
+			<td>Member melakukan scan QR Code yang berisi bukan kode barang dari toko</td>
 			<td>SRS-2.2.2</td>
 			<td>STD-4.1</td>
 			<td>sistem</td>
@@ -282,12 +283,12 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td>Black Box</td>
 			<td>Luqman</td>
 		</tr>
-		<!-- <! Login User Web Pemilik Toko > -->
+        <!-- <! Login User Web Pemilik Toko > -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Login User Pemilik Toko</strong></td>
 			<td>Username dan Password yang di masukkan sesuai data yang ada pada database</td>
 			<td> - </td>
-			<td> - </td>
+			<td> 5.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -295,7 +296,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td>Username dan Password yang di masukkan tidak sesuai data yang ada pada database</td>
 			<td> - </td>
-			<td> - </td>
+			<td> 5.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td> 
@@ -303,7 +304,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td>Tidak mengisi form login </td>
 			<td> - </td>
-			<td> - </td>
+			<td> 5.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -312,24 +313,24 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="3" align="center"><strong>Menambah Data Karyawan Web Toko</strong></td>
 			<td>Mengisi form data Karyawan sesuai dengan kebutuhan sistem</td>
-			<td> - </td>
-			<td> - </td>
+			<td> 2.2.11 </td>
+			<td> 6.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
 		</tr>
 		<tr>
 			<td>Mengosongkan salah satu kolom pada form input data Karwayan</td>
-			<td> - </td>
-			<td> - </td>
+			<td> 2.2.11 </td>
+			<td> 6.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
 		</tr>
 		<tr>
 			<td>Memasukan Alamat email tanpa '@' pada kolom input data karyawan</td>
-			<td> - </td>
-			<td> - </td>
+			<td> 2.2.11 </td>
+			<td> 6.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -339,7 +340,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 			<td rowspan="3" align="center"><strong>Menambah Data Pemasok Web Toko</strong></td>
 			<td>Mengisi form data Pemasok sesuai dengan kebutuhan sistem</td>
 			<td> - </td>
-			<td> - </td>
+			<td> 7.0 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -347,7 +348,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td>Mengosongkan salah satu kolom pada form input data Pemasok</td>
 			<td> - </td>
-			<td> - </td>
+			<td> 7.1 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -355,7 +356,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td>Memasukan Nama yang sama pada kolom input data Pemasok</td>
 			<td> - </td>
-			<td> - </td>
+			<td> 7.2 </td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Mochamad Faizal</td>
@@ -618,7 +619,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3">STD-1.0</td>
+			<td colspan="3">STD-2.0</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
@@ -704,7 +705,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3">STD-1.1</td>
+			<td colspan="3">STD-2.1</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
@@ -781,12 +782,12 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 	</thead>
 </table>
 
-<!-- Login User Pemilik toko dengan data kosong-->
+<!-- Register Member dengan data yang tidak valid-->
 <table>  
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3"> - </td>
+			<td colspan="3">STD-2.2</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
@@ -798,7 +799,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Kondisi Awal</td>
-			<td colspan="3">Halaman Login<br>
+			<td colspan="3">Halaman Register<br>
 			</td>
 		</tr>
 		<tr>
@@ -807,7 +808,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
-			<td colspan="3">Mochamad Faizal</td>
+			<td colspan="3">Luqman</td>
 		</tr>
 		<tr>
 			<td colspan="4" align="center"><strong>Skenario</td>
@@ -862,23 +863,25 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 	</thead>
 </table>
+
+<!-- Input Data Barang Sesuai Requierement-->
 <table>  
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3"> - </td>
+			<td colspan="3">STD-3.0</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
-			<td colspan="3">Username dan Password sesuai data yang ada pada database</td>
+			<td colspan="3">Mengisi form input barang sesuai dengan data yang diminta sistem</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tujuan</td>
-			<td colspan="3">Memeriksa apakah Login berhasil masuk ke halaman dashboard user</td>
+			<td colspan="3">Memeriksa apakah Tambah data barang berhasil dan data dapat masuk ke dalam database</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Kondisi Awal</td>
-			<td colspan="3">Halaman Login<br>
+			<td colspan="3">Halaman Input Data Barang<br>
 			</td>
 		</tr>
 		<tr>
@@ -887,7 +890,7 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
-			<td colspan="3">Mochamad Faizal</td>
+			<td colspan="3">Luqman</td>
 		</tr>
 		<tr>
 			<td colspan="4" align="center"><strong>Skenario</td>
@@ -895,8 +898,8 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td colspan="4">
 				<ul>
-					 Input Username dan password yang sesuai database <br>
-					 klik tombol login
+					 Input Nama Barang, Harga beli, Harga jual, Satuan, dan Stok sesuai dengan yang diminta sistem <br>
+					 klik tombol tambah
 				</ul>
 			</td>
 		</tr>
@@ -912,18 +915,433 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 		<tr>
 			<td rowspan="1">
 				<ul> 
-					 Username  : luqman <br>
-					 Password  : luqman
+					 Nama Barang  : Krupuk <br>
+					 Harga beli  : 3000 <br>
+					 Harga jual  : 5000 <br>
+					 Satuan  : Pak <br>
+					 Stok  : 20
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					 User dapat login dengan data yang sesuai dan masuk ke halaman dashboard user
+					 Data barang dapat masuk ke database dan dapat tampil ke list data barang
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-				     Username dan password harus sesuai dengan database.
+				     Data yang disimpan dan ditampilkan sama dengan data yang diinput
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Input data barang dengan kolom kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-3.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Mengosongkan form input data barang</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Tambah data dapat dilakukan dengan form input barang yang kosong atau tidak diisi</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Input Data Barang<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Tidak menginputkan data apapun pada form input data barang <br>
+					 klik tombol tambah
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User tidak dapat melakukan input data barang karena tidak ada data yang diinputkan di form input data barang
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa kolom tidak boleh ada yang kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Input Data barang tanpa koneksi internet-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-3.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak terkoneksi dengan internet </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Tambah data barang berhasil tanpa adanya koneksi internet</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Input Data Barang<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Nama Barang, Harga beli, Harga jual, Satuan, dan Stok sesuai dengan yang diminta sistem <br>
+					 klik tombol tambah
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Nama Barang  : Krupuk <br>
+					 Harga beli  : 3000 <br>
+					 Harga jual  : 5000 <br>
+					 Satuan  : Pak <br>
+					 Stok  : 20
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data barang tidak dapat ditambahkan ke dalam database karena aplikasi tidak terkoneksi dengan internet
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa aplikasi tidak terkoneksi ke internet, dan untuk dapat menambahkan data barang aplikasi harus terkoneksi dengan internet
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Scan QR Code -->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-4.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Member melakukan scan QR Code yang berisi kode barang dari toko</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa Hasil scan data dari QR Code dan database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Dashboard Member<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Member memilih menu scan pada navbar menu <br>
+					 Member mengarahkan kamera tepat ke QR Code
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 QR Code
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Aplikasi dapat membaca QR Code dan menampilkan data barang dari database dalam bentuk menu popup
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     QR Code harus berisi id dari barang yang ada di toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Scan member dari QR Code yang bukan berisi data dari barang di toko-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-4.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Member melakukan scan QR Code yang berisi bukan kode barang dari toko</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Scan dapat dilakukan dengan QR Code yang berisi bukan data barang dari toko</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Dashboard Member<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Member memilih menu scan pada navbar menu <br>
+					 Member mengarahkan kamera ke QR Code yang bukan dari toko
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 QR Code yang bukan dari toko dan bukan berisi data barang dari toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Scan dapat dilakukan namun tidak menampilkan data barang dan terdapat toast bahwa barang tidak terdapat di toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan data barang tidak ditemukan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Scan QR Code tanpa koneksi-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-4.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak terkoneksi dengan internet</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Scan berhasil tanpa adanya koneksi internet</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Dashboard Member<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Member memilih menu scan pada navbar menu <br>
+					 Member mengarahkan kamera ke QR Code
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 QR Code dari toko
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Scan gagal dan akan terdapat pemberitahuan tidak terkoneksi dengan internet
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa aplikasi tidak terkoneksi dengan internet
 				</ul>
 			</td>
 			<td rowspan="1">
