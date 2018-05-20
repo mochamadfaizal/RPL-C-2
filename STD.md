@@ -163,6 +163,348 @@ Dokumen hasil uji dari aplikasi ini akan diberikan kepada dosen Rekayasa Perangk
 ##
 ### BAB 3 Identifikasi dan Rencana Pengujian
 
+
+<table>
+	<thead>
+		<tr>
+			<td rowspan="2" align="center"><strong>Kelas Uji</strong></td>
+			<td rowspan="2" align="center"><strong>Butir Uji</strong></td>
+			<td colspan="2" align="center"><strong>Identifikasi</strong></td>
+			<td rowspan="2" align="center"><strong>Jenis Pengujian</strong></td>
+			<td rowspan="2" align="center"><strong>Teknik Pengujian</strong></td>
+			<td rowspan="2" align="center"><strong>Penguji</strong></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>SRS-/SDD</strong></td>
+			<td align="center"><strong>STD-</strong></td>
+		</tr>
+		<!-- <! Login User Mobile > -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Login User Mobile</strong></td>
+			<td>Username dan Password yang di masukkan sesuai data yang ada pada database</td>
+			<td>SRS-2.2.1</td>
+			<td>STD-1.0</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<tr>
+			<td>Username dan Password yang di masukkan tidak sesuai data yang ada pada database</td>
+			<td>SRS-2.2.1</td>
+			<td>STD-1.1</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td> 
+		</tr>
+		<tr>
+			<td>Tidak mengisi form login </td>
+			<td>SRS-2.2.1</td>
+			<td>STD-1.2</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<!--  Register User Mobile  -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Register Member</strong></td>
+			<td>Mengisi form register sesuai dengan data yang diminta</td>
+			<td>SRS-2.2.1</td>
+			<td>STD-2.0</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td> 
+		</tr>
+		<tr>
+			<td>Tidak mengisi form register</td>
+			<td>SRS-2.2.1</td>
+			<td>STD-2.1</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<tr>
+			<td>Mengisi email tidak sesuai dengan format yang diminta sistem (kurang tanda '@')</td>
+			<td>SRS-2.2.1</td>
+			<td>STD-2.2</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td> 
+		</tr>
+		 <!-- Data Barang Pada Karyawan --> 
+		<tr>
+			<td rowspan="3" align="center"><strong>Menambah Data Barang</strong></td>
+			<td>Mengisi form data barang sesuai dengan kebutuhan sistem</td>
+			<td>SRS-2.2.8</td>
+			<td>STD-3.0</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<tr>
+			<td>Mengosongkan salah satu kolom pada form input data barang</td>
+			<td>SRS-2.2.8</td>
+			<td>STD-3.1</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+		<tr>
+			<td>Tidak terkoneksi dengan internet</td>
+			<td>SRS-2.2.8</td>
+			<td>STD-3.2</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Luqman</td>
+		</tr>
+	</thead>
+</table>
+
 ##
 ### BAB 4 Deskripsi dan Hasil Uji
 
+<!-- Login User sesuai data-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Username dan Password sesuai data yang ada pada database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login berhasil masuk ke halaman dashboard user</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Username dan password yang sesuai database <br>
+					 klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Username  : luqman <br>
+					 Password  : luqman
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User dapat login dengan data yang sesuai dan masuk ke halaman dashboard user
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Username dan password harus sesuai dengan database.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Login User tidak sesuai database-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Username dan Password tidak sesuai data yang ada pada databse</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login dengan data yang salah akan berhasil masuk ke halaman dashboard user</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Username dan password yang tidak sesuai database <br>
+					 klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 user name : luqman <br>
+					 Password  : hakim
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User tidak dapat login dengan data yang tidak sesuai dan tidak dapat masuk ke halaman dashboard user
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Username dan password yang tidak sesuai dengan data tidak dapat login dan user tidak dapat masuk ke halaman dashboard user
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Login User dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak mengisi Username dan Password </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login berhasil jika tidak mengisi form login</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Luqman</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Tidak menginputkan apapun pada form login <br>
+					 klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 User tidak dapat login karena tidak mengisi form login
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Terdapat peringatan bahwa form harus diisi
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
